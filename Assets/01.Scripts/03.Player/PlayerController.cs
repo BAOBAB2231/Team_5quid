@@ -27,8 +27,6 @@ public class PlayerController : Player
         }
 
         Vector3 run = rb.velocity;
-
-
         run.z = RunSpeed;
 
         rb.velocity = run;
@@ -40,7 +38,7 @@ public class PlayerController : Player
         {
             if (context.control.name == "leftArrow")
             {
-                if (tf.position.x == -maxDistance)
+                if (tf.position.x <= -maxDistance)
                 {
                     return;
                 }
@@ -49,7 +47,7 @@ public class PlayerController : Player
             }
             else if (context.control.name == "rightArrow")
             {
-                if (tf.position.x == maxDistance)
+                if (tf.position.x >= maxDistance)
                 {
                     return;
                 }
@@ -57,36 +55,40 @@ public class PlayerController : Player
                 tf.position += new Vector3(sideStepDistance, 0, 0);
             }
         }
-        else 
-        {
-            return;
-        }
+       
     }
 
-    void SideStep()
-    {
-    }
+    
 
 
-    void OnJump(InputAction.CallbackContext context)
+   public void OnJump(InputAction.CallbackContext context)
     {
         if (context.phase == InputActionPhase.Started)
         {
+            
+            
         }
     }
 
-    void Jump()
-    {
-    }
-
-    void OnCrouch(InputAction.CallbackContext context)
+  
+  public  void OnCrouch(InputAction.CallbackContext context)
     {
         if (context.phase == InputActionPhase.Started)
         {
+            
+            
         }
     }
 
-    void Crouch()
+
+
+  public  void OnSuddenDrop(InputAction.CallbackContext context)
     {
+        if (context.phase == InputActionPhase.Started)
+        {   Vector3 currentPosition = tf.position;
+            currentPosition.y = playerPivotY;
+            tf.position = currentPosition;
+
+        }
     }
 }

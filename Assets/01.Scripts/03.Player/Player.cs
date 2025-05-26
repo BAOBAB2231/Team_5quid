@@ -15,12 +15,15 @@ public abstract class Player : MonoBehaviour
     public float JumpForce{get{return jumpForce;}}  
     [SerializeField] protected float sideStepDistance;
     [SerializeField]protected float maxDistance;
+    [SerializeField]protected float playerPivotX;
+    [SerializeField]protected float playerPivotY;
     void Start()
     {
-     
      anim = GetComponent<Animator>();
      tf = GetComponent<Transform>();
      rb = GetComponent<Rigidbody>();
+     playerPivotX = tf.position.x;
+     playerPivotY = tf.position.y;
     }
 
     // Update is called once per frame
