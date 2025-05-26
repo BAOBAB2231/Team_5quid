@@ -23,7 +23,7 @@ public abstract class Player : MonoBehaviour
      tf = GetComponent<Transform>();
      rb = GetComponent<Rigidbody>();
      playerPivotX = tf.position.x;
-     playerPivotY = tf.position.y;
+     playerPivotY = Vector3.zero.y;
     }
 
     // Update is called once per frame

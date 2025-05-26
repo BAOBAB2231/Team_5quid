@@ -65,7 +65,8 @@ public class PlayerController : Player
     {
         if (context.phase == InputActionPhase.Started)
         {
-            
+            rb.velocity = Vector3.zero;
+            rb.AddForce(Vector2.up * jumpForce, ForceMode.Impulse);
             
         }
     }
