@@ -6,10 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerController : Player
 {
     
-    void Awake()
-    {
-    }
-
+    
 
     void Update()
     {
@@ -77,13 +74,17 @@ public class PlayerController : Player
     {
         if (context.phase == InputActionPhase.Started)
         {
-            tf.transform.localScale /=2;
-            
+            Vector3 scale = tf.localScale;
+            scale.y/= 2;
+            tf.localScale = scale;
+
         }
 
         if (context.phase == InputActionPhase.Canceled)
         {
-            tf.transform.localScale *= 2;
+            Vector3 scale = tf.localScale;
+            scale.y*= 2;
+            tf.localScale = scale;
         }
     }
 
@@ -99,4 +100,6 @@ public class PlayerController : Player
 
         }
     }
+  
+  
 }

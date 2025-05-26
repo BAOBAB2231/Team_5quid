@@ -7,7 +7,7 @@ public abstract class Player : MonoBehaviour
    protected Rigidbody rb;
    protected Transform tf;
     protected Animator anim;
-   protected BoxCollider coll;
+   
     [Header("이동 관련 스탯")]
     [SerializeField]protected float runSpeed;
     public float RunSpeed{get{return runSpeed;}}
