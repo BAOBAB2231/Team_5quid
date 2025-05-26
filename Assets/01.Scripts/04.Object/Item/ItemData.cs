@@ -15,9 +15,9 @@ public enum ItemType
 // 효과 아이템의 
 public enum Effact
 {
-    Magnet,    // 자석
-    Power,     // 파워 -> 오브젝트를 파괴하면서 전진
-    SuperJump    // 슈퍼 점프 -> 상단의 다른 맵으로 이동해서 보너스 코이과 아이템 획득
+    Magnet,      // 자석
+    Power,       // 파워 -> 오브젝트를 파괴하면서 전진
+    SuperJump    // 슈퍼 점프 -> 상단의 다른 맵으로 이동해서 보너스 코인과 아이템 획득
 }
 
 // 버프 아이템의 효과 타입 정의

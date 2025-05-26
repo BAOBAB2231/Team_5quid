@@ -9,7 +9,7 @@ public class SuperJump : MonoBehaviour
 {
     [Header("점프 설정")]
     [Tooltip("플레이어를 위로 튕겨낼 힘")]
-    public float jumpForce = 5f;
+    public float jumpForce = 0f;
 
     /// <summary>
     /// 플레이어가 충돌 시 점프력을 주고 슈퍼 점프 아이템을 제거
