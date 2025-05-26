@@ -13,22 +13,37 @@ public class PlayerController : Player
 
     void FixedUpdate()
     {
+        Run();
+    }
+ void Run()
+    {
+        Vector3 run = rb.velocity;
+       
         
+        run.z = RunSpeed;
+        
+         rb.velocity = run;
+    }
+    void OnSideStep (InputAction.CallbackContext context)
+    {
+        if (context.phase == InputActionPhase.Started)
+        {
+        }
     }
 
-    void OnMove ()
+    void SideStep()
     {
         
     }
 
-    void Move()
-    {
-        
-    }
+   
 
-    void OnJump()
+    void OnJump(InputAction.CallbackContext context)
     {
-        
+        if (context.phase == InputActionPhase.Started)
+        {
+            
+        }
     }
 
     void Jump()
@@ -36,8 +51,12 @@ public class PlayerController : Player
         
     }
 
-    void OnCrouch()
+    void OnCrouch(InputAction.CallbackContext context)
     {
+        if (context.phase == InputActionPhase.Started)
+        {
+            
+        }
     }
 
     void Crouch()
