@@ -6,14 +6,47 @@ using UnityEngine.InputSystem;
 public class PlayerController : Player
 {
     
-    void Start()
-    {
-        
-    }
-    
-   
     void Update()
     {
         
     }
+
+    void FixedUpdate()
+    {
+        
+    }
+
+    void OnMove ()
+    {
+        
+    }
+
+    void Move()
+    {
+        
+    }
+
+    void OnJump()
+    {
+        
+    }
+
+    void Jump()
+    {
+        
+    }
+
+    void OnCrouch()
+    {
+    }
+
+    void Crouch()
+    {
+        
+    }
+
+
+
+
+
 }

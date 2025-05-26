@@ -8,8 +8,10 @@ public abstract class Player : MonoBehaviour
     protected Animator anim;
     protected Transform tf;
     [Header("이동 관련 스탯")]
-    public float speed;
-    public float jumpForce;
+    [SerializeField]private float speed;
+    public float Speed{get{return speed;}}
+    [SerializeField] private float jumpForce;
+    public float JumpForce{get{return jumpForce;}}  
     
     
     void Awake()
