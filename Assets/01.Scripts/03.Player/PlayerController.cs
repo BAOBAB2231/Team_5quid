@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : Player
 {
-    public GameObject CrouchBody;
+    
     void Awake()
     {
     }
@@ -77,14 +77,13 @@ public class PlayerController : Player
     {
         if (context.phase == InputActionPhase.Started)
         {
-            CrouchBody.transform.localScale /=2;
+            tf.transform.localScale /=2;
             
         }
 
         if (context.phase == InputActionPhase.Canceled)
         {
-            
-            CrouchBody.transform.localScale *= 2;
+            tf.transform.localScale *= 2;
         }
     }
 
