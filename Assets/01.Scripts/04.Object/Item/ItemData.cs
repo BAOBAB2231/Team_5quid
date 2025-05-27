@@ -1,56 +1,56 @@
-using System;
+ï»¿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 
-// ¾ÆÀÌÅÛÀÇ Á¾·ù¸¦ Á¤ÀÇÇÏ´Â ¿­°ÅÇü
+// ì•„ì´í…œì˜ ì¢…ë¥˜ë¥¼ ì •ì˜í•˜ëŠ” ì—´ê±°í˜•
 public enum ItemType
 {
-    Effact,      // È¿°ú ¾ÆÀÌÅÛ
-    Buff,        // ¹öÇÁ ¾ÆÀÌÅÛ
-    Resource     // ÀÚ¿ø ¾ÆÀÌÅÛ (ÄÚÀÎ)
+    Effact,      // íš¨ê³¼ ì•„ì´í…œ
+    Buff,        // ë²„í”„ ì•„ì´í…œ
+    Resource     // ìì› ì•„ì´í…œ (ì½”ì¸)
 }
 
-// È¿°ú ¾ÆÀÌÅÛÀÇ Å¸ÀÔ Á¤ÀÇ
+// íš¨ê³¼ ì•„ì´í…œì˜ íƒ€ì… ì •ì˜
 public enum EffactType
 {
-    Magnet,      // ÀÚ¼®
-    Power,       // ÆÄ¿ö -> ¿ÀºêÁ§Æ®¸¦ ÆÄ±«ÇÏ¸é¼­ ÀüÁø
-    SuperJump    // ½´ÆÛ Á¡ÇÁ -> »ó´ÜÀÇ ´Ù¸¥ ¸ÊÀ¸·Î ÀÌµ¿ÇØ¼­ º¸³Ê½º ÄÚÀÎ°ú ¾ÆÀÌÅÛ È¹µæ
+    Magnet,      // ìì„
+    Power,       // íŒŒì›Œ -> ì˜¤ë¸Œì íŠ¸ë¥¼ íŒŒê´´í•˜ë©´ì„œ ì „ì§„
+    SuperJump    // ìŠˆí¼ ì í”„ -> ìƒë‹¨ì˜ ë‹¤ë¥¸ ë§µìœ¼ë¡œ ì´ë™í•´ì„œ ë³´ë„ˆìŠ¤ ì½”ì¸ê³¼ ì•„ì´í…œ íšë“
 }
 
-// ¹öÇÁ ¾ÆÀÌÅÛÀÇ Å¸ÀÔ Á¤ÀÇ
+// ë²„í”„ ì•„ì´í…œì˜ íƒ€ì… ì •ì˜
 public enum BuffType
 {
-    ScoringUp,   // Á¡¼ö ¹èÀ² ¾÷
-    JumpBoost,   // Á¡ÇÁ ºÎ½ºÆ®
-    CoinVolumeUp // ÄÚÀÎ È¹µæ ¾÷ 
+    ScoringUp,   // ì ìˆ˜ ë°°ìœ¨ ì—…
+    JumpBoost,   // ì í”„ ë¶€ìŠ¤íŠ¸
+    CoinVolumeUp // ì½”ì¸ íšë“ ì—… 
 }
 
-// ¹öÇÁ ¾ÆÀÌÅÛÀÇ »ó¼¼ Á¤º¸ (È¿°ú Á¾·ù ¹× ¼öÄ¡)
+// ë²„í”„ ì•„ì´í…œì˜ ìƒì„¸ ì •ë³´ (íš¨ê³¼ ì¢…ë¥˜ ë° ìˆ˜ì¹˜)
 [Serializable]
 public class ItemDataBuff
 {
-    public BuffType type;  // ¹öÇÁ Á¾·ù
-    public float value;    // Áö¼Ó ½Ã°£
+    public BuffType type;  // ë²„í”„ ì¢…ë¥˜
+    public float value;    // ì§€ì† ì‹œê°„
 }
 
 /// <summary>
-/// ÀÎº¥Åä¸® ¾ÆÀÌÅÛÀÇ µ¥ÀÌÅÍ Á¤ÀÇ ScriptableObject
+/// ì¸ë²¤í† ë¦¬ ì•„ì´í…œì˜ ë°ì´í„° ì •ì˜ ScriptableObject
 /// </summary>
 [CreateAssetMenu(fileName = "Item", menuName = "New Item")]
 public class ItemData : ScriptableObject
 {
     [Header("Info")]
-    public string displayName;         // ¾ÆÀÌÅÛ ÀÌ¸§
-    public string description;         // ¾ÆÀÌÅÛ ¼³¸í
-    public ItemType type;              // ¾ÆÀÌÅÛ ºĞ·ù
+    public string displayName;         // ì•„ì´í…œ ì´ë¦„
+    public string description;         // ì•„ì´í…œ ì„¤ëª…
+    public ItemType type;              // ì•„ì´í…œ ë¶„ë¥˜
 
     [Header("Stacking")]
-    public bool canStack;              // ¿©·¯ °³ ½×À» ¼ö ÀÖ´ÂÁö ¿©ºÎ
-    public int maxStackAmount;         // ÃÖ´ë ½ºÅÃ ¼ö
+    public bool canStack;              // ì—¬ëŸ¬ ê°œ ìŒ“ì„ ìˆ˜ ìˆëŠ”ì§€ ì—¬ë¶€
+    public int maxStackAmount;         // ìµœëŒ€ ìŠ¤íƒ ìˆ˜
 
     [Header("Consumable")]
-    public ItemDataBuff[] Buff;        // ¹öÇÁ ¾ÆÀÌÅÛ È¿°úµé
+    public ItemDataBuff[] Buff;        // ë²„í”„ ì•„ì´í…œ íš¨ê³¼ë“¤
 }

@@ -1,38 +1,38 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class BuffItem : MonoBehaviour
 {
     /// <summary>
-    /// ¹öÇÁ ¾ÆÀÌÅÛÀÇ È¿°ú¸¦ ÇÃ·¹ÀÌ¾î¿¡°Ô Àû¿ë
+    /// ë²„í”„ ì•„ì´í…œì˜ íš¨ê³¼ë¥¼ í”Œë ˆì´ì–´ì—ê²Œ ì ìš©
     /// </summary>
-    /// <param name="player">Á¡ÇÁ °­È­ µî ÄÁÆ®·Ñ °ü·Ã È¿°ú¸¦ Àû¿ëÇÒ ÇÃ·¹ÀÌ¾î</param>
-    /// <param name="point">ÄÚÀÎ ¼ö·®, Á¡¼öÀÇ Æ÷ÀÎÆ®¸¦ Àû¿ëÇÒ ÄÄÆ÷³ÍÆ®</param>
-    /// <param name="data">Àû¿ëÇÒ ¾ÆÀÌÅÛ µ¥ÀÌÅÍ</param>
+    /// <param name="player">ì í”„ ê°•í™” ë“± ì»¨íŠ¸ë¡¤ ê´€ë ¨ íš¨ê³¼ë¥¼ ì ìš©í•  í”Œë ˆì´ì–´</param>
+    /// <param name="point">ì½”ì¸ ìˆ˜ëŸ‰, ì ìˆ˜ì˜ í¬ì¸íŠ¸ë¥¼ ì ìš©í•  ì»´í¬ë„ŒíŠ¸</param>
+    /// <param name="data">ì ìš©í•  ì•„ì´í…œ ë°ì´í„°</param>
     //public static void Apply(PlayerController player, ItemData data, Point point)
     //{
-    //    // ¼ÒºñÇü ¾ÆÀÌÅÛÀÌ ¾Æ´Ï°Å³ª, ¼Òºñ È¿°ú Á¤º¸°¡ ¾øÀ¸¸é Ã³¸® Áß´Ü
+    //    // ì†Œë¹„í˜• ì•„ì´í…œì´ ì•„ë‹ˆê±°ë‚˜, ì†Œë¹„ íš¨ê³¼ ì •ë³´ê°€ ì—†ìœ¼ë©´ ì²˜ë¦¬ ì¤‘ë‹¨
     //    if (data.type != ItemType.Buff || data.Buff == null)
     //        return;
 
-    //    // °¢ ¹öÇÁ È¿°ú¸¦ ¼øÈ¸ÇÏ¸é¼­ Àû¿ë
+    //    // ê° ë²„í”„ íš¨ê³¼ë¥¼ ìˆœíšŒí•˜ë©´ì„œ ì ìš©
     //    foreach (var buff in data.Buff)
     //    {
     //        switch (buff.type)
     //        {
     //            case BuffType.JumpBoost:
-    //                // Á¡ÇÁ °­È­ È¿°ú Àû¿ë (Áö¼Ó ½Ã°£ ±â¹İ)
+    //                // ì í”„ ê°•í™” íš¨ê³¼ ì ìš© (ì§€ì† ì‹œê°„ ê¸°ë°˜)
     //                player?.ApplyJumpBoost(buff.value);
     //                break;
 
     //            case BuffType.ScoringUp:
-    //                // ½ºÄÚ¾î ¹öÇÁ È¿°ú Àû¿ë
+    //                // ìŠ¤ì½”ì–´ ë²„í”„ íš¨ê³¼ ì ìš©
     //                point?.ApplyScoringUp(buff.value);
     //                break;
 
     //            case BuffType.CoinVolumeUp:
-    //                // ÄÚÀÎ ¹öÇÁ È¿°ú Àû¿ë
+    //                // ì½”ì¸ ë²„í”„ íš¨ê³¼ ì ìš©
     //                point?.ApplyCoinVolumeUp(buff.value);
     //                break;
     //        }
