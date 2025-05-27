@@ -1,0 +1,15 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class UIController : MonoBehaviour
+{
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Q))
+            UIManager.Instance.Open<GameOverUI>();
+
+        if (Input.GetKeyDown(KeyCode.E))
+            UIManager.Instance.Close<GameOverUI>();
+    }
+}
