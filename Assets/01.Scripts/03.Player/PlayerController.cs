@@ -55,8 +55,7 @@ public class PlayerController : Player
         }
        
     }
-
-    
+   
 
 
    public void OnJump(InputAction.CallbackContext context)
@@ -73,10 +72,10 @@ public class PlayerController : Player
     {  
         Ray[] rays = new Ray[4]
         {
-            new Ray(transform.position + (transform.forward * 0.5f) + (transform.up * 0.05f), Vector3.down),
-            new Ray(transform.position + (-transform.forward * 0.5f) + (transform.up * 0.05f), Vector3.down),
-            new Ray(transform.position + (transform.right * 0.5f) + (transform.up * 0.05f), Vector3.down),
-            new Ray(transform.position + (-transform.right * 0.5f) + (transform.up * 0.05f), Vector3.down)
+            new Ray(transform.position + (transform.forward * 0.5f) + (transform.up * 0.1f), Vector3.down*2f),
+            new Ray(transform.position + (-transform.forward * 0.5f) + (transform.up * 0.1f), Vector3.down*2f),
+            new Ray(transform.position + (transform.right * 0.5f) + (transform.up * 0.1f), Vector3.down*2f),
+            new Ray(transform.position + (-transform.right * 0.5f) + (transform.up * 0.1f), Vector3.down*2f)
         };
         for (int i = 0; i < rays.Length; i++)
         {
@@ -96,10 +95,10 @@ public class PlayerController : Player
 
         Ray[] rays = new Ray[4]
         {
-            new Ray(transform.position + (transform.forward * 0.5f) + (transform.up * 0.05f), Vector3.down),
-            new Ray(transform.position + (-transform.forward * 0.5f) + (transform.up * 0.05f), Vector3.down),
-            new Ray(transform.position + (transform.right * 0.5f) + (transform.up * 0.05f), Vector3.down),
-            new Ray(transform.position + (-transform.right * 0.5f) + (transform.up * 0.05f), Vector3.down)
+            new Ray(transform.position + (transform.forward * 0.5f) + (transform.up * 0.05f), Vector3.down*2f),
+            new Ray(transform.position + (-transform.forward * 0.5f) + (transform.up * 0.05f), Vector3.down*2f),
+            new Ray(transform.position + (transform.right * 0.5f) + (transform.up * 0.05f), Vector3.down*2f),
+            new Ray(transform.position + (-transform.right * 0.5f) + (transform.up * 0.05f), Vector3.down*2f)
         };
 
         for (int i = 0; i < rays.Length; i++)
