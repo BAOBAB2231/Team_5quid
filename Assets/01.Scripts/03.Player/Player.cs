@@ -15,14 +15,14 @@ public abstract class Player : MonoBehaviour
     public float JumpForce{get{return jumpForce;}}  
     [SerializeField] protected float sideStepDistance;
     [SerializeField]protected float maxDistance;
-    
     [SerializeField]protected float playerPivotY;
+    public LayerMask groundLayerMask;
     void Start()
     {
      anim = GetComponent<Animator>();
      tf = GetComponent<Transform>();
      rb = GetComponent<Rigidbody>();
-     playerPivotY = Vector3.zero.y;
+    
     }
 
  

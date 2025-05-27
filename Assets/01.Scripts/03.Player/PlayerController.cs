@@ -61,7 +61,7 @@ public class PlayerController : Player
 
    public void OnJump(InputAction.CallbackContext context)
     {
-        if (context.phase == InputActionPhase.Started)
+        if (context.phase == InputActionPhase.Started&&IsGrounded())
         {
             rb.velocity = Vector3.zero;
             rb.AddForce(Vector2.up * jumpForce, ForceMode.Impulse);
@@ -69,8 +69,46 @@ public class PlayerController : Player
         }
     }
 
-  
-  public  void OnCrouch(InputAction.CallbackContext context)
+    bool IsGrounded()
+    {  
+        Ray[] rays = new Ray[4]
+        {
+            new Ray(transform.position + (transform.forward * 0.5f) + (transform.up * 0.05f), Vector3.down),
+            new Ray(transform.position + (-transform.forward * 0.5f) + (transform.up * 0.05f), Vector3.down),
+            new Ray(transform.position + (transform.right * 0.5f) + (transform.up * 0.05f), Vector3.down),
+            new Ray(transform.position + (-transform.right * 0.5f) + (transform.up * 0.05f), Vector3.down)
+        };
+        for (int i = 0; i < rays.Length; i++)
+        {
+            if (Physics.Raycast(rays[i], 0.1f, groundLayerMask))
+            {
+                return true;
+            }
+        }
+
+        return false;
+
+    }
+    
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+
+        Ray[] rays = new Ray[4]
+        {
+            new Ray(transform.position + (transform.forward * 0.5f) + (transform.up * 0.05f), Vector3.down),
+            new Ray(transform.position + (-transform.forward * 0.5f) + (transform.up * 0.05f), Vector3.down),
+            new Ray(transform.position + (transform.right * 0.5f) + (transform.up * 0.05f), Vector3.down),
+            new Ray(transform.position + (-transform.right * 0.5f) + (transform.up * 0.05f), Vector3.down)
+        };
+
+        for (int i = 0; i < rays.Length; i++)
+        {
+            Gizmos.DrawLine(rays[i].origin, rays[i].origin + rays[i].direction * 0.1f);
+        }
+    }
+
+    public  void OnCrouch(InputAction.CallbackContext context)
     {
         if (context.phase == InputActionPhase.Started)
         {
@@ -93,7 +131,7 @@ public class PlayerController : Player
 
   public  void OnSuddenDrop(InputAction.CallbackContext context)
     {
-        if (context.phase == InputActionPhase.Started)
+        if (context.phase == InputActionPhase.Started&&!IsGrounded())
         {   Vector3 currentPosition = tf.position;
             currentPosition.y = playerPivotY;
             tf.position = currentPosition;
