@@ -14,6 +14,7 @@ public abstract class Player : MonoBehaviour
     [SerializeField] protected float jumpForce;
     public float JumpForce{get{return jumpForce;}}  
     [SerializeField] protected float sideStepDistance;
+    [SerializeField ]protected float stepDuration;
     [SerializeField]protected float maxDistance;
     [SerializeField]protected float playerPivotY;
     public LayerMask groundLayerMask;
