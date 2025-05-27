@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5539811083764418826}
   - component: {fileID: 7218441004537117501}
   - component: {fileID: 382111509590164830}
-  - component: {fileID: 3853485288715162741}
+  - component: {fileID: 685355073836690531}
   m_Layer: 5
   m_Name: InGameUI
   m_TagString: Untagged
@@ -105,7 +105,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &3853485288715162741
+--- !u!114 &685355073836690531
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -114,9 +114,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 570706919908630325}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90b8e8fadbb2daa4481863c467ccea51, type: 3}
+  m_Script: {fileID: 11500000, guid: cdc0e136505ff3c4296180b5a43c0df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinText: {fileID: 8921791943678535041}
 --- !u!1 &1337037268170517529
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,7 +447,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3853485288715162741}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIBase, Assembly-CSharp
         m_MethodName: Close
         m_Mode: 1

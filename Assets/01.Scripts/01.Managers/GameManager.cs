@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         player=FindObjectOfType<Player>();
+        UIManager.Instance.Open<InGameUI>();
     }
 
 
