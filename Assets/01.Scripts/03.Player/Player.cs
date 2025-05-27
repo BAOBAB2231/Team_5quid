@@ -4,22 +4,28 @@ using UnityEngine;
 
 public abstract class Player : MonoBehaviour
 {
-    protected Rigidbody rb;
+   protected Rigidbody rb;
+   protected Transform tf;
     protected Animator anim;
-    protected Transform tf;
+   
     [Header("이동 관련 스탯")]
-    public float speed;
-    public float jumpForce;
-    
-    
-    void Awake()
+    [SerializeField]protected float runSpeed;
+    public float RunSpeed{get{return runSpeed;}}
+    [SerializeField] protected float jumpForce;
+    public float JumpForce{get{return jumpForce;}}  
+    [SerializeField] protected float sideStepDistance;
+    [SerializeField]protected float maxDistance;
+    [SerializeField]protected float playerPivotY;
+    public LayerMask groundLayerMask;
+    void Start()
     {
-     rb = GetComponent<Rigidbody>();
      anim = GetComponent<Animator>();
      tf = GetComponent<Transform>();
+     rb = GetComponent<Rigidbody>();
+    
     }
 
-    // Update is called once per frame
+ 
     void Update()
     {
         
