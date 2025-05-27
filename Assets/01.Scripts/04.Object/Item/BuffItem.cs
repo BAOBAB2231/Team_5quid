@@ -1,41 +1,34 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// 버프 아이템의 효과를 적용하는 클래스
+/// </summary>
 public class BuffItem : MonoBehaviour
 {
     /// <summary>
-    /// 버프 아이템의 효과를 플레이어에게 적용
+    /// 플레이어에게 버프 효과 적용
     /// </summary>
-    /// <param name="player">점프 강화 등 컨트롤 관련 효과를 적용할 플레이어</param>
-    /// <param name="point">코인 수량, 점수의 포인트를 적용할 컴포넌트</param>
-    /// <param name="data">적용할 아이템 데이터</param>
-    //public static void Apply(PlayerController player, ItemData data, Point point)
-    //{
-    //    // 소비형 아이템이 아니거나, 소비 효과 정보가 없으면 처리 중단
-    //    if (data.type != ItemType.Buff || data.Buff == null)
-    //        return;
+    /// <param name="player">버프를 적용할 플레이어</param>
+    /// <param name="buff">적용할 버프 데이터</param>
+    public void ApplyBuff(PlayerController player, ItemDataBuff buff)
+    {
+        Debug.Log($"[BuffItem] {buff.type} 버프 적용! 지속 시간: {buff.value}초");
 
-    //    // 각 버프 효과를 순회하면서 적용
-    //    foreach (var buff in data.Buff)
-    //    {
-    //        switch (buff.type)
-    //        {
-    //            case BuffType.JumpBoost:
-    //                // 점프 강화 효과 적용 (지속 시간 기반)
-    //                player?.ApplyJumpBoost(buff.value);
-    //                break;
+        switch (buff.type)
+        {
+            case BuffType.ScoringUp:   // 점수 배율 증가
+                // 점수 관련 시스템 연동 필요
+                break;
 
-    //            case BuffType.ScoringUp:
-    //                // 스코어 버프 효과 적용
-    //                point?.ApplyScoringUp(buff.value);
-    //                break;
+            case BuffType.JumpBoost:   // 점프력 증가
+                // 점프부스트를 실행시키는 함수 추가
+                break;
 
-    //            case BuffType.CoinVolumeUp:
-    //                // 코인 버프 효과 적용
-    //                point?.ApplyCoinVolumeUp(buff.value);
-    //                break;
-    //        }
-    //    }
-    //}
+            case BuffType.CoinVolumeUp: // 코인 획득량 증가
+                // 코인 시스템 연동 필요
+                break;
+        }
+    }
 }
