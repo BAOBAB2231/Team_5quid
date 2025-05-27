@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -18,16 +19,19 @@ public class PlayerController : Player
     }
 
     void Run()
-    {
-        if (rb == null)
+    { //부하가 많이 걸리므로 스타트로 
+        /*if (rb == null)
         {
             return;
-        }
+        }*/
 
         Vector3 run = rb.velocity;
         run.z = RunSpeed;
 
         rb.velocity = run;
+        
+        /*transform.position = Vector3.MoveTowards(transform.position, transform.position + Vector3.forward, Time.deltaTime * runSpeed);*/
+        /*rb.MovePosition(transform.position + Vector3.forward * Time.deltaTime * runSpeed);*/
     }
 
     public void OnSideStep(InputAction.CallbackContext context)
@@ -40,7 +44,7 @@ public class PlayerController : Player
                 {
                     return;
                 }
-
+               
                 tf.position -= new Vector3(sideStepDistance, 0, 0);
             }
             else if (context.control.name == "rightArrow")
@@ -55,10 +59,20 @@ public class PlayerController : Player
         }
        
     }
-   
+
+    IEnumerator LerpSideSetp()
+    {
+
+        yield return new While()
+        {
+           
+        };
+
+    }
 
 
-   public void OnJump(InputAction.CallbackContext context)
+
+    public void OnJump(InputAction.CallbackContext context)
     {
         if (context.phase == InputActionPhase.Started&&IsGrounded())
         {
@@ -106,22 +120,27 @@ public class PlayerController : Player
             Gizmos.DrawLine(rays[i].origin, rays[i].origin + rays[i].direction * 0.1f);
         }
     }
-
+    bool isCrouching=false;
     public  void OnCrouch(InputAction.CallbackContext context)
     {
-        if (context.phase == InputActionPhase.Started)
+        
+        if (IsGrounded())
         {
-            Vector3 scale = tf.localScale;
-            scale.y/= 2;
-            tf.localScale = scale;
+            if (context.phase == InputActionPhase.Started&&!isCrouching)
+            {
+                Vector3 scale = tf.localScale;
+                scale.y /= 2;
+                tf.localScale = scale;
+                isCrouching = true;
+            }
 
-        }
-
-        if (context.phase == InputActionPhase.Canceled)
-        {
-            Vector3 scale = tf.localScale;
-            scale.y*= 2;
-            tf.localScale = scale;
+            if (context.phase == InputActionPhase.Canceled&&isCrouching)
+            {
+                Vector3 scale = tf.localScale;
+                scale.y *= 2;
+                tf.localScale = scale;
+                isCrouching = true;
+            }
         }
     }
 
@@ -132,11 +151,18 @@ public class PlayerController : Player
     {
         if (context.phase == InputActionPhase.Started&&!IsGrounded())
         {   Vector3 currentPosition = tf.position;
-            currentPosition.y = playerPivotY;
-            tf.position = currentPosition;
-
+           
+            /*currentPosition.y = playerPivotY;
+            tf.position = currentPosition;*/
+             StartCoroutine(MassUp());
         }
     }
-  
-  
+
+    IEnumerator MassUp()
+    {
+        rb.velocity = Vector3.down*10;
+        yield return new WaitForSeconds(0.1f);
+        rb.velocity = Vector3.zero;
+    }
+
 }
