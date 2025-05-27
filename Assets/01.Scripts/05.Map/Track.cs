@@ -2,6 +2,6 @@ using UnityEngine;
 
 public class Track : MonoBehaviour
 {
-    [Header("ÀÌ Æ®·¢ÀÇ ¾ÕµÚ ±æÀÌ")]
+    [Header("ì´ íŠ¸ë™ì˜ ì•ë’¤ ê¸¸ì´")]
     public float length = 10f;
 }
