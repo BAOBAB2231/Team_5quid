@@ -9,4 +9,9 @@ public abstract class UIBase : MonoBehaviour
     {
         gameObject.SetActive(false);
     }
+
+    public void SetCanvasChildren()
+    {
+        
+    }
 }
