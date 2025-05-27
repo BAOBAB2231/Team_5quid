@@ -7,9 +7,9 @@ public class UIController : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q))
-            UIManager.Instance.Open<MainUI>();
+            UIManager.Instance.Open<GameOverUI>();
 
         if (Input.GetKeyDown(KeyCode.E))
-            UIManager.Instance.Close<MainUI>();
+            UIManager.Instance.Close<GameOverUI>();
     }
 }

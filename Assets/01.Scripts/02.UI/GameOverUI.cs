@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MainUI : UIBase
+public class GameOverUI : UIBase
 {
 
 }
