@@ -161,7 +161,7 @@ public class PlayerController : Player
 
     IEnumerator MassUp()
     {
-        rb.velocity = Vector3.down*10;
+        rb.velocity = Vector3.down*40;
         yield return new WaitForSeconds(0.1f);
         rb.velocity = Vector3.zero;
     }
