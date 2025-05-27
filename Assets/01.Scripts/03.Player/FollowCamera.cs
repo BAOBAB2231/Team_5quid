@@ -21,7 +21,9 @@ public class FollowCamera : MonoBehaviour
 
     void FollowPlayer()
     {
-        tf.position = playerTransform.position;
+        Vector3 playerPosition = new Vector3(0, 0, playerTransform.position.z);
+        
+        tf.position = playerPosition;
     }
 
 }
