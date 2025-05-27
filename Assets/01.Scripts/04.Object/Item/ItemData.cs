@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,13 +7,13 @@ using UnityEngine;
 // 아이템의 종류를 정의하는 열거형
 public enum ItemType
 {
-    Effact,      // 효과 아이템
+    Effect,      // 효과 아이템
     Buff,        // 버프 아이템
     Resource     // 자원 아이템 (코인)
 }
 
 // 효과 아이템의 타입 정의
-public enum EffactType
+public enum EffectType
 {
     Magnet,      // 자석
     Power,       // 파워 -> 오브젝트를 파괴하면서 전진
@@ -51,6 +51,9 @@ public class ItemData : ScriptableObject
     public bool canStack;              // 여러 개 쌓을 수 있는지 여부
     public int maxStackAmount;         // 최대 스택 수
 
-    [Header("Consumable")]
-    public ItemDataBuff[] Buff;        // 버프 아이템 효과들
+    [Header("Buff")]
+    public ItemDataBuff[] Buffs;        // 버프 아이템 효과들
+
+    [Header("Effect")]
+    public EffectType[] Effect;  // 효과 아이템 효과들
 }
