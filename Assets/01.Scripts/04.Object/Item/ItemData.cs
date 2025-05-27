@@ -12,15 +12,15 @@ public enum ItemType
     Resource     // 자원 아이템 (코인)
 }
 
-// 효과 아이템의 
-public enum Effact
+// 효과 아이템의 타입 정의
+public enum EffactType
 {
     Magnet,      // 자석
     Power,       // 파워 -> 오브젝트를 파괴하면서 전진
     SuperJump    // 슈퍼 점프 -> 상단의 다른 맵으로 이동해서 보너스 코인과 아이템 획득
 }
 
-// 버프 아이템의 효과 타입 정의
+// 버프 아이템의 타입 정의
 public enum BuffType
 {
     ScoringUp,   // 점수 배율 업
@@ -50,4 +50,7 @@ public class ItemData : ScriptableObject
     [Header("Stacking")]
     public bool canStack;              // 여러 개 쌓을 수 있는지 여부
     public int maxStackAmount;         // 최대 스택 수
+
+    [Header("Consumable")]
+    public ItemDataBuff[] Buff;        // 버프 아이템 효과들
 }
