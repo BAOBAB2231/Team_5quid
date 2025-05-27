@@ -3,33 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// 플레이어가 접촉할 경우 위로 튕겨내고, 자신은 삭제되는 점프대
+/// 슈퍼 점프 효과 아이템 (플레이어를 위로 튕겨냄)
 /// </summary>
-public class SuperJump : MonoBehaviour
+public class SuperJump : EffectItem
 {
-    [Header("점프 설정")]
-    [Tooltip("플레이어를 위로 튕겨낼 힘")]
-    public float jumpForce = 0f;
+    [Header("슈퍼 점프 힘")]
+    [Tooltip("위로 튕겨낼 점프 힘")]
+    public float jumpBoost = 30f;
 
     /// <summary>
-    /// 플레이어가 충돌 시 점프력을 주고 슈퍼 점프 아이템을 제거
+    /// 플레이어에게 슈퍼 점프 효과 적용
     /// </summary>
-    /// <param name="collision">충돌 정보</param>
-    private void OnCollisionEnter(Collision collision)
+    /// <param name="player">효과를 적용할 대상 플레이어</param>
+    public override void ApplyEffect(PlayerController player, EffectType effect)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        Debug.Log("[EffectItem] SuperJump 효과 발동");
+
+        Rigidbody rb = player.GetComponent<Rigidbody>();
+        if (rb != null)
         {
-            Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
-            if (rb != null)
-            {
-                Debug.Log("슈퍼점프 작동!");
-
-                // 점프력 적용
-                rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
-
-                // 아이템 제거 (0.05초 후 제거로 처리 안정성 확보)
-                Destroy(gameObject, 0.05f);
-            }
+            // Y축으로 강한 점프 적용
+            rb.velocity = new Vector3(rb.velocity.x, jumpBoost, rb.velocity.z);
         }
     }
 }

@@ -3,21 +3,36 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
+/// <summary>
+/// 플레이어가 보유한 자원을 관리하는 클래스
+/// </summary>
 public class Point : MonoBehaviour
 {
-    public float curValue;      // 현재 값
-    public float startValue;    // 시작 값
+    public float currentCoin = 0f;      // 현재 코인 수
+    public float startCoin = 0f;        // 시작 코인 수
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        curValue = startValue;
+        currentCoin = startCoin;
     }
 
-    // Update is called once per frame
-    void Update()
+    /// <summary>
+    /// 코인을 추가로 획득함
+    /// </summary>
+    /// <param name="amount">획득할 코인 양</param>
+    public void AddCoin(int amount)
     {
-        
+        currentCoin += amount;
+        Debug.Log($"[PlayerResource] 코인 {amount}개 획득! 현재 코인: {currentCoin}");
+
+        // UI 업데이트 기능 추가 예정
+    }
+
+    /// <summary>
+    /// 현재 코인 수를 반환
+    /// </summary>
+    public float GetCoin()
+    {
+        return currentCoin;
     }
 }
