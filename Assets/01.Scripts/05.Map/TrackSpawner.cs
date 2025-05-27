@@ -2,20 +2,20 @@ using UnityEngine;
 
 public class TrackSpawner : MonoBehaviour
 {
-    [Header("ÇÃ·¹ÀÌ¾î(¶Ç´Â Ä«¸Ş¶ó) Transform")]
+    [Header("í”Œë ˆì´ì–´(ë˜ëŠ” ì¹´ë©”ë¼) Transform")]
     public Transform player;
 
-    [Header("½ºÆùÇÒ Æ®·¢ ÇÁ¸®ÆÕµé")]
+    [Header("ìŠ¤í°í•  íŠ¸ë™ í”„ë¦¬íŒ¹ë“¤")]
     public GameObject[] trackPrefabs;
 
-    [Header("ÇÃ·¹ÀÌ¾î ¾Õ ¸Ê À¯Áö °Å¸®")]
+    [Header("í”Œë ˆì´ì–´ ì• ë§µ ìœ ì§€ ê±°ë¦¬")]
     public float spawnAheadDistance = 100f;
 
-    private float nextSpawnZ;  // ´ÙÀ½ ¼¼±×¸ÕÆ® ½ÃÀÛ Z À§Ä¡
+    private float nextSpawnZ;  // ë‹¤ìŒ ì„¸ê·¸ë¨¼íŠ¸ ì‹œì‘ Z ìœ„ì¹˜
 
     void Start()
     {
-        // ÃÊ±âÈ­: ÇÃ·¹ÀÌ¾î ¹Ù·Î ¾ÕºÎÅÍ ¸Ê Ã¤¿ì±â
+        // ì´ˆê¸°í™”: í”Œë ˆì´ì–´ ë°”ë¡œ ì•ë¶€í„° ë§µ ì±„ìš°ê¸°
         nextSpawnZ = Mathf.Floor(player.position.z);
         while (nextSpawnZ < player.position.z + spawnAheadDistance)
         {
@@ -25,7 +25,7 @@ public class TrackSpawner : MonoBehaviour
 
     void Update()
     {
-        // ÇÃ·¹ÀÌ¾î°¡ ¾ÕÀ¸·Î °¥ ¶§¸¶´Ù, ÁöÁ¤ °Å¸®±îÁö °è¼Ó Ã¤¿öÁØ´Ù
+        // í”Œë ˆì´ì–´ê°€ ì•ìœ¼ë¡œ ê°ˆ ë•Œë§ˆë‹¤, ì§€ì • ê±°ë¦¬ê¹Œì§€ ê³„ì† ì±„ì›Œì¤€ë‹¤
         while (nextSpawnZ < player.position.z + spawnAheadDistance)
         {
             SpawnTrack();
@@ -34,15 +34,15 @@ public class TrackSpawner : MonoBehaviour
 
     void SpawnTrack()
     {
-        // 1) ·£´ı ÇÁ¸®ÆÕ ¼±ÅÃ
+        // 1) ëœë¤ í”„ë¦¬íŒ¹ ì„ íƒ
         GameObject prefab = trackPrefabs[Random.Range(0, trackPrefabs.Length)];
-        // 2) ÀÎ½ºÅÏ½º »ı¼º
+        // 2) ì¸ìŠ¤í„´ìŠ¤ ìƒì„±
         GameObject go = Instantiate(prefab, transform);
-        // 3) À§Ä¡ ¼¼ÆÃ
+        // 3) ìœ„ì¹˜ ì„¸íŒ…
         go.transform.position = new Vector3(0f, 0f, nextSpawnZ);
-        go.transform.rotation = Quaternion.identity;  // Ç×»ó Á÷¼±
+        go.transform.rotation = Quaternion.identity;  // í•­ìƒ ì§ì„ 
 
-        // 4) ´ÙÀ½ ½ºÆù Z À§Ä¡ °»½Å
+        // 4) ë‹¤ìŒ ìŠ¤í° Z ìœ„ì¹˜ ê°±ì‹ 
         float trackLength = go.GetComponent<Track>().length;
         nextSpawnZ += trackLength;
     }
