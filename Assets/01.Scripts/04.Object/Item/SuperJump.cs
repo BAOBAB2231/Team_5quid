@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// ÇÃ·¹ÀÌ¾î°¡ Á¢ÃËÇÒ °æ¿ì À§·Î Æ¨°Ü³»°í, ÀÚ½ÅÀº »èÁ¦µÇ´Â Á¡ÇÁ´ë
+/// í”Œë ˆì´ì–´ê°€ ì ‘ì´‰í•  ê²½ìš° ìœ„ë¡œ íŠ•ê²¨ë‚´ê³ , ìì‹ ì€ ì‚­ì œë˜ëŠ” ì í”„ëŒ€
 /// </summary>
 public class SuperJump : MonoBehaviour
 {
-    [Header("Á¡ÇÁ ¼³Á¤")]
-    [Tooltip("ÇÃ·¹ÀÌ¾î¸¦ À§·Î Æ¨°Ü³¾ Èû")]
+    [Header("ì í”„ ì„¤ì •")]
+    [Tooltip("í”Œë ˆì´ì–´ë¥¼ ìœ„ë¡œ íŠ•ê²¨ë‚¼ í˜")]
     public float jumpForce = 0f;
 
     /// <summary>
-    /// ÇÃ·¹ÀÌ¾î°¡ Ãæµ¹ ½Ã Á¡ÇÁ·ÂÀ» ÁÖ°í ½´ÆÛ Á¡ÇÁ ¾ÆÀÌÅÛÀ» Á¦°Å
+    /// í”Œë ˆì´ì–´ê°€ ì¶©ëŒ ì‹œ ì í”„ë ¥ì„ ì£¼ê³  ìŠˆí¼ ì í”„ ì•„ì´í…œì„ ì œê±°
     /// </summary>
-    /// <param name="collision">Ãæµ¹ Á¤º¸</param>
+    /// <param name="collision">ì¶©ëŒ ì •ë³´</param>
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -22,12 +22,12 @@ public class SuperJump : MonoBehaviour
             Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
             if (rb != null)
             {
-                Debug.Log("½´ÆÛÁ¡ÇÁ ÀÛµ¿!");
+                Debug.Log("ìŠˆí¼ì í”„ ì‘ë™!");
 
-                // Á¡ÇÁ·Â Àû¿ë
+                // ì í”„ë ¥ ì ìš©
                 rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
 
-                // ¾ÆÀÌÅÛ Á¦°Å (0.05ÃÊ ÈÄ Á¦°Å·Î Ã³¸® ¾ÈÁ¤¼º È®º¸)
+                // ì•„ì´í…œ ì œê±° (0.05ì´ˆ í›„ ì œê±°ë¡œ ì²˜ë¦¬ ì•ˆì •ì„± í™•ë³´)
                 Destroy(gameObject, 0.05f);
             }
         }
