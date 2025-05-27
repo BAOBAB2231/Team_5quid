@@ -24,10 +24,14 @@ public class PlayerController : Player
             return;
         }
 
-        Vector3 run = rb.velocity;
-        run.z = RunSpeed;
+        //Vector3 run = rb.velocity;
+        //run.z = RunSpeed;
 
-        rb.velocity = run;
+        //rb.velocity = run;
+        
+        //transform.position = Vector3.MoveTowards(transform.position, transform.position + Vector3.forward, Time.deltaTime * runSpeed);
+        
+        rb.MovePosition(transform.position + Vector3.forward * Time.deltaTime * runSpeed);
     }
 
     public void OnSideStep(InputAction.CallbackContext context)
