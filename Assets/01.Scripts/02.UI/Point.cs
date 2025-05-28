@@ -14,6 +14,7 @@ public class Point : MonoBehaviour
     private void Start()
     {
         currentCoin = startCoin;
+        UIManager.Instance.Get<InGameUI>()?.UpdataCoinText(currentCoin); // UI 초기 동기화
     }
 
     /// <summary>
