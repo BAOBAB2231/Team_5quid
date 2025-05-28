@@ -18,4 +18,9 @@ public class UIController : MonoBehaviour
     {
         UIManager.Instance.Open<UICanvas>();
     }
+
+    public void OpenSettingBoard()
+    {
+        UIManager.Instance.Open<SettingBoard>();
+    }
 }
