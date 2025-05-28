@@ -13,12 +13,6 @@ public class UIController : MonoBehaviour
             UIManager.Instance.Close<GameOverUI>();
     }
 
-    //UI
-    public void OpenUICanvas()
-    {
-        UIManager.Instance.Open<UICanvas>();
-    }
-
     public void OpenSettingBoard()
     {
         UIManager.Instance.Open<SettingBoard>();
