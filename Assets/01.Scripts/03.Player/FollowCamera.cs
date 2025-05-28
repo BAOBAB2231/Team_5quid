@@ -6,11 +6,13 @@ using UnityEngine;
 public class FollowCamera : MonoBehaviour
 {
 
-    public Transform playerTransform;
+    private Transform playerTransform;
+   
     private Transform tf;
 
     private void Start()
     {
+        playerTransform = GameObject.Find("Player").transform;
         tf = GetComponent<Transform>();
     }
 
