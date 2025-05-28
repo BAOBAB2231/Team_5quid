@@ -25,7 +25,8 @@ public class Point : MonoBehaviour
         currentCoin += amount;
         Debug.Log($"[PlayerResource] 코인 {amount}개 획득! 현재 코인: {currentCoin}");
 
-        // UI 업데이트 기능 추가 예정
+        // UI 업데이트 기능 추가 예정(추가 완료)
+        UIManager.Instance.Get<InGameUI>()?.UpdataCoinText(currentCoin);
     }
 
     /// <summary>
