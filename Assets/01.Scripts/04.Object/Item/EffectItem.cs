@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// 효과 아이템의 기본 기능을 정의한 추상 클래스
-/// </summary>
+// 효과 아이템의 기본 기능을 정의한 추상 클래스
 public abstract class EffectItem : MonoBehaviour
 {
     /// <summary>

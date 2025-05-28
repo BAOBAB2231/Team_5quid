@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// 버프 아이템의 효과를 적용하는 클래스
-/// </summary>
+// 버프 아이템의 효과를 적용하는 클래스
 public class BuffItem : MonoBehaviour
 {
     /// <summary>
