@@ -12,4 +12,10 @@ public class UIController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
             UIManager.Instance.Close<GameOverUI>();
     }
+
+    //UI
+    public void OpenUICanvas()
+    {
+        UIManager.Instance.Open<UICanvas>();
+    }
 }
