@@ -9,6 +9,23 @@ public class PlayerController : Player
     void FixedUpdate()
     {
         Run();
+        if (!IsGrounded())
+        {
+            if (rb.velocity.y < 0)
+            {
+                isJumping = false;
+                anim.Anim_SetJump(isJumping);
+                isFalling = true;
+                anim.Anim_SetSuddenDrop(isFalling);
+            }
+        }
+        else if (IsGrounded())
+        {
+            isJumping = false;
+            anim.Anim_SetJump(isJumping);
+            isFalling = false;
+            anim.Anim_SetSuddenDrop(isFalling);
+        }
     }
 
     void Run()
@@ -31,7 +48,6 @@ public class PlayerController : Player
 
     public void OnSideStep(InputAction.CallbackContext context)
     {
-        
         if (context.phase == InputActionPhase.Started)
         {
             if (context.control.name == "leftArrow")
@@ -40,6 +56,7 @@ public class PlayerController : Player
                 {
                     return;
                 }
+                anim.Anim_TriggerLeftsideStep();
                 IEnumerator sideStep = LerpSideSetp(-sideStepDistance);
                 StartCoroutine(sideStep);
                 /*tf.position -= new Vector3(sideStepDistance, 0, 0);*/
@@ -50,6 +67,7 @@ public class PlayerController : Player
                 {
                     return;
                 }
+                anim.Anim_TriggerRightsideStep();
                 IEnumerator sideStep = LerpSideSetp(+sideStepDistance);
                 StartCoroutine(sideStep);
                 /*tf.position += new Vector3(sideStepDistance, 0, 0);*/
@@ -62,7 +80,7 @@ public class PlayerController : Player
         float elapsed = 0f;
 
         Vector3 start = transform.position;
-        Vector3 end = start + new Vector3(sideStepDistance, start.y*stepDuration,  runSpeed*stepDuration);
+        Vector3 end = start + new Vector3(sideStepDistance, start.y * stepDuration, runSpeed * stepDuration);
 
         while (elapsed < stepDuration)
         {
@@ -75,6 +93,7 @@ public class PlayerController : Player
         transform.position = end; // 최종 위치 확정
     }
 
+
     bool isJumping = false;
     bool isFalling = false;
 
@@ -83,6 +102,7 @@ public class PlayerController : Player
         if (context.phase == InputActionPhase.Started && IsGrounded())
         {
             isJumping = true;
+            anim.Anim_SetJump(isJumping);
             rb.velocity = Vector3.zero;
             rb.AddForce(Vector2.up * jumpForce, ForceMode.Impulse);
         }
@@ -130,26 +150,29 @@ public class PlayerController : Player
 
     public void OnCrouchAndSuddenDrop(InputAction.CallbackContext context)
     {
-       
-        
-        if (context.phase == InputActionPhase.Started && !isCrouching&&tf.localScale.y ==1)
+        if (context.phase == InputActionPhase.Started && !isCrouching && tf.localScale.y == 1)
         {
             Vector3 scale = tf.localScale;
+            isCrouching = true;
+            anim.Anim_SetCrouch(isCrouching);
             scale.y /= 2;
             tf.localScale = scale;
-            isCrouching = true;
+            
         }
 
-        if (context.phase == InputActionPhase.Canceled && isCrouching&&tf.localScale.y == 0.5f)
+        if (context.phase == InputActionPhase.Canceled && isCrouching && tf.localScale.y == 0.5f)
         {
             Vector3 scale = tf.localScale;
+            isCrouching = false;
+            anim.Anim_SetCrouch(isCrouching);
             scale.y *= 2;
             tf.localScale = scale;
-            isCrouching = false;
+            
         }
+
         if (!IsGrounded())
         {
-            if (context.phase == InputActionPhase.Started )
+            if (context.phase == InputActionPhase.Started)
             {
                 Vector3 currentPosition = tf.position;
 
@@ -158,17 +181,13 @@ public class PlayerController : Player
                 StartCoroutine(MassUp());
             }
         }
-
-
-       
     }
 
-   
 
     IEnumerator MassUp()
     {
         rb.velocity = Vector3.down * 40;
-        yield return new WaitUntil(()=>tf.localScale.y < 0.5f);
+        yield return new WaitUntil(() => tf.localScale.y < 0.5f);
         rb.velocity = Vector3.zero;
     }
 }
