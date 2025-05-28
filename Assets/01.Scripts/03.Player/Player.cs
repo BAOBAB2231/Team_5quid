@@ -6,7 +6,7 @@ public abstract class Player : MonoBehaviour
 {
    protected Rigidbody rb;
    protected Transform tf;
-    protected Animator anim;
+    protected MyAnimation anim;
    
     [Header("이동 관련 스탯")]
     [SerializeField]protected float runSpeed;
@@ -20,7 +20,7 @@ public abstract class Player : MonoBehaviour
     public LayerMask groundLayerMask;
     void Start()
     {
-     anim = GetComponent<Animator>();
+     anim = GetComponent<MyAnimation>();
      tf = GetComponent<Transform>();
      rb = GetComponent<Rigidbody>();
     
