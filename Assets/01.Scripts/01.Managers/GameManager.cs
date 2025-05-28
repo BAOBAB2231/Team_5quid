@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,7 +11,6 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get { return instance; }
     }
     public SoundManager soundManager;
-    public UIManager uiManager;
     private Player player;
        public Player Player{get{return player;}}
     private void Awake()
@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
             {
             instance = this;   
             DontDestroyOnLoad(gameObject);
+            SceneManager.sceneLoaded += OnSceneLoaded;
             }
 
         else
@@ -30,13 +31,13 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        player=FindObjectOfType<Player>();
         UIManager.Instance.Open<InGameUI>();
+        player = FindObjectOfType<Player>();
     }
 
-
-    void Update()
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        
+        UIManager.Instance.Open<InGameUI>();
+        player = FindObjectOfType<Player>();
     }
 }

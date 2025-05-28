@@ -118,6 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinText: {fileID: 8921791943678535041}
+  scoreText: {fileID: 1201363876629872237}
 --- !u!1 &1337037268170517529
 GameObject:
   m_ObjectHideFlags: 0
