@@ -258,6 +258,10 @@ PrefabInstance:
       propertyPath: itemData
       value: 
       objectReference: {fileID: 11400000, guid: 47c60e8acd433824881d397107a56237, type: 2}
+    - target: {fileID: 2550515331848991825, guid: 491f8ecf7f5a689438b2fb8488164496, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -3554583563203623953, guid: 64bb08a344569d84aac6533be6bcad46, type: 3}
     - target: {fileID: 4255015693715970166, guid: 491f8ecf7f5a689438b2fb8488164496, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -615,21 +619,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2455744413369991262, guid: 491f8ecf7f5a689438b2fb8488164496, type: 3}
-      propertyPath: itemData
-      value: 
-      objectReference: {fileID: 11400000, guid: 47c60e8acd433824881d397107a56237, type: 2}
-    - target: {fileID: 4255015693715970166, guid: 491f8ecf7f5a689438b2fb8488164496, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7252355387349088435, guid: 491f8ecf7f5a689438b2fb8488164496, type: 3}
       propertyPath: m_Name
       value: Coin (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7252355387349088435, guid: 491f8ecf7f5a689438b2fb8488164496, type: 3}
-      propertyPath: m_TagString
-      value: Coin
       objectReference: {fileID: 0}
     - target: {fileID: 7540093869814072419, guid: 491f8ecf7f5a689438b2fb8488164496, type: 3}
       propertyPath: m_LocalPosition.x
@@ -684,21 +676,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2455744413369991262, guid: 491f8ecf7f5a689438b2fb8488164496, type: 3}
-      propertyPath: itemData
-      value: 
-      objectReference: {fileID: 11400000, guid: 47c60e8acd433824881d397107a56237, type: 2}
-    - target: {fileID: 4255015693715970166, guid: 491f8ecf7f5a689438b2fb8488164496, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7252355387349088435, guid: 491f8ecf7f5a689438b2fb8488164496, type: 3}
       propertyPath: m_Name
       value: Coin (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7252355387349088435, guid: 491f8ecf7f5a689438b2fb8488164496, type: 3}
-      propertyPath: m_TagString
-      value: Coin
       objectReference: {fileID: 0}
     - target: {fileID: 7540093869814072419, guid: 491f8ecf7f5a689438b2fb8488164496, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1334,21 +1314,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2455744413369991262, guid: 491f8ecf7f5a689438b2fb8488164496, type: 3}
-      propertyPath: itemData
-      value: 
-      objectReference: {fileID: 11400000, guid: 47c60e8acd433824881d397107a56237, type: 2}
-    - target: {fileID: 4255015693715970166, guid: 491f8ecf7f5a689438b2fb8488164496, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7252355387349088435, guid: 491f8ecf7f5a689438b2fb8488164496, type: 3}
       propertyPath: m_Name
       value: Coin (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7252355387349088435, guid: 491f8ecf7f5a689438b2fb8488164496, type: 3}
-      propertyPath: m_TagString
-      value: Coin
       objectReference: {fileID: 0}
     - target: {fileID: 7540093869814072419, guid: 491f8ecf7f5a689438b2fb8488164496, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1757,6 +1725,7 @@ MonoBehaviour:
   runSpeed: 5
   jumpForce: 10
   sideStepDistance: 4
+  stepDuration: 0
   maxDistance: 4
   playerPivotY: 0.6
   groundLayerMask:
