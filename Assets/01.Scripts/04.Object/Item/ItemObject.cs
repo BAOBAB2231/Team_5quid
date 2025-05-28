@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// 게임 내에서 등장하는 아이템 오브젝트. 플레이어와 충돌 시 아이템 타입에 따라 효과를 적용함.
-/// </summary>
+// 게임 내에서 등장하는 아이템 오브젝트. 플레이어와 충돌 시 아이템 타입에 따라 효과를 적용함.
 public class ItemObject : MonoBehaviour
 {
     public ItemData itemData;    // 아이템 데이터 (ScriptableObject 참조)

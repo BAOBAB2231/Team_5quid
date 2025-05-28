@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-/// <summary>
-/// 플레이어가 보유한 자원을 관리하는 클래스
-/// </summary>
+// 플레이어가 보유한 자원을 관리하는 클래스
 public class Point : MonoBehaviour
 {
     public float currentCoin = 0f;      // 현재 코인 수
