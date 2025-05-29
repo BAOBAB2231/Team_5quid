@@ -46,9 +46,11 @@ public class PlayerController : Player
         rb.MovePosition(transform.position + Vector3.forward * Time.deltaTime * runSpeed);
     }
 
+    private bool isSideStep;
+
     public void OnSideStep(InputAction.CallbackContext context)
     {
-        if (context.phase == InputActionPhase.Started)
+        if (context.phase == InputActionPhase.Started && !isSideStep)
         {
             if (context.control.name == "leftArrow")
             {
@@ -56,7 +58,9 @@ public class PlayerController : Player
                 {
                     return;
                 }
+
                 anim.Anim_TriggerLeftsideStep();
+                sfx.PlayClip(SFX.SideStep);
                 IEnumerator sideStep = LerpSideSetp(-sideStepDistance);
                 StartCoroutine(sideStep);
                 /*tf.position -= new Vector3(sideStepDistance, 0, 0);*/
@@ -67,7 +71,9 @@ public class PlayerController : Player
                 {
                     return;
                 }
+
                 anim.Anim_TriggerRightsideStep();
+                sfx.PlayClip(SFX.SideStep);
                 IEnumerator sideStep = LerpSideSetp(+sideStepDistance);
                 StartCoroutine(sideStep);
                 /*tf.position += new Vector3(sideStepDistance, 0, 0);*/
@@ -77,6 +83,7 @@ public class PlayerController : Player
 
     private IEnumerator LerpSideSetp(float sideStepDistance)
     {
+        isSideStep = true;
         float elapsed = 0f;
 
         Vector3 start = transform.position;
@@ -91,6 +98,7 @@ public class PlayerController : Player
         }
 
         transform.position = end; // 최종 위치 확정
+        isSideStep = false;
     }
 
 
@@ -102,6 +110,7 @@ public class PlayerController : Player
         if (context.phase == InputActionPhase.Started && IsGrounded())
         {
             isJumping = true;
+            sfx.PlayClip(SFX.Jump);
             anim.Anim_SetJump(isJumping);
             rb.velocity = Vector3.zero;
             rb.AddForce(Vector2.up * jumpForce, ForceMode.Impulse);
@@ -157,7 +166,6 @@ public class PlayerController : Player
             anim.Anim_SetCrouch(isCrouching);
             scale.y /= 2;
             tf.localScale = scale;
-            
         }
 
         if (context.phase == InputActionPhase.Canceled && isCrouching && tf.localScale.y == 0.5f)
@@ -167,24 +175,24 @@ public class PlayerController : Player
             anim.Anim_SetCrouch(isCrouching);
             scale.y *= 2;
             tf.localScale = scale;
-            
         }
 
         if (!IsGrounded())
         {
             if (context.phase == InputActionPhase.Started)
             {
-                Vector3 currentPosition = tf.position;
+                /*Vector3 currentPosition = tf.position;*/
 
                 /*currentPosition.y = playerPivotY;
                 tf.position = currentPosition;*/
+                sfx.PlayClip(SFX.Jump);
                 StartCoroutine(MassUp());
             }
         }
     }
 
 
-    IEnumerator MassUp()
+    IEnumerator MassUp() //급강하용 코루틴 
     {
         rb.velocity = Vector3.down * 40;
         yield return new WaitUntil(() => tf.localScale.y < 0.5f);

@@ -1356,6 +1356,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6664781622021396017}
     m_Modifications:
+    - target: {fileID: 2087904479436493125, guid: 22f92c1a96b00014184697552b006fbe, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2177799519475909854, guid: 22f92c1a96b00014184697552b006fbe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1396,9 +1400,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4350140236221471560, guid: 22f92c1a96b00014184697552b006fbe, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6958639786797207099, guid: 22f92c1a96b00014184697552b006fbe, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7134933800631527470, guid: 22f92c1a96b00014184697552b006fbe, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 7195834889092896876, guid: 22f92c1a96b00014184697552b006fbe, type: 3}
       propertyPath: m_Name
       value: BackGround_Nature1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8060132707994646069, guid: 22f92c1a96b00014184697552b006fbe, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
