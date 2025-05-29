@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class UIController : MonoBehaviour
 {
+    private void Start()
+    {
+        UIManager.Instance.Open<MainCanvas>();
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q))
@@ -11,6 +16,11 @@ public class UIController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
             UIManager.Instance.Close<GameOverUI>();
+
+        if (GameManager.Instance.gameState == GameState.Playing)
+        {
+            UIManager.Instance.Close<MainCanvas>();
+        }
     }
 
     public void OpenSettingBoardCanvas()
@@ -22,4 +32,12 @@ public class UIController : MonoBehaviour
     {
         UIManager.Instance.Close<SettingBoardCanvas>();
     }
+
+    //public void CloseMainCanvas()
+    //{
+    //    if (GameManager.Instance.gameState == GameState.Playing)
+    //    {
+    //        UIManager.Instance.Close<MainCanvas>();
+    //    }
+    //}
 }
