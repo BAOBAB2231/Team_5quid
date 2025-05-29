@@ -74,10 +74,10 @@ public class ItemObject : MonoBehaviour
     {
         if (buffItem == null) return;
 
-        foreach (ItemDataBuff buff in itemData.Buffs)  
-        {
-            buffItem.ApplyBuff(player.GetComponent<PlayerController>(), buff);
-        }
+        PlayerController controller = player.GetComponent<PlayerController>();
+        if (controller == null) return;
+
+        buffItem.ApplyBuff(controller, itemData); // 전체 itemData 넘기기
     }
 
     /// <summary>
