@@ -40,4 +40,15 @@ public class GameManager : MonoBehaviour
         UIManager.Instance.Open<InGameUI>();
         player = FindObjectOfType<Player>();
     }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void GoHome()
+    {
+        // 메인 화면으로 가기 (임시로 Restart)
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }
