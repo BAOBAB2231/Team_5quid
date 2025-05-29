@@ -7,7 +7,7 @@ using UnityEngine;
 /// 일정 시간 동안 PowerUp 태그를 부여한다.
 /// 이전 효과가 존재하면 제거 후 새로 적용한다.
 /// </summary>
-public class PowerUp : MonoBehaviour
+public class PowerUp : EffectItem
 {
     [Header("파워업 지속 시간 설정")]
     [Tooltip("PowerUp 태그가 유지될 시간 (초)")]
@@ -25,8 +25,20 @@ public class PowerUp : MonoBehaviour
         // 레이어 이름으로 플레이어 확인
         if (LayerMask.LayerToName(target.layer) != "Player") return;
 
-        // 유효한 태그인지 확인
-        if (string.IsNullOrEmpty(powerUpTag)) return;
+        // PlayerController 컴포넌트가 있다면 효과 적용
+        PlayerController playerController = target.GetComponent<PlayerController>();
+        if (playerController != null)
+        {
+            ApplyEffect(playerController, EffectType.PowerUp); // 직접 호출
+        }
+    }
+
+    /// <summary>
+    /// EffectItem의 추상 메서드 구현
+    /// </summary>
+    public override void ApplyEffect(PlayerController player, EffectType effect)
+    {
+        GameObject target = player.gameObject;
 
         // 기존 파워업 코루틴이 있으면 중단하고 초기화
         if (activePowerUps.TryGetValue(target, out Coroutine existing))
@@ -39,6 +51,8 @@ public class PowerUp : MonoBehaviour
         // 새 파워업 효과 적용
         Coroutine newPowerUp = StartCoroutine(ApplyPowerUpTag(target));
         activePowerUps[target] = newPowerUp;
+
+        Debug.Log($"[PowerUp] {player.name}에게 {effect} 효과 적용됨");
     }
 
     /// <summary>

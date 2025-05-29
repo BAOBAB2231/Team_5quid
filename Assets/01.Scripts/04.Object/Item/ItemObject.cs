@@ -46,7 +46,7 @@ public class ItemObject : MonoBehaviour
         switch (itemData.type)
         {
             case ItemType.Buff:      // 버프 아이템일 경우
-                ApplyBuff(player);
+                ApplyBuffItem(player);
                 break;
 
             case ItemType.Effect:    // 효과 아이템일 경우
@@ -63,7 +63,7 @@ public class ItemObject : MonoBehaviour
     /// 버프 아이템 효과 적용
     /// </summary>
     /// <param name="player">버프를 적용할 플레이어</param>
-    private void ApplyBuff(GameObject player)
+    private void ApplyBuffItem(GameObject player)
     {
         if (buffItem == null) return;
 
