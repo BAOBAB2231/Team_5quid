@@ -11,12 +11,6 @@ public class UIController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
-            UIManager.Instance.Open<GameOverUI>();
-
-        if (Input.GetKeyDown(KeyCode.E))
-            UIManager.Instance.Close<GameOverUI>();
-
         if (GameManager.Instance.gameState == GameState.Playing)
         {
             UIManager.Instance.Close<MainCanvas>();
