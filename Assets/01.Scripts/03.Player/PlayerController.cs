@@ -185,7 +185,7 @@ public class PlayerController : Player
 
                 /*currentPosition.y = playerPivotY;
                 tf.position = currentPosition;*/
-                sfx.PlayClip(SFX.Jump);
+                sfx.PlayClip(SFX.SideStep);
                 StartCoroutine(MassUp());
             }
         }
