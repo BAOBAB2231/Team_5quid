@@ -32,14 +32,6 @@ public class PlayerController : Player
         }
     }
 
-    private void Update()
-    {
-        if (Input.anyKey)
-        {
-            GameManager.Instance.gameState = GameState.Playing;
-        }
-    }
-
     void Run()
     {
         //부하가 많이 걸리므로 스타트로 
