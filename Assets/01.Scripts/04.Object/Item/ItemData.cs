@@ -4,14 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-// 아이템의 종류를 정의하는 열거형
-public enum ItemType
-{
-    Effect,      // 효과 아이템
-    Buff,        // 버프 아이템
-    Resource     // 자원 아이템 (코인)
-}
-
 // 효과 아이템의 타입 정의
 public enum EffectType
 {
@@ -45,7 +37,6 @@ public class ItemData : ScriptableObject
     [Header("Info")]
     public string displayName;         // 아이템 이름
     public string description;         // 아이템 설명
-    public ItemType type;              // 아이템 분류
 
     [Header("Stacking")]
     public bool canStack;              // 여러 개 쌓을 수 있는지 여부
