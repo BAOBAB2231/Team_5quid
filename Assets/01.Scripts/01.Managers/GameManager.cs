@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 //게임의 상태를 표시한 열거형
@@ -45,9 +46,9 @@ public class GameManager : MonoBehaviour
         player = FindObjectOfType<Player>();
     }
 
-    private void Update()
+    public void PressAnyKey(InputAction.CallbackContext context)
     {
-        if (Input.anyKeyDown)
+        if (context.phase == InputActionPhase.Started)
         {
             gameState = GameState.Playing;
         }
