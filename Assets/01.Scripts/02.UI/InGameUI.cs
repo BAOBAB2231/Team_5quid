@@ -20,6 +20,7 @@ public class InGameUI : UIBase
 
     public void OnClickPause()
     {
-        UIManager.Instance.Open<PauseUI>();
+        Time.timeScale = 0f; // 게임 정지
+        UIManager.Instance.Open<PauseUI>(); // 일시정지 UI 오픈
     }
 }

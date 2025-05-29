@@ -43,11 +43,13 @@ public class GameManager : MonoBehaviour
 
     public void RestartGame()
     {
+        Time.timeScale = 1f; // 게임 시간 재게
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void GoHome()
     {
+        Time.timeScale = 1f; // 게임 시간 재게
         // 메인 화면으로 가기 (임시로 Restart)
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
