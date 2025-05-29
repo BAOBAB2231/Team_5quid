@@ -127,14 +127,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2391903760223043050, guid: 1133576ca1f333640b2e5b1e2a4757de, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 2100000, guid: 8be9708123b4fa445995c2b8bc3f2a96, type: 2}
-    - target: {fileID: 3112854808305535074, guid: 1133576ca1f333640b2e5b1e2a4757de, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 2100000, guid: 8be9708123b4fa445995c2b8bc3f2a96, type: 2}
     - target: {fileID: 3657747631112433736, guid: 1133576ca1f333640b2e5b1e2a4757de, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -231,10 +223,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9099689074865608331, guid: 1133576ca1f333640b2e5b1e2a4757de, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 2100000, guid: 8be9708123b4fa445995c2b8bc3f2a96, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
