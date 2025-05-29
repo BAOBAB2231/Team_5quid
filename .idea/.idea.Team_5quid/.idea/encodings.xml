@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/Assets/01.Scripts/04.Object/Item/ItemData.cs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Assets/01.Scripts/04.Object/Item/SuperJump.cs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Assets/01.Scripts/05.Map/DespawnZone.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/01.Scripts/05.Map/ObstacleMover.cs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Assets/01.Scripts/05.Map/Track.cs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Assets/01.Scripts/05.Map/TrackSpawner.cs" charset="UTF-8" />
   </component>
