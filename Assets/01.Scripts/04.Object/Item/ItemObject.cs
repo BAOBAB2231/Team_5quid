@@ -31,7 +31,14 @@ public class ItemObject : MonoBehaviour
 
         if (other.gameObject.layer == LayerMask.NameToLayer("Player")) // 충돌 대상이 'Player' 레이어일 경우만 처리
         {
-            ApplyEffect(other.gameObject); // 아이템 효과 적용
+            try
+            {
+                ApplyEffect(other.gameObject);     // 아이템 효과 적용 (버프, 자원, 효과 등)
+            }
+            catch (System.Exception ex)
+            {
+                Debug.LogError($"[ItemObject] 아이템 효과 적용 중 예외 발생: {ex.Message}");
+            }
 
             Destroy(gameObject, 0.05f);    // 아이템 제거 (0.05초 후 제거로 처리 안정성 확보)
         }
