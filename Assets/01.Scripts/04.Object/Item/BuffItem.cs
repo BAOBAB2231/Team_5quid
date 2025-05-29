@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 // 버프 아이템의 효과를 적용하는 클래스
 public class BuffItem : MonoBehaviour
@@ -9,24 +7,33 @@ public class BuffItem : MonoBehaviour
     /// 플레이어에게 버프 효과 적용
     /// </summary>
     /// <param name="player">버프를 적용할 플레이어</param>
-    /// <param name="buff">적용할 버프 데이터</param>
-    public void ApplyBuff(PlayerController player, ItemDataBuff buff)
+    /// <param name="itemData">적용할 아이템 데이터</param>
+    public virtual void ApplyBuff(PlayerController player, ItemData itemData)
     {
-        Debug.Log($"[BuffItem] {buff.type} 버프 적용! 지속 시간: {buff.value}초");
-
-        switch (buff.type)
+        if (itemData.Buffs == null || itemData.Buffs.Length == 0)
         {
-            case BuffType.ScoringUp:   // 점수 배율 증가
-                // 점수 관련 시스템 연동 필요
-                break;
+            Debug.LogWarning("[BuffItem] 버프 정보가 없습니다.");
+            return;
+        }
 
-            case BuffType.JumpBoost:   // 점프력 증가
-                // 점프부스트를 실행시키는 함수 추가
-                break;
+        foreach (ItemDataBuff buff in itemData.Buffs)
+        {
+            Debug.Log($"[BuffItem] {buff.type} 버프 적용! 지속 시간: {buff.duration}초");
 
-            case BuffType.CoinVolumeUp: // 코인 획득량 증가
-                // 코인 시스템 연동 필요
-                break;
+            switch (buff.type)
+            {
+                case BuffType.ScoringUp:
+                    // 추후 구현
+                    break;
+
+                case BuffType.JumpForceUp:
+                    // 추후 구현
+                    break;
+
+                case BuffType.CoinVolumeUp:
+                    // CoinVolumeUpBuff에서 구체적으로 처리함
+                    break;
+            }
         }
     }
 }
