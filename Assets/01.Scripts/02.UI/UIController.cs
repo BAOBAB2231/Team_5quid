@@ -32,12 +32,4 @@ public class UIController : MonoBehaviour
     {
         UIManager.Instance.Close<SettingBoardCanvas>();
     }
-
-    //public void CloseMainCanvas()
-    //{
-    //    if (GameManager.Instance.gameState == GameState.Playing)
-    //    {
-    //        UIManager.Instance.Close<MainCanvas>();
-    //    }
-    //}
 }
