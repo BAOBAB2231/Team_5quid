@@ -17,4 +17,9 @@ public class InGameUI : UIBase
     {
         scoreText.text = score.ToString("F0");
     }
+
+    public void OnClickPause()
+    {
+        UIManager.Instance.Open<PauseUI>();
+    }
 }
