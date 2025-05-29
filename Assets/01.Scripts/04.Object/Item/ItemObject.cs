@@ -31,7 +31,14 @@ public class ItemObject : MonoBehaviour
 
         if (other.gameObject.layer == LayerMask.NameToLayer("Player")) // 충돌 대상이 'Player' 레이어일 경우만 처리
         {
-            ApplyEffect(other.gameObject); // 아이템 효과 적용
+            try
+            {
+                ApplyEffect(other.gameObject);     // 아이템 효과 적용 (버프, 자원, 효과 등)
+            }
+            catch (System.Exception ex)
+            {
+                Debug.LogError($"[ItemObject] 아이템 효과 적용 중 예외 발생: {ex.Message}");
+            }
 
             Destroy(gameObject, 0.05f);    // 아이템 제거 (0.05초 후 제거로 처리 안정성 확보)
         }
@@ -46,7 +53,7 @@ public class ItemObject : MonoBehaviour
         switch (itemData.type)
         {
             case ItemType.Buff:      // 버프 아이템일 경우
-                ApplyBuff(player);
+                ApplyBuffItem(player);
                 break;
 
             case ItemType.Effect:    // 효과 아이템일 경우
@@ -63,14 +70,14 @@ public class ItemObject : MonoBehaviour
     /// 버프 아이템 효과 적용
     /// </summary>
     /// <param name="player">버프를 적용할 플레이어</param>
-    private void ApplyBuff(GameObject player)
+    private void ApplyBuffItem(GameObject player)
     {
         if (buffItem == null) return;
 
-        foreach (ItemDataBuff buff in itemData.Buffs)  
-        {
-            buffItem.ApplyBuff(player.GetComponent<PlayerController>(), buff);
-        }
+        PlayerController controller = player.GetComponent<PlayerController>();
+        if (controller == null) return;
+
+        buffItem.ApplyBuff(controller, itemData); // 전체 itemData 넘기기
     }
 
     /// <summary>

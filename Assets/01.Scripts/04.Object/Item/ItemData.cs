@@ -24,7 +24,7 @@ public enum EffectType
 public enum BuffType
 {
     ScoringUp,   // 점수 배율 업
-    JumpBoost,   // 점프 부스트
+    JumpForceUp,   // 점프 부스트
     CoinVolumeUp // 코인 획득 업 
 }
 
@@ -33,13 +33,14 @@ public enum BuffType
 public class ItemDataBuff
 {
     public BuffType type;  // 버프 종류
-    public float value;    // 지속 시간
+    public float duration;   // 버프 지속 시간
+    public float multiplier; // 버프 효과 배율 (예: 1.5배)
 }
 
-/// <summary>
-/// 인벤토리 아이템의 데이터 정의 ScriptableObject
-/// </summary>
-[CreateAssetMenu(fileName = "Item", menuName = "New Item")]
+    /// <summary>
+    /// 인벤토리 아이템의 데이터 정의 ScriptableObject
+    /// </summary>
+    [CreateAssetMenu(fileName = "Item", menuName = "New Item")]
 public class ItemData : ScriptableObject
 {
     [Header("Info")]

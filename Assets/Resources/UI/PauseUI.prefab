@@ -939,6 +939,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   homeButton: {fileID: 169546649016007670}
   retryButton: {fileID: 461033644163600714}
+  resumeButton: {fileID: 8742984386728345624}
   buttonPanel: {fileID: 4852742007143035092}
   resumePanel: {fileID: 3528218611288959305}
   countdownText: {fileID: 5412633959694582047}
@@ -1063,9 +1064,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 386213044015091370}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PauseUI, Assembly-CSharp
-        m_MethodName: OnClickResume
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -9,6 +9,9 @@ public class Point : MonoBehaviour
     public float currentCoin = 0f;      // 현재 코인 수
     public float startCoin = 0f;        // 시작 코인 수
 
+    private float coinMultiplier = 1f;  // 코인 배율 (기본 1배)
+
+
     private void Start()
     {
         currentCoin = startCoin;
@@ -21,8 +24,11 @@ public class Point : MonoBehaviour
     /// <param name="amount">획득할 코인 양</param>
     public void AddCoin(int amount)
     {
-        currentCoin += amount;
-        Debug.Log($"[PlayerResource] 코인 {amount}개 획득! 현재 코인: {currentCoin}");
+        float total = amount * coinMultiplier;
+        currentCoin += total;
+
+        Debug.Log($"[PlayerResource] 코인 {total}개 획득! 현재 코인: {currentCoin}");
+
 
         // UI 업데이트 기능 추가 예정(추가 완료)
         UIManager.Instance.Get<InGameUI>()?.UpdataCoinText(currentCoin);
@@ -34,5 +40,20 @@ public class Point : MonoBehaviour
     public float GetCoin()
     {
         return currentCoin;
+    }
+
+    /// <summary>
+    /// 일정 시간 동안 코인 획득량을 2배로 증가시키는 코루틴
+    /// </summary>
+    /// <param name="duration">버프 지속 시간 (초)</param>
+    public IEnumerator DoubleCoinRoutine(float duration)
+    {
+        coinMultiplier = 2f;
+        Debug.Log($"[Point] 코인 2배 버프 시작 ({duration}초)");
+
+        yield return new WaitForSeconds(duration);
+
+        coinMultiplier = 1f;
+        Debug.Log("[Point] 코인 2배 버프 종료");
     }
 }
