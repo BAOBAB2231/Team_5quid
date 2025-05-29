@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -18,6 +18,11 @@ public class SFXPlayer : MonoBehaviour
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();
+    }
+
+    private void Update()
+    {
+        audioSource.volume = SoundManager.Instance.EffectVolume;
     }
 
     public void PlayClip(SFX name)
