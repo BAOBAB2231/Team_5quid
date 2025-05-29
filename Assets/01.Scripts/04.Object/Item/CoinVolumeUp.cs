@@ -23,7 +23,7 @@ public class CoinVolumeUpBuff : BuffItem
         {
             if (buff.type == BuffType.CoinVolumeUp)
             {
-                duration = buff.value;
+                duration = buff.duration;
                 break;
             }
         }

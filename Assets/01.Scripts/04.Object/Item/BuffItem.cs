@@ -18,7 +18,7 @@ public class BuffItem : MonoBehaviour
 
         foreach (ItemDataBuff buff in itemData.Buffs)
         {
-            Debug.Log($"[BuffItem] {buff.type} 버프 적용! 지속 시간: {buff.value}초");
+            Debug.Log($"[BuffItem] {buff.type} 버프 적용! 지속 시간: {buff.duration}초");
 
             switch (buff.type)
             {
@@ -26,7 +26,7 @@ public class BuffItem : MonoBehaviour
                     // 추후 구현
                     break;
 
-                case BuffType.JumpBoost:
+                case BuffType.JumpForceUp:
                     // 추후 구현
                     break;
 
