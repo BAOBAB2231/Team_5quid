@@ -974,7 +974,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1901790923}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1901790925
 Camera:
   m_ObjectHideFlags: 0
@@ -1095,7 +1095,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8003967660793107126, guid: cda0ea1f196cba24990c972c5fcbabb8, type: 3}
       propertyPath: bgmVolume
-      value: 0
+      value: 0.131
       objectReference: {fileID: 0}
     - target: {fileID: 8003967660793107126, guid: cda0ea1f196cba24990c972c5fcbabb8, type: 3}
       propertyPath: effectVolume
