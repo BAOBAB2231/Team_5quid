@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public abstract class Player : MonoBehaviour
 {
@@ -23,5 +23,16 @@ public abstract class Player : MonoBehaviour
         tf = GetComponent<Transform>();
         rb = GetComponent<Rigidbody>();
         sfx = GetComponentInChildren<SFXPlayer>();
+    }
+
+    // 점프력 접근용 메서드
+    public float GetJumpForce()
+    {
+        return jumpForce;
+    }
+
+    public void SetJumpForce(float value)
+    {
+        jumpForce = value;
     }
 }
