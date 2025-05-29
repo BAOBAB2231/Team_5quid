@@ -124,11 +124,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 6195724438167210551}
     m_Modifications:
     - target: {fileID: 2357259716092131051, guid: 1133576ca1f333640b2e5b1e2a4757de, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2357259716092131051, guid: 1133576ca1f333640b2e5b1e2a4757de, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3657747631112433736, guid: 1133576ca1f333640b2e5b1e2a4757de, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3657747631112433736, guid: 1133576ca1f333640b2e5b1e2a4757de, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3657747631112433736, guid: 1133576ca1f333640b2e5b1e2a4757de, type: 3}
+      propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4415135609087484990, guid: 1133576ca1f333640b2e5b1e2a4757de, type: 3}
@@ -136,7 +148,19 @@ PrefabInstance:
       value: SettingBoard
       objectReference: {fileID: 0}
     - target: {fileID: 5822881021999503044, guid: 1133576ca1f333640b2e5b1e2a4757de, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5822881021999503044, guid: 1133576ca1f333640b2e5b1e2a4757de, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5822881021999503044, guid: 1133576ca1f333640b2e5b1e2a4757de, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6372503678714330116, guid: 1133576ca1f333640b2e5b1e2a4757de, type: 3}
+      propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6372503678714330116, guid: 1133576ca1f333640b2e5b1e2a4757de, type: 3}
