@@ -8,6 +8,7 @@ public class PauseUI : UIBase
 {
     [SerializeField] private Button homeButton;
     [SerializeField] private Button retryButton;
+    [SerializeField] private Button resumeButton;
     [SerializeField] private GameObject buttonPanel;
     [SerializeField] private GameObject resumePanel;
     [SerializeField] private TMP_Text countdownText;
@@ -16,7 +17,7 @@ public class PauseUI : UIBase
     {
         homeButton.onClick.AddListener(OnClickHome);
         retryButton.onClick.AddListener(OnClickRetry);
-        resumePanel.SetActive(false); // 시작 시 끄기
+        resumeButton.onClick.AddListener(OnClickResume);
     }
 
     public override void Open() // 부모 함수 재정의

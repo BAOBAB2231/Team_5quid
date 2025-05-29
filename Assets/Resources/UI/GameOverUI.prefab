@@ -538,9 +538,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 9162851029594147609}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIBase, Assembly-CSharp
-        m_MethodName: Close
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -670,9 +670,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 9162851029594147609}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameOverUI, Assembly-CSharp
-        m_MethodName: OnClickRetry
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -939,6 +939,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90b8e8fadbb2daa4481863c467ccea51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  homeButton: {fileID: 6530893001614072214}
+  retryButton: {fileID: 5727361609937971327}
 --- !u!1 &6370688860213422848
 GameObject:
   m_ObjectHideFlags: 0
