@@ -8,6 +8,7 @@ public abstract class EffectItem : MonoBehaviour
     /// <summary>
     /// 플레이어에게 효과 적용 (자식 클래스에서 구체화)
     /// </summary>
-    /// <param name="player">효과를 적용할 플레이어</param>
-    public abstract void ApplyEffect(PlayerController player);
+    /// <param name="player">효과를 적용할 대상 플레이어</param>
+    public abstract void ApplyEffect(PlayerController player, EffectType effect);
+
 }

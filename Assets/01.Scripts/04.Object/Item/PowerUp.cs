@@ -2,7 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// 플레이어가 이 PowerUp 오브젝트에 충돌하면 일정 시간 동안 PowerUp 태그를 부여
+/// <summary>
+/// 플레이어가 이 PowerUp 오브젝트에 충돌하면
+/// 일정 시간 동안 PowerUp 태그를 부여한다.
+/// 이전 효과가 존재하면 제거 후 새로 적용한다.
+/// </summary>
 public class PowerUp : EffectItem
 {
     [Header("파워업 지속 시간 설정")]
@@ -25,14 +29,14 @@ public class PowerUp : EffectItem
         PlayerController playerController = target.GetComponent<PlayerController>();
         if (playerController != null)
         {
-            ApplyEffect(playerController); // EffectItem에서 정의된 메서드 호출
+            ApplyEffect(playerController, EffectType.PowerUp); // 직접 호출
         }
     }
 
     /// <summary>
     /// EffectItem의 추상 메서드 구현
     /// </summary>
-    public override void ApplyEffect(PlayerController player)
+    public override void ApplyEffect(PlayerController player, EffectType effect)
     {
         GameObject target = player.gameObject;
 
@@ -48,7 +52,7 @@ public class PowerUp : EffectItem
         Coroutine newPowerUp = StartCoroutine(ApplyPowerUpTag(target));
         activePowerUps[target] = newPowerUp;
 
-        Debug.Log($"[PowerUp] {player.name}에게 PowerUp 효과 적용됨");
+        Debug.Log($"[PowerUp] {player.name}에게 {effect} 효과 적용됨");
     }
 
     /// <summary>
