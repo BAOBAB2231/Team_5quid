@@ -86,14 +86,14 @@ public class ItemObject : MonoBehaviour
     /// <param name="player">효과를 적용할 플레이어</param>
     private void ApplyEffectItem(GameObject player)
     {
-        if (effectItem == null) return;
+        if (effectItem == null || itemData == null || itemData.Effects == null) return;
 
         PlayerController playerController = player.GetComponent<PlayerController>();
         if (playerController == null) return;
 
-        foreach (EffectType effect in itemData.Effect)
+        foreach (ItemDataEffect effect in itemData.Effects)
         {
-            effectItem.ApplyEffect(playerController, effect); // 인수 2개짜리 ApplyEffect 사용
+            effectItem.ApplyEffect(playerController, effect); // 인수 2개 → effect가 객체이므로
         }
     }
 
