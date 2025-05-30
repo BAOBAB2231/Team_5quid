@@ -61,4 +61,35 @@ public class UIManager : MonoBehaviour
     {
         return _uiList[GetUIName<T>()] as T;
     }
+    /// <summary>
+    /// 등록된 T 타입 UI가 존재하면 해당 UI를 반환하고 true를 리턴.
+    /// 없으면 false를 리턴하고 result는 null.
+    /// </summary>
+    /// <typeparam name="T">찾으려는 UI 타입</typeparam>
+    /// <param name="result">찾은 UI 오브젝트를 반환하는 out 변수</param>
+    /// <returns>UI가 존재하면 true, 존재하지 않으면 false</returns>
+    public static bool TryGet<T>(out T result) where T : UIBase
+    {
+        string uiName = typeof(T).Name;
+        if (Instance._uiList.TryGetValue(uiName, out UIBase baseResult))
+        {
+            result = baseResult as T;
+            return true;
+        }
+        result = null;
+        return false;
+    }
+    /// <summary>
+    /// 모든 UI를 제거하고 리스트를 초기화.
+    /// 씬 전환 시 중복 생성 방지 등에 사용.
+    /// </summary>
+    public void ClearAll()
+    {
+        foreach (UIBase ui in _uiList.Values)
+        {
+            if (ui != null)
+                Destroy(ui.gameObject);
+        }
+        _uiList.Clear();
+    }
 }
