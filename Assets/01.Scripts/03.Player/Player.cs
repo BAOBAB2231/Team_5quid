@@ -7,7 +7,7 @@ public abstract class Player : MonoBehaviour
     protected Transform tf;
     protected MyAnimation anim;
     protected SFXPlayer sfx;
-
+    private CapsuleCollider col;
     [Header("이동 관련 스탯")]
     //전방 이동속도
     [SerializeField] protected float runSpeed;
@@ -24,6 +24,7 @@ public abstract class Player : MonoBehaviour
         tf = GetComponent<Transform>();
         rb = GetComponent<Rigidbody>();
         sfx = GetComponentInChildren<SFXPlayer>();
+        col = GetComponent<CapsuleCollider>();
     }
 
     private Coroutine jumpForceBuffRoutine;
@@ -53,21 +54,24 @@ public abstract class Player : MonoBehaviour
     }
 
 
-    public void SquidCrash()
-    {
-        StartCoroutine(Crash());
 
-    }
     
-    IEnumerator Crash()
+   public IEnumerator Crash()
     {
         anim.Anim_TriggerSquidCrash();
         rb.useGravity = false;
-        
-        yield return new WaitForSeconds(2f);
+        col.radius = 0.3f;
+        col.height = 1.2f;
+        yield return new WaitForSeconds(1f);
        
         rb.useGravity = true;
         rb.constraints = RigidbodyConstraints.None; 
-
+        rb.AddForce(Vector3.back*0.1f, ForceMode.Impulse);
+        
+        yield return new WaitForSeconds(1f);
+        
+        rb.velocity = Vector3.zero;
+        
+        
     }
 }

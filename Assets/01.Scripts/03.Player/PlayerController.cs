@@ -54,7 +54,7 @@ public class PlayerController : Player
 
     public void OnSideStep(InputAction.CallbackContext context)
     {
-        if (GameManager.Instance.gameState == GameState.Waiting) return;
+        if (GameManager.Instance.gameState == GameState.Waiting||GameManager.Instance.gameState == GameState.GameOver) return;
 
         if (context.phase == InputActionPhase.Started && !isSideStep)
         {
@@ -113,7 +113,7 @@ public class PlayerController : Player
 
     public void OnJump(InputAction.CallbackContext context)
     {
-        if (GameManager.Instance.gameState == GameState.Waiting) return;
+        if (GameManager.Instance.gameState == GameState.Waiting||GameManager.Instance.gameState == GameState.GameOver) return;
 
         if (context.phase == InputActionPhase.Started && IsGrounded())
         {
