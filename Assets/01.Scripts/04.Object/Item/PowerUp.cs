@@ -9,7 +9,7 @@ using UnityEngine;
 /// </summary>
 public class PowerUp : EffectItem
 {
-
+    public ItemData itemData;
     public string powerUpTag = "PowerUp";
 
     // 플레이어에 적용 중인 파워업 코루틴을 추적하기 위한 Dictionary
@@ -26,13 +26,16 @@ public class PowerUp : EffectItem
         PlayerController playerController = target.GetComponent<PlayerController>();
         if (playerController != null)
         {
-            // 직접 임시 효과 생성
-            ItemDataEffect effect = new ItemDataEffect
+            // ScriptableObject에서 PowerUp 효과를 찾음
+            ItemDataEffect effect = null;
+            foreach (var e in itemData.Effects)
             {
-                type = EffectType.PowerUp,
-                duration = 2f,
-                strength = 0f      
-            };
+                if (e.type == EffectType.PowerUp)
+                {
+                    effect = e;
+                    break;
+                }
+            }
 
             ApplyEffect(playerController, effect);
         }

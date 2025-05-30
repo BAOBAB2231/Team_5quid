@@ -16,7 +16,7 @@ public enum ItemType
 public enum EffectType
 {
     Magnet,      // 자석
-    PowerUp,       // 파워 -> 오브젝트를 파괴하면서 전진
+    PowerUp,     // 파워 -> 오브젝트를 파괴하면서 전진
     SuperJump    // 슈퍼 점프 -> 상단의 다른 맵으로 이동해서 보너스 코인과 아이템 획득
 }
 
