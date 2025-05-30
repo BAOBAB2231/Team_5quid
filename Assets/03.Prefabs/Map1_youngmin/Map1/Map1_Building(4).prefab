@@ -600,6 +600,7 @@ GameObject:
   - component: {fileID: 2636382302043381529}
   - component: {fileID: 3585773144706174757}
   - component: {fileID: 5883253475522693671}
+  - component: {fileID: 6439941367044007100}
   m_Layer: 6
   m_Name: Vehicle_Police Car (1)
   m_TagString: Untagged
@@ -693,6 +694,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.958062, y: 2.317875, z: 6.320543}
   m_Center: {x: 0.0017923117, y: 1.1553164, z: -0.1931827}
+--- !u!114 &6439941367044007100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269727496711722848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49a328d9ab8d8a469d6f92698e6f0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchForce: 60
+  torqueAmount: 200
 --- !u!1 &307695263027607146
 GameObject:
   m_ObjectHideFlags: 0
@@ -3859,6 +3874,7 @@ GameObject:
   - component: {fileID: 7603431302452105845}
   - component: {fileID: 2190894987780382920}
   - component: {fileID: 6997839960554510834}
+  - component: {fileID: 7543310555211282482}
   m_Layer: 6
   m_Name: Vehicle_Bus_color01 (1)
   m_TagString: Untagged
@@ -3952,6 +3968,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.6946046, y: 3.5785658, z: 9.302495}
   m_Center: {x: -0.0013978481, y: 1.784227, z: -0.050180912}
+--- !u!114 &7543310555211282482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269927384301290581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49a328d9ab8d8a469d6f92698e6f0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchForce: 60
+  torqueAmount: 200
 --- !u!1 &1272366809645844611
 GameObject:
   m_ObjectHideFlags: 0
@@ -4048,6 +4078,7 @@ GameObject:
   - component: {fileID: 5606499056805104340}
   - component: {fileID: 7429806812958458519}
   - component: {fileID: 4869169562229283239}
+  - component: {fileID: 3039126792673084802}
   m_Layer: 6
   m_Name: Vehicle_Police Car
   m_TagString: Untagged
@@ -4141,6 +4172,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.958062, y: 2.317875, z: 6.320543}
   m_Center: {x: 0.0017923117, y: 1.1553164, z: -0.1931827}
+--- !u!114 &3039126792673084802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287057950695386544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49a328d9ab8d8a469d6f92698e6f0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchForce: 60
+  torqueAmount: 200
 --- !u!1 &1292833222043785342
 GameObject:
   m_ObjectHideFlags: 0
@@ -9282,7 +9327,7 @@ Transform:
   m_GameObject: {fileID: 2666535041845515337}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1.2, z: 60}
+  m_LocalPosition: {x: -4, y: 1, z: 60}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10116,7 +10161,7 @@ Transform:
   m_GameObject: {fileID: 2921268970199682339}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.2, z: 29}
+  m_LocalPosition: {x: 0, y: 1, z: 29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10655,7 +10700,7 @@ Transform:
   m_GameObject: {fileID: 2969538843639349900}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1.2, z: 20}
+  m_LocalPosition: {x: -4, y: 1, z: 20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14051,7 +14096,7 @@ Transform:
   m_GameObject: {fileID: 4209127552632302137}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4, y: 1.2, z: 46}
+  m_LocalPosition: {x: 4, y: 1, z: 46}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17409,7 +17454,7 @@ Transform:
   m_GameObject: {fileID: 4853682315251403191}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4, y: 1.2, z: 54}
+  m_LocalPosition: {x: 4, y: 1, z: 54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19978,6 +20023,7 @@ GameObject:
   - component: {fileID: 7830010468496206469}
   - component: {fileID: 6868669594949992465}
   - component: {fileID: 8378448245015018502}
+  - component: {fileID: 3829092583345395473}
   m_Layer: 6
   m_Name: Props_Traffic Control Barrier Fence
   m_TagString: Untagged
@@ -20071,6 +20117,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.6, y: 0.4, z: 0.20000002}
   m_Center: {x: 0, y: 1.85, z: -0.00000026077032}
+--- !u!114 &3829092583345395473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5630607551310685966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49a328d9ab8d8a469d6f92698e6f0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchForce: 60
+  torqueAmount: 200
 --- !u!1 &5741447019305049583
 GameObject:
   m_ObjectHideFlags: 0
@@ -21007,6 +21067,7 @@ GameObject:
   - component: {fileID: 3630748564466831610}
   - component: {fileID: 8736550099899433568}
   - component: {fileID: 4050175338565174078}
+  - component: {fileID: 6216070530692787881}
   m_Layer: 6
   m_Name: Vehicle_Police Car (2)
   m_TagString: Untagged
@@ -21100,6 +21161,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.958062, y: 2.317875, z: 6.320543}
   m_Center: {x: 0.0017923117, y: 1.1553164, z: -0.1931827}
+--- !u!114 &6216070530692787881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6105361949029713421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49a328d9ab8d8a469d6f92698e6f0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchForce: 60
+  torqueAmount: 200
 --- !u!1 &6132547980134351235
 GameObject:
   m_ObjectHideFlags: 0
@@ -21607,7 +21682,7 @@ Transform:
   m_GameObject: {fileID: 6349182174009725557}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1.2, z: 12}
+  m_LocalPosition: {x: -4, y: 1, z: 12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -22385,6 +22460,7 @@ GameObject:
   - component: {fileID: 2528612204206993741}
   - component: {fileID: 741745190370934322}
   - component: {fileID: 80438343358086280}
+  - component: {fileID: 1881697831237643388}
   m_Layer: 6
   m_Name: Vehicle_Bus_color01
   m_TagString: Untagged
@@ -22478,6 +22554,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.6946046, y: 3.5785658, z: 9.302495}
   m_Center: {x: -0.0013978481, y: 1.784227, z: -0.050180912}
+--- !u!114 &1881697831237643388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6550114805935313361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49a328d9ab8d8a469d6f92698e6f0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchForce: 60
+  torqueAmount: 200
 --- !u!1 &6555409908355134033
 GameObject:
   m_ObjectHideFlags: 0
@@ -24647,7 +24737,7 @@ Transform:
   m_GameObject: {fileID: 7448614790332708687}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.5, z: 76}
+  m_LocalPosition: {x: 0, y: 1, z: 76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -27023,6 +27113,7 @@ GameObject:
   - component: {fileID: 6700582390545213631}
   - component: {fileID: 1136794389385795806}
   - component: {fileID: 6320125875031177254}
+  - component: {fileID: 6093122483758047299}
   m_Layer: 6
   m_Name: Vehicle_Taxi (1)
   m_TagString: Untagged
@@ -27116,6 +27207,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.958062, y: 2.433641, z: 6.3205423}
   m_Center: {x: -0.006408453, y: 1.2162137, z: -0.19318247}
+--- !u!114 &6093122483758047299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8128096240274058747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49a328d9ab8d8a469d6f92698e6f0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchForce: 60
+  torqueAmount: 200
 --- !u!1 &8146995685473048924
 GameObject:
   m_ObjectHideFlags: 0
@@ -27941,7 +28046,7 @@ Transform:
   m_GameObject: {fileID: 8424832621964346990}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.2, z: 68}
+  m_LocalPosition: {x: 0, y: 1, z: 68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -29182,6 +29287,7 @@ GameObject:
   - component: {fileID: 2272186458720101292}
   - component: {fileID: 6996387466520635298}
   - component: {fileID: 5246117983641535924}
+  - component: {fileID: 860165667936820315}
   m_Layer: 6
   m_Name: Vehicle_Taxi
   m_TagString: Untagged
@@ -29275,6 +29381,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.958062, y: 2.433641, z: 6.3205423}
   m_Center: {x: -0.006408453, y: 1.2162137, z: -0.19318247}
+--- !u!114 &860165667936820315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8628154512270588805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49a328d9ab8d8a469d6f92698e6f0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchForce: 60
+  torqueAmount: 200
 --- !u!1 &8641104939073432129
 GameObject:
   m_ObjectHideFlags: 0
@@ -29791,6 +29911,7 @@ GameObject:
   - component: {fileID: 6483007586408134640}
   - component: {fileID: 1393644433251932382}
   - component: {fileID: 8135023318979947008}
+  - component: {fileID: 7400825094843362715}
   m_Layer: 6
   m_Name: Props_Traffic Control Barrier Fence (1)
   m_TagString: Untagged
@@ -29884,6 +30005,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.6, y: 0.4, z: 0.20000002}
   m_Center: {x: 0, y: 1.85, z: -0.00000026077032}
+--- !u!114 &7400825094843362715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8779721867543876710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49a328d9ab8d8a469d6f92698e6f0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchForce: 60
+  torqueAmount: 200
 --- !u!1 &8781369453730590861
 GameObject:
   m_ObjectHideFlags: 0
@@ -29909,7 +30044,7 @@ Transform:
   m_GameObject: {fileID: 8781369453730590861}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4, y: 1.2, z: 38}
+  m_LocalPosition: {x: 4, y: 1, z: 38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -30638,7 +30773,7 @@ Transform:
   m_GameObject: {fileID: 9004187374149908427}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.2, z: 84}
+  m_LocalPosition: {x: 0, y: 1, z: 84}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
