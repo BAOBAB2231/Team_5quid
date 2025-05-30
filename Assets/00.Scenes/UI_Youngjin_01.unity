@@ -253,7 +253,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4145527326458772954, guid: 626a28f573e0d78489c348d8a0d92b9c, type: 3}
       propertyPath: runSpeed
-      value: 2
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4181945969950732601, guid: 626a28f573e0d78489c348d8a0d92b9c, type: 3}
       propertyPath: startCoin
