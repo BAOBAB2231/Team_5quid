@@ -9,7 +9,8 @@ using UnityEngine.SceneManagement;
 public enum GameState
 {
     Waiting,
-    Playing
+    Playing,
+    GameOver
 }
 
 public class GameManager : MonoBehaviour
@@ -69,6 +70,10 @@ public class GameManager : MonoBehaviour
         {
             UIManager.Instance.Open<MainCanvas>();
         }
+        else if (gameState == GameState.GameOver)
+        {
+            UIManager.Instance.Open<GameOverUI>();
+        }
     }
 
     public void RestartGame()
@@ -86,5 +91,19 @@ public class GameManager : MonoBehaviour
         gameState = GameState.Waiting;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         SoundManager.Instance.PlayBGM();
+    }
+
+    void GoGameOver()
+    {
+        Time.timeScale = 0f; // 게임 시간 재게
+        gameState = GameState.GameOver;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SoundManager.Instance.PlayBGM();
+
+    }
+    public void GameOver()
+    {
+        StartCoroutine(player.Crash());
+        Invoke("GoGameOver", 4f);
     }
 }
