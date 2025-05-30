@@ -77,6 +77,7 @@ public class GameManager : MonoBehaviour
         gameState = GameState.Playing;
         UIManager.Instance.ClearAll();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SoundManager.Instance.PlayBGM();
     }
 
     public void GoHome()
@@ -84,5 +85,6 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f; // 게임 시간 재게
         gameState = GameState.Waiting;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SoundManager.Instance.PlayBGM();
     }
 }
