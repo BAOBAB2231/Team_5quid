@@ -6,14 +6,9 @@ public class UIController : MonoBehaviour
 {
     private void Start()
     {
-        UIManager.Instance.Open<MainCanvas>();
-    }
-
-    void Update()
-    {
-        if (GameManager.Instance.gameState == GameState.Playing)
+        if (GameManager.Instance != null && GameManager.Instance.gameState == GameState.Waiting)
         {
-            UIManager.Instance.Close<MainCanvas>();
+            UIManager.Instance.Open<MainCanvas>();
         }
     }
 
