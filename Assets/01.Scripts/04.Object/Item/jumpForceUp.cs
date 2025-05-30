@@ -14,6 +14,12 @@ public class jumpForceUp : BuffItem
     /// <param name="itemData">아이템 버프 데이터</param>
     public override void ApplyBuff(Player player, ItemData itemData)
     {
+        // 게임이 진행 중일 때만 버프 적용
+        if (GameManager.Instance.gameState != GameState.Playing)
+        {
+            return;
+        }
+
         base.ApplyBuff(player, itemData);
 
         float duration = 0f;
@@ -29,9 +35,15 @@ public class jumpForceUp : BuffItem
             }
         }
 
-        // Player 클래스의 점프력 버프 메서드 호출
-        player.ApplyJumpForceBuff(multiplier, duration);
-
-        Debug.Log($"[jumpForceUp] 점프력 {multiplier}배 증가 효과 적용 ({duration}초간)");
+        // GameManager에서 직접 플레이어를 가져와 버프 적용
+        Player targetPlayer = GameManager.Instance.Player;
+        if (targetPlayer != null)
+        {
+            targetPlayer.ApplyJumpForceBuff(multiplier, duration);
+        }
+        else
+        {
+            Debug.LogError("[jumpForceUp] GameManager.Instance.Player가 null입니다. 버프 적용 실패.");
+        }
     }
 }
