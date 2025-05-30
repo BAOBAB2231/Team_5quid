@@ -7,7 +7,7 @@ public abstract class Player : MonoBehaviour
     protected Transform tf;
     protected MyAnimation anim;
     protected SFXPlayer sfx;
-    private CapsuleCollider col;
+
     [Header("이동 관련 스탯")]
     //전방 이동속도
     [SerializeField] protected float runSpeed;
@@ -24,40 +24,50 @@ public abstract class Player : MonoBehaviour
         tf = GetComponent<Transform>();
         rb = GetComponent<Rigidbody>();
         sfx = GetComponentInChildren<SFXPlayer>();
-        col = GetComponent<CapsuleCollider>();
     }
 
-    // 점프력 접근용 메서드
-    public float GetJumpForce()
+    private Coroutine jumpForceBuffRoutine;
+
+    public void ApplyJumpForceBuff(float multiplier, float duration)
     {
-        return jumpForce;
+        // 기존 버프가 있다면 중지
+        if (jumpForceBuffRoutine != null)
+            StopCoroutine(jumpForceBuffRoutine);
+
+        jumpForceBuffRoutine = StartCoroutine(JumpForceBuffCoroutine(multiplier, duration));
     }
 
-    public void SetJumpForce(float value)
+    /// <summary>
+    /// 점프력 버프를 일정 시간 적용하고 원래대로 되돌립니다.
+    /// </summary>
+    private IEnumerator JumpForceBuffCoroutine(float multiplier, float duration)
     {
-        jumpForce = value;
+        float original = jumpForce;
+
+        jumpForce *= multiplier;
+
+        yield return new WaitForSeconds(duration);
+
+        jumpForce = original;
+        jumpForceBuffRoutine = null;
     }
 
-   
+
+    public void SquidCrash()
+    {
+        StartCoroutine(Crash());
+
+    }
     
-    public IEnumerator Crash()
+    IEnumerator Crash()
     {
-        runSpeed = 0f;
         anim.Anim_TriggerSquidCrash();
         rb.useGravity = false;
-       col.radius = 0.3f;
-        col.height = 1.2f;
-        yield return new WaitForSeconds(1f);
+        
+        yield return new WaitForSeconds(2f);
        
         rb.useGravity = true;
         rb.constraints = RigidbodyConstraints.None; 
-        rb.AddForce(Vector3.back*0.1f, ForceMode.Impulse);
-        yield return new WaitForSeconds(0.5f);
-        rb.velocity = Vector3.zero;
-        
-      //색깔도 변하게 
+
     }
-    
-    //플레이어 프리팹을 
-    //씬 시작하때 인스티에이트 해주
 }
