@@ -22,7 +22,7 @@ public class ItemObject : MonoBehaviour
     /// <param name="other">충돌한 콜라이더</param>
     private void OnTriggerEnter(Collider other)
     {
-        //Debug.Log($"[OnTriggerEnter] 충돌 발생: {other.gameObject.name}");
+        Debug.Log($"[OnTriggerEnter] 충돌 발생: {other.gameObject.name}");
         if (itemData == null)    // 아이템 데이터가 없을 경우 처리 중단
         {
             Debug.LogWarning("[ItemObject] itemData가 설정되지 않았습니다.");
