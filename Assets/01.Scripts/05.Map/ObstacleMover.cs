@@ -16,14 +16,29 @@ public class ObstacleActivationMover : MonoBehaviour
     
     void Awake()
     {
-        // 플레이어가 할당되지 않았으면 태그로 찾아서 할당
+        // Inspector에 할당이 안 돼 있으면 Layer로 찾아서 채워준다.
         if (player == null)
         {
-            var go = GameObject.FindWithTag("Player");
-            if (go != null)
-                player = go.transform;
-            else
-                Debug.LogError("[ObstacleMover] Player 태그가 붙은 오브젝트를 찾을 수 없습니다.");
+            // “Player”라는 이름의 Layer 인덱스를 가져옵니다.
+            int playerLayer = LayerMask.NameToLayer("Player");
+            if (playerLayer == -1)
+            {
+                Debug.LogError("[ObstacleActivationMover] 'Player' 레이어가 존재하지 않습니다. Layer 설정을 확인하세요.");
+                return;
+            }
+
+            // 씬에 있는 모든 Transform을 순회하면서 동일한 레이어인지 확인
+            foreach (var t in FindObjectsOfType<Transform>())
+            {
+                if (t.gameObject.layer == playerLayer)
+                {
+                    player = t;
+                    break;
+                }
+            }
+
+            if (player == null)
+                Debug.LogError("[ObstacleActivationMover] 'Player' 레이어가 할당된 오브젝트를 찾을 수 없습니다.");
         }
     }
 
