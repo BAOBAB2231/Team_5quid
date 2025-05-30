@@ -18,4 +18,7 @@ MonoBehaviour:
   canStack: 0
   maxStackAmount: 0
   Buffs: []
-  Effects: []
+  Effects:
+  - type: 0
+    duration: 0
+    strength: 10
