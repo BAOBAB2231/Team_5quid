@@ -12,7 +12,6 @@ public class BGM : MonoBehaviour
     void Start()
     {
         _audioSource = SoundManager.Instance.audioSource;
-        PlayRandomBGM();
     }
 
     //랜덤 선택 후 플레이동안 반복 재생

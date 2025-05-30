@@ -10,6 +10,7 @@ public class SoundManager : MonoBehaviour
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();
+        bgm = GetComponent<BGM>();
 
         if (instance == null)
         {
@@ -23,6 +24,7 @@ public class SoundManager : MonoBehaviour
     }
 
     public AudioSource audioSource;
+    private BGM bgm;
 
     //Volume 범위 제한
     [SerializeField][Range(0f, 0.6f)] private float bgmVolume;
@@ -57,5 +59,11 @@ public class SoundManager : MonoBehaviour
     {
         audioSource.volume = 0.2f;
         effectVolume = 0.75f;
+        PlayBGM();
+    }
+
+    public void PlayBGM()
+    {
+        bgm.PlayRandomBGM();
     }
 }
