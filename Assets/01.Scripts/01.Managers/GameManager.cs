@@ -52,6 +52,7 @@ public class GameManager : MonoBehaviour
             gameState = GameState.Playing;
 
             UIManager.Instance.Open<InGameUI>();
+            ScoreManager.Instance.StartScoring();
             UIManager.Instance.Close<MainCanvas>();
         }
     }
@@ -81,6 +82,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f; // 게임 시간 재게
         gameState = GameState.Playing;
         UIManager.Instance.ClearAll();
+        ScoreManager.Instance.ResetScore();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         SoundManager.Instance.PlayBGM();
     }
@@ -89,6 +91,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1f; // 게임 시간 재게
         gameState = GameState.Waiting;
+        ScoreManager.Instance.ResetScore();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         SoundManager.Instance.PlayBGM();
     }
@@ -103,6 +106,7 @@ public class GameManager : MonoBehaviour
     }
     public void GameOver()
     {
+        ScoreManager.Instance.StopScoring();
         StartCoroutine(player.Crash());
         Invoke("GoGameOver", 4f);
     }
