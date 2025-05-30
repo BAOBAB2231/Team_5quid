@@ -6,7 +6,12 @@ using UnityEngine;
 public enum SFX
 {
     SideStep,
-    Jump
+    Jump,
+    Coin,
+    CoinVolumeUp,
+    SuperJump,
+    jumpForceUp,
+    PowerUp
 }
 
 public class SFXPlayer : MonoBehaviour
