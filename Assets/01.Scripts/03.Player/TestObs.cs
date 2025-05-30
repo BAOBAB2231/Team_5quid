@@ -7,11 +7,11 @@ public class TestObs : MonoBehaviour
 {
    void OnTriggerEnter(Collider other)
    {
-     
-      if (other.tag == "Player")
+
+      if ( other.gameObject.layer ==  LayerMask.NameToLayer("Obstacle")) 
       {
          GameManager.Instance.GameOver();
-          Debug.Log("충돌");
+         
       }
 
    }

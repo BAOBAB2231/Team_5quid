@@ -9,6 +9,8 @@ public abstract class Player : MonoBehaviour
     protected SFXPlayer sfx;
     private CapsuleCollider col;
     private Coroutine jumpForceBuffRoutine;
+    
+    
     [Header("이동 관련 스탯")]
     //전방 이동속도
     [SerializeField]
@@ -59,9 +61,10 @@ public abstract class Player : MonoBehaviour
       
     }
 
-
+   
     public IEnumerator Crash()
     {
+      
         runSpeed = 0f;
         anim.Anim_TriggerSquidCrash();
         rb.useGravity = false;
@@ -76,5 +79,7 @@ public abstract class Player : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         rb.velocity = Vector3.zero;
+     
     }
+    
 }
