@@ -1041,6 +1041,7 @@ GameObject:
   - component: {fileID: 7638468540837478698}
   - component: {fileID: 8695042593094334876}
   - component: {fileID: 7850661062904491521}
+  - component: {fileID: 557584469442504587}
   m_Layer: 6
   m_Name: Vehicle_Bus_color02
   m_TagString: Untagged
@@ -1134,6 +1135,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.6946046, y: 3.5785658, z: 9.302495}
   m_Center: {x: -0.0013978481, y: 1.784227, z: -0.050180912}
+--- !u!114 &557584469442504587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475986901064524868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49a328d9ab8d8a469d6f92698e6f0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchForce: 60
+  torqueAmount: 200
 --- !u!1 &504309426828184330
 GameObject:
   m_ObjectHideFlags: 0
@@ -4151,6 +4166,7 @@ GameObject:
   - component: {fileID: 2441533032198162943}
   - component: {fileID: 2145509276066062017}
   - component: {fileID: 567640006339812006}
+  - component: {fileID: 7589738923242094728}
   m_Layer: 6
   m_Name: Vehicle_Bus_color02 (2)
   m_TagString: Untagged
@@ -4244,6 +4260,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.6946046, y: 3.5785658, z: 9.302495}
   m_Center: {x: -0.0013978481, y: 1.784227, z: -0.050180912}
+--- !u!114 &7589738923242094728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2267146233672018425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49a328d9ab8d8a469d6f92698e6f0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchForce: 60
+  torqueAmount: 200
 --- !u!1 &2349503297626816882
 GameObject:
   m_ObjectHideFlags: 0
@@ -4698,6 +4728,7 @@ GameObject:
   - component: {fileID: 8442290977810352183}
   - component: {fileID: 6360337482876090638}
   - component: {fileID: 4876627037454689409}
+  - component: {fileID: 3384901490122724844}
   m_Layer: 6
   m_Name: Vehicle_Container_color01 (1)
   m_TagString: Untagged
@@ -4791,6 +4822,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.6267583, y: 4.161127, z: 9.088189}
   m_Center: {x: -0.004736781, y: 2.0722384, z: 0.029732227}
+--- !u!114 &3384901490122724844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2484649540717400353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49a328d9ab8d8a469d6f92698e6f0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchForce: 60
+  torqueAmount: 200
 --- !u!1 &2605854457727885806
 GameObject:
   m_ObjectHideFlags: 0
@@ -4887,6 +4932,7 @@ GameObject:
   - component: {fileID: 7433203175868557596}
   - component: {fileID: 1191197638909956079}
   - component: {fileID: 6618987064629359684}
+  - component: {fileID: 3122795345900504463}
   m_Layer: 6
   m_Name: Vehicle_Police Car
   m_TagString: Untagged
@@ -4980,6 +5026,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.958062, y: 2.317875, z: 6.320543}
   m_Center: {x: 0.0017923117, y: 1.1553164, z: -0.1931827}
+--- !u!114 &3122795345900504463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2651914686416331541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49a328d9ab8d8a469d6f92698e6f0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchForce: 60
+  torqueAmount: 200
 --- !u!1 &2671627980332693167
 GameObject:
   m_ObjectHideFlags: 0
@@ -8667,6 +8727,7 @@ GameObject:
   - component: {fileID: 4908435208567180283}
   - component: {fileID: 8944076195096888629}
   - component: {fileID: 5976781102011065864}
+  - component: {fileID: 3054034379927617682}
   m_Layer: 6
   m_Name: Vehicle_Police Car (1)
   m_TagString: Untagged
@@ -8760,6 +8821,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.958062, y: 2.317875, z: 6.320543}
   m_Center: {x: 0.0017923117, y: 1.1553164, z: -0.1931827}
+--- !u!114 &3054034379927617682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3986887210196326841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49a328d9ab8d8a469d6f92698e6f0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchForce: 60
+  torqueAmount: 200
 --- !u!1 &3991051775198534159
 GameObject:
   m_ObjectHideFlags: 0
@@ -11904,6 +11979,7 @@ GameObject:
   - component: {fileID: 5145605942009328296}
   - component: {fileID: 3229046065974260504}
   - component: {fileID: 7838314571305122064}
+  - component: {fileID: 851524519813715561}
   m_Layer: 6
   m_Name: Vehicle_Bus_color02 (1)
   m_TagString: Untagged
@@ -11997,6 +12073,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.6946046, y: 3.5785658, z: 9.302495}
   m_Center: {x: -0.0013978481, y: 1.784227, z: -0.050180912}
+--- !u!114 &851524519813715561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5554441102262095207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49a328d9ab8d8a469d6f92698e6f0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchForce: 60
+  torqueAmount: 200
 --- !u!1 &5689692386854861757
 GameObject:
   m_ObjectHideFlags: 0
@@ -14792,6 +14882,7 @@ GameObject:
   - component: {fileID: 3362657424939261488}
   - component: {fileID: 221311417485526599}
   - component: {fileID: 4422011237625499215}
+  - component: {fileID: 4912504311587004434}
   m_Layer: 6
   m_Name: Vehicle_Container_color01
   m_TagString: Untagged
@@ -14885,6 +14976,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.6267583, y: 4.161127, z: 9.088189}
   m_Center: {x: -0.004736781, y: 2.0722384, z: 0.029732227}
+--- !u!114 &4912504311587004434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7246112197058434846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49a328d9ab8d8a469d6f92698e6f0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchForce: 60
+  torqueAmount: 200
 --- !u!1 &7275163047932748254
 GameObject:
   m_ObjectHideFlags: 0
@@ -17139,7 +17244,7 @@ Transform:
   m_GameObject: {fileID: 8373952539456166132}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.2, z: 10}
+  m_LocalPosition: {x: 0, y: 1, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17246,6 +17351,7 @@ GameObject:
   - component: {fileID: 9060399497816021795}
   - component: {fileID: 7278234248622915107}
   - component: {fileID: 5828256518583227344}
+  - component: {fileID: 8325467791901879259}
   m_Layer: 6
   m_Name: Vehicle_Ambulance
   m_TagString: Untagged
@@ -17339,6 +17445,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.933593, y: 2.9494567, z: 6.808762}
   m_Center: {x: -0.0010515451, y: 1.4745896, z: 0.052737713}
+--- !u!114 &8325467791901879259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8417858411590348962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49a328d9ab8d8a469d6f92698e6f0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchForce: 60
+  torqueAmount: 200
 --- !u!1 &8435775348439103337
 GameObject:
   m_ObjectHideFlags: 0
