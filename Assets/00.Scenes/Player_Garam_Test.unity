@@ -278,11 +278,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4145527326458772954, guid: 626a28f573e0d78489c348d8a0d92b9c, type: 3}
       propertyPath: runSpeed
-      value: 1
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4145527326458772954, guid: 626a28f573e0d78489c348d8a0d92b9c, type: 3}
       propertyPath: jumpForce
-      value: 15
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5518108856036083785, guid: 626a28f573e0d78489c348d8a0d92b9c, type: 3}
       propertyPath: m_Name
@@ -669,6 +669,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundManager: {fileID: 738640150}
+  gameState: 0
 --- !u!4 &1905731262
 Transform:
   m_ObjectHideFlags: 0
