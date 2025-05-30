@@ -7,30 +7,34 @@ public class BGM : MonoBehaviour
     // 오디오 클립
     [SerializeField] private AudioClip[] bgmClips;
 
-    private AudioSource audioSource;
-
-    private void Awake()
-    {
-        audioSource = GetComponent<AudioSource>();
-    }
+    private AudioSource _audioSource;
 
     void Start()
     {
-        PlayRandomBGM();
+        _audioSource = SoundManager.Instance.audioSource;
     }
 
     //랜덤 선택 후 플레이동안 반복 재생
-    void PlayRandomBGM()
+    public void PlayRandomBGM()
     {
         int index = Random.Range(0, bgmClips.Length);
-        audioSource.clip = bgmClips[index];
-        audioSource.loop = true;
-        audioSource.Play();
+        _audioSource.clip = bgmClips[index];
+        _audioSource.loop = true;
+        _audioSource.Play();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnEnable()
     {
-        audioSource.volume = SoundManager.Instance.BgmVolume;
+        SoundManager.OnBgmVolumeChanged += ApplyVolume;
+    }
+
+    private void OnDisable()
+    {
+        SoundManager.OnBgmVolumeChanged -= ApplyVolume;
+    }
+
+    private void ApplyVolume(float volume)
+    {
+        _audioSource.volume = volume;
     }
 }
