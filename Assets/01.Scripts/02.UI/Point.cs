@@ -18,7 +18,7 @@ public class Point : MonoBehaviour
 
         if (UIManager.TryGet<InGameUI>(out InGameUI ui))
         {
-            ui.UpdataCoinText(currentCoin);
+            ui.UpdateCoinText(currentCoin);
         }
     }
 
@@ -35,7 +35,7 @@ public class Point : MonoBehaviour
 
         if (UIManager.TryGet<InGameUI>(out InGameUI ui))
         {
-            ui.UpdataCoinText(currentCoin);
+            ui.UpdateCoinText(currentCoin);
         }
     }
 

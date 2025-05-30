@@ -8,12 +8,12 @@ public class InGameUI : UIBase
     [SerializeField] private TMP_Text coinText;
     [SerializeField] private TMP_Text scoreText;
 
-    public void UpdataCoinText(float coin)
+    public void UpdateCoinText(float coin)
     {
         coinText.text = coin.ToString("F0");
     }
 
-    public void UpdataScoreText(float score)
+    public void UpdateScoreText(float score)
     {
         scoreText.text = score.ToString("F0");
     }
