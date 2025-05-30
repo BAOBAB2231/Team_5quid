@@ -175,6 +175,7 @@ MonoBehaviour:
   trackPrefabs:
   - {fileID: 7772155837331772193, guid: 75b8ab4aae7127543ae2cbdb6337cb58, type: 3}
   - {fileID: 8439740437936441049, guid: 9a998af7f7df78141be66cb8efda38c9, type: 3}
+  - {fileID: 1696192547720830466, guid: 85bff3c917414b648b9d408fc5e70a21, type: 3}
   - {fileID: 238304548869980817, guid: b711988e406bee844a389169d39d2f5f, type: 3}
   - {fileID: 1538726064279046999, guid: 3e299c67452452540a2aa2e2b17a5a86, type: 3}
   spawnAheadDistance: 1500
@@ -326,6 +327,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4329390720001506974, guid: 626a28f573e0d78489c348d8a0d92b9c, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5518108856036083785, guid: 626a28f573e0d78489c348d8a0d92b9c, type: 3}
       propertyPath: m_Name
       value: Player
@@ -382,6 +387,10 @@ PrefabInstance:
     - target: {fileID: 4232162391908028889, guid: b9b0a870af3fbab498adcafa3bb6d46d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4933472711511101832, guid: b9b0a870af3fbab498adcafa3bb6d46d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -850
       objectReference: {fileID: 0}
     - target: {fileID: 5063793886647973925, guid: b9b0a870af3fbab498adcafa3bb6d46d, type: 3}
       propertyPath: m_Name
