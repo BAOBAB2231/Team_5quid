@@ -22,7 +22,7 @@ public class SoundManager : MonoBehaviour
         }
     }
 
-    private AudioSource audioSource;
+    public AudioSource audioSource;
 
     //Volume 범위 제한
     [SerializeField][Range(0f, 0.6f)] private float bgmVolume;
