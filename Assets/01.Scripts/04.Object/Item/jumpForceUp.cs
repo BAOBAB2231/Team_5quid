@@ -30,7 +30,7 @@ public class jumpForceUp : BuffItem
         }
 
         // Player 클래스의 점프력 버프 메서드 호출
-        //player.ApplyJumpForceBuff(multiplier, duration);
+        player.ApplyJumpForceBuff(multiplier, duration);
 
         Debug.Log($"[jumpForceUp] 점프력 {multiplier}배 증가 효과 적용 ({duration}초간)");
     }

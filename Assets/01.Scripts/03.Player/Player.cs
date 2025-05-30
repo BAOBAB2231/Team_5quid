@@ -26,16 +26,32 @@ public abstract class Player : MonoBehaviour
         sfx = GetComponentInChildren<SFXPlayer>();
     }
 
-    // 점프력 접근용 메서드
-    public float GetJumpForce()
+    private Coroutine jumpForceBuffRoutine;
+
+    public void ApplyJumpForceBuff(float multiplier, float duration)
     {
-        return jumpForce;
+        // 기존 버프가 있다면 중지
+        if (jumpForceBuffRoutine != null)
+            StopCoroutine(jumpForceBuffRoutine);
+
+        jumpForceBuffRoutine = StartCoroutine(JumpForceBuffCoroutine(multiplier, duration));
     }
 
-    public void SetJumpForce(float value)
+    /// <summary>
+    /// 점프력 버프를 일정 시간 적용하고 원래대로 되돌립니다.
+    /// </summary>
+    private IEnumerator JumpForceBuffCoroutine(float multiplier, float duration)
     {
-        jumpForce = value;
+        float original = jumpForce;
+
+        jumpForce *= multiplier;
+
+        yield return new WaitForSeconds(duration);
+
+        jumpForce = original;
+        jumpForceBuffRoutine = null;
     }
+
 
     public void SquidCrash()
     {
