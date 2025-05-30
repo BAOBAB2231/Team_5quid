@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -6,8 +6,12 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : Player
 {
+
     void FixedUpdate()
     {
+        //게임 상태가 Waiting 앞으로 가지 않게
+        if (GameManager.Instance.gameState == GameState.Waiting) return;
+
         Run();
         if (!IsGrounded())
         {
@@ -50,6 +54,8 @@ public class PlayerController : Player
 
     public void OnSideStep(InputAction.CallbackContext context)
     {
+        if (GameManager.Instance.gameState == GameState.Waiting) return;
+
         if (context.phase == InputActionPhase.Started && !isSideStep)
         {
             if (context.control.name == "leftArrow")
@@ -107,6 +113,8 @@ public class PlayerController : Player
 
     public void OnJump(InputAction.CallbackContext context)
     {
+        if (GameManager.Instance.gameState == GameState.Waiting) return;
+
         if (context.phase == InputActionPhase.Started && IsGrounded())
         {
             isJumping = true;
@@ -159,6 +167,8 @@ public class PlayerController : Player
 
     public void OnCrouchAndSuddenDrop(InputAction.CallbackContext context)
     {
+        if (GameManager.Instance.gameState == GameState.Waiting) return;
+
         if (context.phase == InputActionPhase.Started && !isCrouching && tf.localScale.y == 1)
         {
             Vector3 scale = tf.localScale;

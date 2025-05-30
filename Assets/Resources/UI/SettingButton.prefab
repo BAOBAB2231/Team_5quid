@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1547717317218385308}
   - component: {fileID: 7335884953084376767}
   - component: {fileID: 2649389521701545442}
-  - component: {fileID: 4004729471514472383}
   m_Layer: 5
   m_Name: SettingButton
   m_TagString: Untagged
@@ -67,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 437938949, guid: d55d12970131ff34fa4bb7e8d9d6c3e3, type: 3}
+  m_Sprite: {fileID: -1792705536, guid: 4b0bff0a4bb685c46915e5235faf3d55, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -120,16 +119,16 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7335884953084376767}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
---- !u!114 &4004729471514472383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8939341379497149540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7d5a14b74b123e4ebc2daa1d74f00c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+      m_Calls:
+      - m_Target: {fileID: 6988286577241919001, guid: 6f5951d193de86345a7ec949255c6685, type: 3}
+        m_TargetAssemblyTypeName: UIController, Assembly-CSharp
+        m_MethodName: OpenSettingBoardCanvas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

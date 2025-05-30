@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cbbdc0ed6f2d124c856e0201693ee92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectVolume: 0
   bgmVolume: 0
+  effectVolume: 0
