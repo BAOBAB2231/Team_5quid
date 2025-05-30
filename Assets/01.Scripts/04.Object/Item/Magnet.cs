@@ -9,7 +9,7 @@ public class Magnet : EffectItem
 
     [SerializeField] private float size;
 
-    private void Awake()
+    private void Start()
     {
         var cols = Physics.OverlapBox(center: transform.position, halfExtents: Vector3.one * size);
 
