@@ -22,6 +22,9 @@ public class TrackSpawner : MonoBehaviour
         {
             SpawnTrack();
         }
+        
+  
+        
     }
 
     void Update()

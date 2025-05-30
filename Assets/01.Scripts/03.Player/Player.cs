@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public abstract class Player : MonoBehaviour
 {
@@ -34,5 +35,23 @@ public abstract class Player : MonoBehaviour
     public void SetJumpForce(float value)
     {
         jumpForce = value;
+    }
+
+    public void SquidCrash()
+    {
+        StartCoroutine(Crash());
+
+    }
+    
+    IEnumerator Crash()
+    {
+        anim.Anim_TriggerSquidCrash();
+        rb.useGravity = false;
+        
+        yield return new WaitForSeconds(2f);
+       
+        rb.useGravity = true;
+        rb.constraints = RigidbodyConstraints.None; 
+
     }
 }

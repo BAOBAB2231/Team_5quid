@@ -20,6 +20,11 @@ public class MyAnimation : MonoBehaviour
     public void Anim_TriggerLeftsideStep()
     {
         animator.SetTrigger("L_Side");
+    } 
+    
+    public void Anim_TriggerSquidCrash()
+    {
+        animator.SetTrigger("IsCrash");
     }
 
     public void Anim_SetJump(bool isJump)

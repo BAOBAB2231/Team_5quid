@@ -242,7 +242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1739277832970515832, guid: 626a28f573e0d78489c348d8a0d92b9c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6
+      value: 3.63
       objectReference: {fileID: 0}
     - target: {fileID: 1739277832970515832, guid: 626a28f573e0d78489c348d8a0d92b9c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -668,7 +668,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0281cf0e4c2b6a4094af1339121d7c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundManager: {fileID: 738640150}
   gameState: 0
 --- !u!4 &1905731262
 Transform:
