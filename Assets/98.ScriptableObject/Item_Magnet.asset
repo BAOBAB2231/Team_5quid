@@ -18,4 +18,4 @@ MonoBehaviour:
   canStack: 0
   maxStackAmount: 0
   Buffs: []
-  Effect: 00000000
+  Effects: []

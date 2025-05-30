@@ -20,6 +20,14 @@ public enum EffectType
     SuperJump    // 슈퍼 점프 -> 상단의 다른 맵으로 이동해서 보너스 코인과 아이템 획득
 }
 
+[Serializable]
+public class ItemDataEffect
+{
+    public EffectType type;     // 효과 타입
+    public float duration;      // 지속 시간
+    public float strength;      // 효과 강도 
+}
+
 // 버프 아이템의 타입 정의
 public enum BuffType
 {
@@ -37,10 +45,10 @@ public class ItemDataBuff
     public float multiplier; // 버프 효과 배율 (예: 1.5배)
 }
 
-    /// <summary>
-    /// 인벤토리 아이템의 데이터 정의 ScriptableObject
-    /// </summary>
-    [CreateAssetMenu(fileName = "Item", menuName = "New Item")]
+/// <summary>
+/// 인벤토리 아이템의 데이터 정의 ScriptableObject
+/// </summary>
+[CreateAssetMenu(fileName = "Item", menuName = "New Item")]
 public class ItemData : ScriptableObject
 {
     [Header("Info")]
@@ -56,5 +64,5 @@ public class ItemData : ScriptableObject
     public ItemDataBuff[] Buffs;        // 버프 아이템 효과들
 
     [Header("Effect")]
-    public EffectType[] Effect;  // 효과 아이템 효과들
+    public ItemDataEffect[] Effects;  // 효과 아이템 효과들
 }
