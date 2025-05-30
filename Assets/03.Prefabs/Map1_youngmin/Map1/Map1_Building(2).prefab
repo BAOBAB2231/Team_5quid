@@ -31,7 +31,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 1448105715021331467}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2269327128921957524
 MeshFilter:
@@ -115,7 +115,7 @@ Transform:
   - {fileID: 502890022130850013}
   - {fileID: 2339163176854750535}
   - {fileID: 7184710998169915408}
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 3826752905034376587}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &542491547041341790
 GameObject:
@@ -129,7 +129,7 @@ GameObject:
   - component: {fileID: 966444529954866959}
   - component: {fileID: 7384731129171786927}
   - component: {fileID: 5018202867242973039}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -253,7 +253,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 1448105715021331467}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &7471262957683931761
 MeshFilter:
@@ -317,7 +317,7 @@ GameObject:
   - component: {fileID: 7929499254282256394}
   - component: {fileID: 1414324825827391538}
   - component: {fileID: 4550196890526278728}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -410,6 +410,42 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.7848643, y: 0.92120963, z: 0.82525516}
   m_Center: {x: 0, y: 0.46033975, z: -0.000000029802322}
+--- !u!1 &601165531534817845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 162082755092576365}
+  m_Layer: 0
+  m_Name: Road
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &162082755092576365
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601165531534817845}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6492486009529591866}
+  - {fileID: 1720677364392344967}
+  - {fileID: 7995420013496747639}
+  - {fileID: 2508806483177271333}
+  - {fileID: 6812943591832299721}
+  m_Father: {fileID: 2051864019958337071}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &660227447625441659
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,7 +477,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 1448105715021331467}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &5290539339551396752
 MeshFilter:
@@ -505,7 +541,7 @@ GameObject:
   - component: {fileID: 2697531942124714302}
   - component: {fileID: 7214628352669895771}
   - component: {fileID: 5374842391037019080}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_BillBoard_large (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -525,7 +561,7 @@ Transform:
   m_LocalScale: {x: 2, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 3826752905034376587}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &2697531942124714302
 MeshFilter:
@@ -610,7 +646,7 @@ GameObject:
   - component: {fileID: 4358436280702168261}
   - component: {fileID: 7305860553187444166}
   - component: {fileID: 6183842494258495175}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -715,7 +751,7 @@ GameObject:
   - component: {fileID: 1467966201548638464}
   - component: {fileID: 4869051163233127432}
   - component: {fileID: 4547608536420686132}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -834,12 +870,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1214175060160143369}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
   m_LocalPosition: {x: 17, y: 0, z: 80}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 1448105715021331467}
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!33 &4397881554864389625
 MeshFilter:
@@ -923,7 +959,7 @@ Transform:
   - {fileID: 8363437396412119712}
   - {fileID: 6936699009473624640}
   - {fileID: 1933132860970850048}
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 3826752905034376587}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1499724426193674533
 GameObject:
@@ -957,7 +993,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 162082755092576365}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5860890754014661392
 MeshFilter:
@@ -1060,46 +1096,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6492486009529591866}
-  - {fileID: 1720677364392344967}
-  - {fileID: 7995420013496747639}
-  - {fileID: 2508806483177271333}
-  - {fileID: 6812943591832299721}
-  - {fileID: 5889347235909512692}
-  - {fileID: 1216708548357571599}
-  - {fileID: 283939432614520383}
-  - {fileID: 8027088860557962710}
-  - {fileID: 1818914388405810055}
-  - {fileID: 3873877677714501471}
-  - {fileID: 7167061395030519256}
-  - {fileID: 5187569967566767834}
-  - {fileID: 3476381667957448412}
-  - {fileID: 4501205000596141263}
-  - {fileID: 3562895365830765317}
-  - {fileID: 4738545650310017987}
-  - {fileID: 8427230839512324566}
-  - {fileID: 563980181221333370}
-  - {fileID: 8985921202411507648}
-  - {fileID: 1389873078062668114}
-  - {fileID: 257912019122551955}
-  - {fileID: 3436076532219834465}
-  - {fileID: 3432555614175114216}
-  - {fileID: 4960752712196427358}
-  - {fileID: 3185334616782982723}
-  - {fileID: 1475076698579911449}
-  - {fileID: 617878185791159876}
-  - {fileID: 8575324535970596887}
-  - {fileID: 3812117894774561972}
-  - {fileID: 1485526549308247107}
-  - {fileID: 8766836917785939667}
-  - {fileID: 3023442577018319877}
-  - {fileID: 8184504633164992560}
-  - {fileID: 6538233110408282354}
-  - {fileID: 7574241095381781157}
-  - {fileID: 6985848479408726814}
-  - {fileID: 7856253343294115906}
-  - {fileID: 2708513939423604353}
-  - {fileID: 7761637055956970506}
+  - {fileID: 1448105715021331467}
+  - {fileID: 162082755092576365}
+  - {fileID: 3826752905034376587}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &-671699659521653643
@@ -1147,7 +1146,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 1448105715021331467}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &8701200426667510405
 MeshFilter:
@@ -1246,12 +1245,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940279516876620099}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
   m_LocalPosition: {x: 17, y: 0, z: 40}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 1448105715021331467}
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!33 &5665888028974446698
 MeshFilter:
@@ -1335,7 +1334,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 162082755092576365}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4536393768285552521
 MeshFilter:
@@ -1434,12 +1433,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124566488261048731}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
   m_LocalPosition: {x: 17, y: 0, z: 60}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 1448105715021331467}
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!33 &6282440951031099101
 MeshFilter:
@@ -1503,7 +1502,7 @@ GameObject:
   - component: {fileID: 1901719321356909323}
   - component: {fileID: 6496882696788513654}
   - component: {fileID: 3546303877424399448}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_BillBoard_large (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1523,7 +1522,7 @@ Transform:
   m_LocalScale: {x: 2, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 3826752905034376587}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &1901719321356909323
 MeshFilter:
@@ -1596,6 +1595,52 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.643173, y: 2.7, z: 1.5837457}
   m_Center: {x: 0.009041071, y: 3.8, z: 0.45535573}
+--- !u!1 &2225571956505967901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1448105715021331467}
+  m_Layer: 0
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1448105715021331467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2225571956505967901}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3873877677714501471}
+  - {fileID: 7167061395030519256}
+  - {fileID: 5187569967566767834}
+  - {fileID: 3476381667957448412}
+  - {fileID: 4501205000596141263}
+  - {fileID: 3562895365830765317}
+  - {fileID: 4738545650310017987}
+  - {fileID: 8427230839512324566}
+  - {fileID: 563980181221333370}
+  - {fileID: 8985921202411507648}
+  - {fileID: 283939432614520383}
+  - {fileID: 8027088860557962710}
+  - {fileID: 1818914388405810055}
+  - {fileID: 5889347235909512692}
+  - {fileID: 1216708548357571599}
+  m_Father: {fileID: 2051864019958337071}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2284152044523358315
 GameObject:
   m_ObjectHideFlags: 0
@@ -1622,12 +1667,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2284152044523358315}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
   m_LocalPosition: {x: 17, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 1448105715021331467}
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!33 &3154587501529830109
 MeshFilter:
@@ -1691,7 +1736,7 @@ GameObject:
   - component: {fileID: 311063620349393888}
   - component: {fileID: 156257272374034550}
   - component: {fileID: 4739198320932837344}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1815,7 +1860,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 1448105715021331467}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2051888833935929767
 MeshFilter:
@@ -1899,7 +1944,7 @@ Transform:
   - {fileID: 3162926863317560898}
   - {fileID: 4683924511393138231}
   - {fileID: 970953928394174466}
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 3826752905034376587}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2844765844907514974
 GameObject:
@@ -1913,7 +1958,7 @@ GameObject:
   - component: {fileID: 6203592507060724404}
   - component: {fileID: 3959226830043846292}
   - component: {fileID: 6862506271218841801}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_BillBoard_large (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1933,7 +1978,7 @@ Transform:
   m_LocalScale: {x: 2, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 3826752905034376587}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &6203592507060724404
 MeshFilter:
@@ -2038,7 +2083,7 @@ Transform:
   - {fileID: 3259658588428233911}
   - {fileID: 7494443889085119837}
   - {fileID: 8878689971430221107}
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 3826752905034376587}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3202559000574973781
 GameObject:
@@ -2052,7 +2097,7 @@ GameObject:
   - component: {fileID: 9173829061016172206}
   - component: {fileID: 3135359912605199358}
   - component: {fileID: 683710130284651130}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2157,7 +2202,7 @@ GameObject:
   - component: {fileID: 8178893059007766733}
   - component: {fileID: 1027832344893692704}
   - component: {fileID: 1580327503655989125}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2262,7 +2307,7 @@ GameObject:
   - component: {fileID: 6835581717921437244}
   - component: {fileID: 1454771924172503883}
   - component: {fileID: 4723509810637919326}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2367,7 +2412,7 @@ GameObject:
   - component: {fileID: 659474241560168084}
   - component: {fileID: 7374207680166556883}
   - component: {fileID: 2500323812955131878}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2472,7 +2517,7 @@ GameObject:
   - component: {fileID: 6373915596237626720}
   - component: {fileID: 4187681545423509798}
   - component: {fileID: 6843123149602854236}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2597,7 +2642,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 162082755092576365}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6054804914896500300
 MeshFilter:
@@ -2682,7 +2727,7 @@ GameObject:
   - component: {fileID: 6502083866916032409}
   - component: {fileID: 5005490474998868114}
   - component: {fileID: 2465812943726684375}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2787,7 +2832,7 @@ GameObject:
   - component: {fileID: 668323684962605963}
   - component: {fileID: 5167625905665726512}
   - component: {fileID: 8959054478081804758}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_BillBoard_large (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2807,7 +2852,7 @@ Transform:
   m_LocalScale: {x: 2, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 3826752905034376587}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &668323684962605963
 MeshFilter:
@@ -2892,7 +2937,7 @@ GameObject:
   - component: {fileID: 5281528850504022074}
   - component: {fileID: 4128455209908337702}
   - component: {fileID: 5078639105678857862}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3016,7 +3061,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 1448105715021331467}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &3767004113599413956
 MeshFilter:
@@ -3080,7 +3125,7 @@ GameObject:
   - component: {fileID: 1403962942269232827}
   - component: {fileID: 5878294739609549684}
   - component: {fileID: 236482377467267428}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3185,7 +3230,7 @@ GameObject:
   - component: {fileID: 5907134017668893613}
   - component: {fileID: 1129007556150557407}
   - component: {fileID: 9093933721549734465}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3310,7 +3355,7 @@ Transform:
   - {fileID: 5973743877286449982}
   - {fileID: 3074786882352258548}
   - {fileID: 7033013100475361119}
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 3826752905034376587}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5424185040032737850
 GameObject:
@@ -3324,7 +3369,7 @@ GameObject:
   - component: {fileID: 1086090669834274839}
   - component: {fileID: 1941757548516267749}
   - component: {fileID: 5528848653917181246}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3429,7 +3474,7 @@ GameObject:
   - component: {fileID: 1952848925034188008}
   - component: {fileID: 4399842901922627957}
   - component: {fileID: 44162777751352568}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_BillBoard_large (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3449,7 +3494,7 @@ Transform:
   m_LocalScale: {x: 2, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 3826752905034376587}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &1952848925034188008
 MeshFilter:
@@ -3553,7 +3598,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 1448105715021331467}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &3910386928053836800
 MeshFilter:
@@ -3617,7 +3662,7 @@ GameObject:
   - component: {fileID: 313054700744082805}
   - component: {fileID: 9059332945909582512}
   - component: {fileID: 2017133742367365076}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3741,7 +3786,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 1448105715021331467}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &6411172893066519803
 MeshFilter:
@@ -3825,7 +3870,7 @@ Transform:
   - {fileID: 4731229790357861102}
   - {fileID: 8029701880127459676}
   - {fileID: 1244924827407477607}
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 3826752905034376587}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5703995261123755426
 GameObject:
@@ -3859,7 +3904,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 162082755092576365}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &710849992669444409
 MeshFilter:
@@ -3944,7 +3989,7 @@ GameObject:
   - component: {fileID: 3556564200650367089}
   - component: {fileID: 1694210841842784734}
   - component: {fileID: 2356629254789832925}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4069,7 +4114,7 @@ Transform:
   - {fileID: 52439674024856236}
   - {fileID: 8637090968353706383}
   - {fileID: 4980428082779800770}
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 3826752905034376587}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5876990193917133839
 GameObject:
@@ -4083,7 +4128,7 @@ GameObject:
   - component: {fileID: 8238387414949331213}
   - component: {fileID: 4532489448811797425}
   - component: {fileID: 8046899063059427841}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4188,7 +4233,7 @@ GameObject:
   - component: {fileID: 8664634611285794812}
   - component: {fileID: 2446027407047421305}
   - component: {fileID: 2082110665803340161}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4293,7 +4338,7 @@ GameObject:
   - component: {fileID: 3391123625142891682}
   - component: {fileID: 1200287360379848427}
   - component: {fileID: 9011680422735570494}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4398,7 +4443,7 @@ GameObject:
   - component: {fileID: 744186338698985477}
   - component: {fileID: 9004790619302796952}
   - component: {fileID: 5267798945608503349}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4503,7 +4548,7 @@ GameObject:
   - component: {fileID: 1171728320692698001}
   - component: {fileID: 1596054341406063547}
   - component: {fileID: 2016460307196652714}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_BillBoard_large (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4523,7 +4568,7 @@ Transform:
   m_LocalScale: {x: 2, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 3826752905034376587}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &1171728320692698001
 MeshFilter:
@@ -4628,7 +4673,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 162082755092576365}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7194563170702759259
 MeshFilter:
@@ -4713,7 +4758,7 @@ GameObject:
   - component: {fileID: 4346954144386038350}
   - component: {fileID: 5993074664368062206}
   - component: {fileID: 3866272246732801583}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4818,7 +4863,7 @@ GameObject:
   - component: {fileID: 1144656314638070364}
   - component: {fileID: 8607313922516181523}
   - component: {fileID: 3402313390368296872}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_BillBoard_large (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4838,7 +4883,7 @@ Transform:
   m_LocalScale: {x: 2, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 3826752905034376587}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &1144656314638070364
 MeshFilter:
@@ -4923,7 +4968,7 @@ GameObject:
   - component: {fileID: 3574179293658109042}
   - component: {fileID: 4613987130906865264}
   - component: {fileID: 2188665499651988432}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5028,7 +5073,7 @@ GameObject:
   - component: {fileID: 8158184823161153741}
   - component: {fileID: 3284129136030729180}
   - component: {fileID: 6479169105588382857}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5133,7 +5178,7 @@ GameObject:
   - component: {fileID: 9113177234056701957}
   - component: {fileID: 3477164454174873047}
   - component: {fileID: 5648898090860856171}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5257,7 +5302,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 1448105715021331467}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2759408114168569776
 MeshFilter:
@@ -5341,6 +5386,57 @@ Transform:
   - {fileID: 6860085997569226554}
   - {fileID: 2356316794414387256}
   - {fileID: 8082899519388928455}
+  m_Father: {fileID: 3826752905034376587}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7591430110676503356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3826752905034376587}
+  m_Layer: 0
+  m_Name: Obstacle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3826752905034376587
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7591430110676503356}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1389873078062668114}
+  - {fileID: 257912019122551955}
+  - {fileID: 3436076532219834465}
+  - {fileID: 3432555614175114216}
+  - {fileID: 4960752712196427358}
+  - {fileID: 3185334616782982723}
+  - {fileID: 1475076698579911449}
+  - {fileID: 617878185791159876}
+  - {fileID: 8575324535970596887}
+  - {fileID: 3812117894774561972}
+  - {fileID: 1485526549308247107}
+  - {fileID: 8766836917785939667}
+  - {fileID: 3023442577018319877}
+  - {fileID: 8184504633164992560}
+  - {fileID: 6538233110408282354}
+  - {fileID: 7574241095381781157}
+  - {fileID: 6985848479408726814}
+  - {fileID: 7856253343294115906}
+  - {fileID: 2708513939423604353}
+  - {fileID: 7761637055956970506}
   m_Father: {fileID: 2051864019958337071}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7632645060437911628
@@ -5355,7 +5451,7 @@ GameObject:
   - component: {fileID: 8121756674263337016}
   - component: {fileID: 1499788936152205869}
   - component: {fileID: 1956907206470898153}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_BillBoard_large (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5375,7 +5471,7 @@ Transform:
   m_LocalScale: {x: 2, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 3826752905034376587}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &8121756674263337016
 MeshFilter:
@@ -5460,7 +5556,7 @@ GameObject:
   - component: {fileID: 5329322783269697808}
   - component: {fileID: 7910301728383889722}
   - component: {fileID: 1124854847562614364}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5580,12 +5676,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7905203204729216539}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
   m_LocalPosition: {x: 17, y: 0, z: 20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 1448105715021331467}
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!33 &2041784191787520176
 MeshFilter:
@@ -5670,7 +5766,7 @@ GameObject:
   - component: {fileID: 1508764772961053004}
   - component: {fileID: 9048392319465436814}
   - component: {fileID: 6004933695254192462}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5795,7 +5891,7 @@ Transform:
   - {fileID: 613657939175910509}
   - {fileID: 7001490716699735935}
   - {fileID: 2222449538075436766}
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 3826752905034376587}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8825066510822888218
 GameObject:
@@ -5809,7 +5905,7 @@ GameObject:
   - component: {fileID: 1653885681702406660}
   - component: {fileID: 2045011244286675322}
   - component: {fileID: 4745212657692109264}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_BillBoard_large (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5829,7 +5925,7 @@ Transform:
   m_LocalScale: {x: 2, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 3826752905034376587}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &1653885681702406660
 MeshFilter:
@@ -5914,7 +6010,7 @@ GameObject:
   - component: {fileID: 1353225776185552835}
   - component: {fileID: 6559591475675289767}
   - component: {fileID: 5609956390381990098}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_BillBoard_large
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5934,7 +6030,7 @@ Transform:
   m_LocalScale: {x: 2, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 3826752905034376587}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &1353225776185552835
 MeshFilter:
@@ -6034,12 +6130,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8867804300673032056}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
   m_LocalPosition: {x: 8, y: 0, z: 4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 1448105715021331467}
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!33 &3459802200732844386
 MeshFilter:
@@ -6124,7 +6220,7 @@ GameObject:
   - component: {fileID: 2517720612569326031}
   - component: {fileID: 2223137526282937869}
   - component: {fileID: 816474054817721263}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic Control Barrier Fence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6144,7 +6240,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2051864019958337071}
+  m_Father: {fileID: 3826752905034376587}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &2517720612569326031
 MeshFilter:
