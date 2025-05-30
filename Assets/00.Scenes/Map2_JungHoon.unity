@@ -246,10 +246,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3694152927180706593, guid: cda0ea1f196cba24990c972c5fcbabb8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1423940823}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cda0ea1f196cba24990c972c5fcbabb8, type: 3}
 --- !u!1001 &354683404
 PrefabInstance:
@@ -356,7 +353,13 @@ MonoBehaviour:
   trackPrefabs:
   - {fileID: 7772155837331772193, guid: 75b8ab4aae7127543ae2cbdb6337cb58, type: 3}
   - {fileID: 8439740437936441049, guid: 9a998af7f7df78141be66cb8efda38c9, type: 3}
-  spawnAheadDistance: 1500
+  - {fileID: 1325306977866971609, guid: 868256795cbab804f9f279b5a939fe14, type: 3}
+  - {fileID: 1696192547720830466, guid: 85bff3c917414b648b9d408fc5e70a21, type: 3}
+  - {fileID: 4593271608978533328, guid: 47a8817389c762541904f6622c23b625, type: 3}
+  - {fileID: 6990708300593794850, guid: bdee709b07687c643a4946eb94628b03, type: 3}
+  - {fileID: 8850056207808200880, guid: cf868a3d30df8a84499df0f18f3f9f18, type: 3}
+  - {fileID: 629133512444660243, guid: c89d65cda8dfafb45b1d8477467f5ffb, type: 3}
+  spawnAheadDistance: 750
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,24 +516,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1739277832970515832, guid: 626a28f573e0d78489c348d8a0d92b9c, type: 3}
   m_PrefabInstance: {fileID: 1690414491}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1423940820 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3694152927180706593, guid: cda0ea1f196cba24990c972c5fcbabb8, type: 3}
-  m_PrefabInstance: {fileID: 144448383}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1423940823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1423940820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3792b9387f36e047971c4d99babee5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bgmClips: []
 --- !u!1001 &1690414491
 PrefabInstance:
   m_ObjectHideFlags: 0
