@@ -7,6 +7,8 @@ using UnityEngine;
 /// </summary>
 public class jumpForceUp : BuffItem
 {
+    
+
     /// <summary>
     /// 플레이어에게 점프력 증가 버프를 적용합니다.
     /// </summary>
@@ -37,13 +39,12 @@ public class jumpForceUp : BuffItem
 
         // GameManager에서 직접 플레이어를 가져와 버프 적용
         Player targetPlayer = GameManager.Instance.Player;
+      
         if (targetPlayer != null)
         {
-            targetPlayer.ApplyJumpForceBuff(multiplier, duration);
+          GameManager.Instance.Player.ApplyJumpForceBuff(multiplier, duration);
+
         }
-        else
-        {
-            Debug.LogError("[jumpForceUp] GameManager.Instance.Player가 null입니다. 버프 적용 실패.");
-        }
+        
     }
 }
