@@ -28,9 +28,18 @@ public class BGM : MonoBehaviour
         audioSource.Play();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnEnable()
     {
-        audioSource.volume = SoundManager.Instance.BgmVolume;
+        SoundManager.OnBgmVolumeChanged += ApplyVolume;
+    }
+
+    private void OnDisable()
+    {
+        SoundManager.OnBgmVolumeChanged -= ApplyVolume;
+    }
+
+    private void ApplyVolume(float volume)
+    {
+        audioSource.volume = volume;
     }
 }
