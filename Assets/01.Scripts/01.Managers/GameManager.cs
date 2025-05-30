@@ -15,9 +15,8 @@ public enum GameState
 public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
-    public static GameManager Instance { get { return instance; }
-    }
-    public SoundManager soundManager;
+    public static GameManager Instance { get { return instance; }}
+
     private Player player;
     public Player Player{get{return player;}}
 
@@ -42,34 +41,50 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        UIManager.Instance.Open<InGameUI>();
         player = FindObjectOfType<Player>();
     }
 
     public void PressAnyKey(InputAction.CallbackContext context)
     {
-        if (context.phase == InputActionPhase.Started)
+        if (context.phase == InputActionPhase.Started && gameState == GameState.Waiting) // 중복 호출 방지
         {
             gameState = GameState.Playing;
+
+            UIManager.Instance.Open<InGameUI>();
+            UIManager.Instance.Close<MainCanvas>();
         }
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        UIManager.Instance.Open<InGameUI>();
+        UIManager.Instance.ClearAll();
         player = FindObjectOfType<Player>();
+
+        if (gameState == GameState.Playing)
+        {
+            UIManager.Instance.Open<InGameUI>();
+            UIManager.Instance.Close<MainCanvas>();
+        }
+        else if (gameState == GameState.Waiting)
+        {
+            UIManager.Instance.Open<MainCanvas>();
+        }
     }
 
     public void RestartGame()
     {
         Time.timeScale = 1f; // 게임 시간 재게
+        gameState = GameState.Playing;
+        UIManager.Instance.ClearAll();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SoundManager.Instance.PlayBGM();
     }
 
     public void GoHome()
     {
         Time.timeScale = 1f; // 게임 시간 재게
-        // 메인 화면으로 가기 (임시로 Restart)
+        gameState = GameState.Waiting;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SoundManager.Instance.PlayBGM();
     }
 }
