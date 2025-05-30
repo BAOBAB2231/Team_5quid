@@ -15,9 +15,8 @@ public enum GameState
 public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
-    public static GameManager Instance { get { return instance; }
-    }
-    public SoundManager soundManager;
+    public static GameManager Instance { get { return instance; }}
+
     private Player player;
     public Player Player{get{return player;}}
 

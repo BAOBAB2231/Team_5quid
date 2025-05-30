@@ -14,10 +14,18 @@ public class BGM : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
-    // Start is called before the first frame update
     void Start()
     {
-        
+        PlayRandomBGM();
+    }
+
+    //랜덤 선택 후 플레이동안 반복 재생
+    void PlayRandomBGM()
+    {
+        int index = Random.Range(0, bgmClips.Length);
+        audioSource.clip = bgmClips[index];
+        audioSource.loop = true;
+        audioSource.Play();
     }
 
     // Update is called once per frame
