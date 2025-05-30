@@ -49,7 +49,6 @@ public class SoundManager : MonoBehaviour
         set
         {
             effectVolume = value;
-            OnEffectVolumeChanged?.Invoke(effectVolume);
         }
 
     }
