@@ -71,15 +71,15 @@ public abstract class Player : MonoBehaviour
         col.radius = 0.3f;
         col.height = 1.2f;
         
-        Debug.Log("코루틴 시작");
+       
         yield return new WaitForSeconds(1f);
 
         rb.useGravity = true;
         rb.constraints = RigidbodyConstraints.None;
         rb.AddForce(Vector3.back * 0.1f, ForceMode.Impulse);
-        Debug.Log("코루틴 1");
+     
         yield return new WaitForSeconds(1f);
-        Debug.Log("코루틴 2");
+      
         rb.velocity = Vector3.zero;
      
     }
