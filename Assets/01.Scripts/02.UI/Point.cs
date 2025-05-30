@@ -15,7 +15,11 @@ public class Point : MonoBehaviour
     private void Start()
     {
         currentCoin = startCoin;
-        UIManager.Instance.Get<InGameUI>()?.UpdataCoinText(currentCoin); // UI 초기 동기화
+
+        if (UIManager.TryGet<InGameUI>(out InGameUI ui))
+        {
+            ui.UpdataCoinText(currentCoin);
+        }
     }
 
     /// <summary>
@@ -29,9 +33,10 @@ public class Point : MonoBehaviour
 
         Debug.Log($"[PlayerResource] 코인 {total}개 획득! 현재 코인: {currentCoin}");
 
-
-        // UI 업데이트 기능 추가 예정(추가 완료)
-        UIManager.Instance.Get<InGameUI>()?.UpdataCoinText(currentCoin);
+        if (UIManager.TryGet<InGameUI>(out InGameUI ui))
+        {
+            ui.UpdataCoinText(currentCoin);
+        }
     }
 
     /// <summary>
