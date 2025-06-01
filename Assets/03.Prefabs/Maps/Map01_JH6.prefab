@@ -1649,7 +1649,8 @@ GameObject:
   - component: {fileID: 7529803826992079112}
   - component: {fileID: 5127612654492699510}
   - component: {fileID: 5899167435820372885}
-  m_Layer: 0
+  - component: {fileID: 1707641130605713530}
+  m_Layer: 6
   m_Name: Props_Traffic Sign_stop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1721,6 +1722,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1707641130605713530
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634418149117184336}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.72380984, y: 2.4326887, z: 0.07033244}
+  m_Center: {x: -0.00000029802322, y: 1.2163982, z: -0.0000002849847}
 --- !u!1 &646233606050478757
 GameObject:
   m_ObjectHideFlags: 0
@@ -5092,7 +5114,7 @@ GameObject:
   - component: {fileID: 8705659566883818072}
   - component: {fileID: 1024981543720757441}
   - component: {fileID: 8311785567805580630}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vehicle_Car_color02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6935,7 +6957,8 @@ GameObject:
   - component: {fileID: 6196781051538963993}
   - component: {fileID: 3839398180682872209}
   - component: {fileID: 589938456449707980}
-  m_Layer: 0
+  - component: {fileID: 1408257236246720975}
+  m_Layer: 6
   m_Name: Props_Traffic Sign_stop (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7007,6 +7030,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1408257236246720975
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876906942311230119}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.72380984, y: 2.4326887, z: 0.07033244}
+  m_Center: {x: -0.00000029802322, y: 1.2163982, z: -0.0000002849847}
 --- !u!1 &1917329204654711850
 GameObject:
   m_ObjectHideFlags: 0
@@ -16284,7 +16328,8 @@ GameObject:
   - component: {fileID: 2546893208857518738}
   - component: {fileID: 3267910484253185516}
   - component: {fileID: 1376031181892837330}
-  m_Layer: 0
+  - component: {fileID: 7496760899345124314}
+  m_Layer: 6
   m_Name: Props_Traffic Control Barrier Fence (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16356,6 +16401,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7496760899345124314
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4446835979335144281}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.6, y: 0.4089657, z: 0.20000002}
+  m_Center: {x: 0, y: 1.8423526, z: -0.00000026077032}
 --- !u!1 &4454402734512595918
 GameObject:
   m_ObjectHideFlags: 0
@@ -28990,7 +29056,8 @@ GameObject:
   - component: {fileID: 3185964259454107352}
   - component: {fileID: 6667886898128044702}
   - component: {fileID: 6325244751072530504}
-  m_Layer: 0
+  - component: {fileID: 9036037678719808974}
+  m_Layer: 6
   m_Name: Props_Traffic Control Barrier Fence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29062,6 +29129,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &9036037678719808974
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8035411712657109488}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.6, y: 0.42654896, z: 0.20000002}
+  m_Center: {x: 0, y: 1.833561, z: -0.00000026077032}
 --- !u!1 &8047137733672300799
 GameObject:
   m_ObjectHideFlags: 0
@@ -33130,7 +33218,7 @@ GameObject:
   - component: {fileID: 2444788860424904564}
   - component: {fileID: 7580543161214646237}
   - component: {fileID: 3747694120963804409}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vehicle_Car_color01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
