@@ -30,4 +30,12 @@ public class SFXPlayer : MonoBehaviour
         AudioClip  clip = clips.FirstOrDefault(e=>e.name == name.ToString());
         audioSource.PlayOneShot(clip);
     }
+
+    public void PlaySFX(AudioClip clip)
+    {
+        if (clip != null)
+        {
+            audioSource.PlayOneShot(clip);
+        }
+    }
 }

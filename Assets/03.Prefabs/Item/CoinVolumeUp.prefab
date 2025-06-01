@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1405164336969317501}
   - component: {fileID: 132022347104735582}
   - component: {fileID: 2281620099255734136}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: CoinVolumeUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60,7 +60,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34ebedc605ecd81438e27525bec35d99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultDuration: 5
 --- !u!65 &2281620099255734136
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -93,7 +92,7 @@ GameObject:
   - component: {fileID: 463394116666326404}
   - component: {fileID: 2575887491230380814}
   - component: {fileID: 7224058350882703642}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Arrows Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}

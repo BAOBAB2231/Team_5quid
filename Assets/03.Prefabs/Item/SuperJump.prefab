@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6934162017051790899}
   - component: {fileID: 3028946834906610849}
   - component: {fileID: 1304215984821752993}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Poison Purple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 1155542747373377916}
   - component: {fileID: 1489388213182562160}
   - component: {fileID: 663617140299235302}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: SuperJump
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,7 +151,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aae8e0ac6f240c4ebcae2ec2a944b50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpBoost: 30
 --- !u!114 &663617140299235302
 MonoBehaviour:
   m_ObjectHideFlags: 0

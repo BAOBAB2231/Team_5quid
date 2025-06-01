@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1943544788065881463}
   - component: {fileID: 4717074520601690481}
   - component: {fileID: 1728007926331205808}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: PowerUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 6359952919542118059}
   - component: {fileID: 1882102122966854179}
   - component: {fileID: 8559807256307681861}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Lightning Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
