@@ -30,6 +30,7 @@ public class SoundManager : MonoBehaviour
     [SerializeField][Range(0f, 0.6f)] private float bgmVolume;
     [SerializeField][Range(0f, 1f)] private float effectVolume;
 
+    //볼륨 변화를 감지하는 이벤트 함수
     public static event Action<float> OnBgmVolumeChanged;
     public static event Action<float> OnEffectVolumeChanged;
 
@@ -40,6 +41,7 @@ public class SoundManager : MonoBehaviour
         set
         {
             bgmVolume = value;
+            //BGM 볼륨 변화를 감지시 작동
             OnBgmVolumeChanged?.Invoke(bgmVolume);
         }
     }

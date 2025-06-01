@@ -23,11 +23,13 @@ public class BGM : MonoBehaviour
         _audioSource.Play();
     }
 
+    //BGM 볼륨 증가 감지시 반영
     private void OnEnable()
     {
         SoundManager.OnBgmVolumeChanged += ApplyVolume;
     }
 
+    //BGM 볼륨 감소 감지시 반영
     private void OnDisable()
     {
         SoundManager.OnBgmVolumeChanged -= ApplyVolume;
