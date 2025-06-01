@@ -81,7 +81,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9803e2b7d3ac69d49b6802bd6916696c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpDuration: 10
+  itemData: {fileID: 11400000, guid: 90e96734598d2d040ae94db1d8b45145, type: 2}
   powerUpTag: PowerUp
 --- !u!1 &5211211853598255328
 GameObject:
