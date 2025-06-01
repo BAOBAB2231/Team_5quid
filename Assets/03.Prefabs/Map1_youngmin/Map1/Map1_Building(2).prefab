@@ -13074,7 +13074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9803e2b7d3ac69d49b6802bd6916696c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpDuration: 10
+  itemData: {fileID: 11400000, guid: 90e96734598d2d040ae94db1d8b45145, type: 2}
   powerUpTag: PowerUp
 --- !u!1 &2371570350476074118
 GameObject:
@@ -26411,7 +26411,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  speed: 10
+  size: 0
 --- !u!114 &8338503382210520063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38389,7 +38389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9803e2b7d3ac69d49b6802bd6916696c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpDuration: 10
+  itemData: {fileID: 11400000, guid: 90e96734598d2d040ae94db1d8b45145, type: 2}
   powerUpTag: PowerUp
 --- !u!1 &7103523752081356103
 GameObject:
@@ -44278,7 +44278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9803e2b7d3ac69d49b6802bd6916696c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpDuration: 10
+  itemData: {fileID: 11400000, guid: 90e96734598d2d040ae94db1d8b45145, type: 2}
   powerUpTag: PowerUp
 --- !u!1 &8203901800415278853
 GameObject:
