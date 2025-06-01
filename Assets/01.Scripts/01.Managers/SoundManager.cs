@@ -57,7 +57,7 @@ public class SoundManager : MonoBehaviour
 
     private void Start()
     {
-        audioSource.volume = 0.2f;
+        audioSource.volume = 0.05f;
         effectVolume = 0.75f;
         PlayBGM();
     }
