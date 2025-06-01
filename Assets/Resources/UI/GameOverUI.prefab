@@ -941,6 +941,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   homeButton: {fileID: 6530893001614072214}
   retryButton: {fileID: 5727361609937971327}
+  scoreText: {fileID: 3798381683399591092}
+  bestText: {fileID: 1626987406369168047}
 --- !u!1 &6370688860213422848
 GameObject:
   m_ObjectHideFlags: 0
