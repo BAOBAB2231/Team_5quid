@@ -7,12 +7,6 @@ public enum SFX
 {
     SideStep,
     Jump,
-    Coin,
-    CoinVolumeUp,
-    SuperJump,
-    jumpForceUp,
-    Magnet,
-    PowerUp
 }
 
 public class SFXPlayer : MonoBehaviour

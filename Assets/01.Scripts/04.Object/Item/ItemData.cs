@@ -65,4 +65,7 @@ public class ItemData : ScriptableObject
 
     [Header("Effect")]
     public ItemDataEffect[] Effects;  // 효과 아이템 효과들
+
+    [Header("Sound")]
+    public AudioClip Sounds;         // 아이템 효과음
 }

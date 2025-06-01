@@ -22,3 +22,4 @@ MonoBehaviour:
   - type: 0
     duration: 0
     strength: 10
+  Sounds: {fileID: 8300000, guid: 35fbad8cdde724f11ba6481f1e64af71, type: 3}
