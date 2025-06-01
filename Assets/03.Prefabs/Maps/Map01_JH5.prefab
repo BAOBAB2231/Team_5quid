@@ -575,8 +575,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.993843, y: 4.3950686, z: 0.32388735}
-  m_Center: {x: -0.007683754, y: 1.6975355, z: -0.49917433}
+  m_Size: {x: 2.993843, y: 4.3950686, z: 0.046}
+  m_Center: {x: -0.007683754, y: 1.6975355, z: -0.36}
 --- !u!1 &316638820560091273
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,8 +712,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.993843, y: 4.3950686, z: 0.32388735}
-  m_Center: {x: -0.007683754, y: 1.6975355, z: -0.49917433}
+  m_Size: {x: 2.993843, y: 4.395068, z: 0.046}
+  m_Center: {x: -0.007683754, y: 1.6975355, z: -0.36}
 --- !u!1 &368698815544473366
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,7 +726,7 @@ GameObject:
   - component: {fileID: 2437304382850925127}
   - component: {fileID: 8911764894326158261}
   - component: {fileID: 5308229597554862841}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic Sign_stop (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1668,8 +1668,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.993843, y: 3.2496006, z: 8.6112385}
-  m_Center: {x: -0.007683754, y: 1.1248016, z: -4.5268946}
+  m_Size: {x: 2.993843, y: 3.2496006, z: 9.067757}
+  m_Center: {x: -0.007683754, y: 1.1248016, z: -4.298635}
 --- !u!1 &702169965725610052
 GameObject:
   m_ObjectHideFlags: 0
@@ -2412,8 +2412,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.993843, y: 4.3950686, z: 0.32388735}
-  m_Center: {x: -0.007683754, y: 1.6975355, z: -0.49917433}
+  m_Size: {x: 2.993843, y: 4.3950686, z: 0.046}
+  m_Center: {x: -0.007683754, y: 1.6975355, z: -0.36}
 --- !u!1 &932943115943305130
 GameObject:
   m_ObjectHideFlags: 0
@@ -4784,8 +4784,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.6946046, y: 0.5760932, z: 8.862808}
-  m_Center: {x: -0.0013978481, y: 3.2854671, z: -0.15474091}
+  m_Size: {x: 3.6946046, y: 0.5760932, z: 9.139017}
+  m_Center: {x: -0.0013978481, y: 3.2854671, z: -0.012916565}
 --- !u!114 &8839659134330252105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5275,7 +5275,7 @@ GameObject:
   - component: {fileID: 158807559355041883}
   - component: {fileID: 94442151686298621}
   - component: {fileID: 6095418272061050758}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_BillBoard_large
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6240,7 +6240,8 @@ GameObject:
   - component: {fileID: 1396378565612151582}
   - component: {fileID: 968796148793673182}
   - component: {fileID: 8079070750758677957}
-  m_Layer: 0
+  - component: {fileID: 871971500041095290}
+  m_Layer: 6
   m_Name: Props_Traffic Control Barrier Fence (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6312,6 +6313,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &871971500041095290
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919682418304824157}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.6, y: 0.4298823, z: 0.20000002}
+  m_Center: {x: 0, y: 1.8318943, z: -0.00000026077032}
 --- !u!1 &1948228479375332134
 GameObject:
   m_ObjectHideFlags: 0
@@ -6782,8 +6804,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.6946046, y: 0.5760932, z: 8.862808}
-  m_Center: {x: -0.0013978481, y: 3.2854671, z: -0.15474091}
+  m_Size: {x: 3.6946046, y: 0.5760932, z: 9.139017}
+  m_Center: {x: -0.0013978481, y: 3.2854671, z: -0.01291656}
 --- !u!114 &7249628904968807766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9518,8 +9540,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.6946046, y: 0.5760932, z: 8.862808}
-  m_Center: {x: -0.0013978481, y: 3.2854671, z: -0.15474091}
+  m_Size: {x: 3.6946046, y: 0.5760932, z: 9.139017}
+  m_Center: {x: -0.0013978481, y: 3.2854671, z: -0.01291656}
 --- !u!114 &8384016640601265362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9941,8 +9963,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.993843, y: 4.3950686, z: 0.32388735}
-  m_Center: {x: -0.007683754, y: 1.6975355, z: -0.49917433}
+  m_Size: {x: 2.993843, y: 4.3950686, z: 0.046}
+  m_Center: {x: -0.007683754, y: 1.6975355, z: -0.36}
 --- !u!1 &3132982823878856840
 GameObject:
   m_ObjectHideFlags: 0
@@ -13196,8 +13218,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.6946046, y: 0.5760932, z: 8.862808}
-  m_Center: {x: -0.0013978481, y: 3.2854671, z: -0.15474091}
+  m_Size: {x: 3.6946046, y: 0.5760932, z: 9.139017}
+  m_Center: {x: -0.0013978481, y: 3.2854671, z: -0.01291656}
 --- !u!114 &3638721434109213519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15318,7 +15340,7 @@ GameObject:
   - component: {fileID: 5846118757453522541}
   - component: {fileID: 6830520208316448602}
   - component: {fileID: 5339125625680233943}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vehicle_Police Car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16362,8 +16384,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.993843, y: 3.2496006, z: 8.6112385}
-  m_Center: {x: -0.007683754, y: 1.1248016, z: -4.5268946}
+  m_Size: {x: 2.993843, y: 3.2496006, z: 9.067757}
+  m_Center: {x: -0.007683754, y: 1.1248016, z: -4.298635}
 --- !u!1 &5179403158788726259
 GameObject:
   m_ObjectHideFlags: 0
@@ -18386,8 +18408,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.1007788, y: 2.178125, z: 7.8687916}
-  m_Center: {x: -0.0009114742, y: 1.1807042, z: 0.76705503}
+  m_Size: {x: 3.1007788, y: 2.1781251, z: 8.115231}
+  m_Center: {x: -0.0009114742, y: 1.1807041, z: 0.64383554}
 --- !u!1 &5532012766012380829
 GameObject:
   m_ObjectHideFlags: 0
@@ -18399,7 +18421,8 @@ GameObject:
   - component: {fileID: 4349611756347959776}
   - component: {fileID: 4512032413369671714}
   - component: {fileID: 2779751661913350387}
-  m_Layer: 0
+  - component: {fileID: 7998239821651321113}
+  m_Layer: 6
   m_Name: Props_Traffic Control Barrier Fence (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18471,6 +18494,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7998239821651321113
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5532012766012380829}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.6, y: 0.4018638, z: 0.20000002}
+  m_Center: {x: 0, y: 1.8459035, z: -0.00000026077032}
 --- !u!1 &5545261146659561839
 GameObject:
   m_ObjectHideFlags: 0
@@ -19553,7 +19597,7 @@ GameObject:
   - component: {fileID: 6382583652739558603}
   - component: {fileID: 9149966921515051490}
   - component: {fileID: 8996647617383030771}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20707,7 +20751,8 @@ GameObject:
   - component: {fileID: 4653245985641670985}
   - component: {fileID: 3716500415926115809}
   - component: {fileID: 2820532121109666761}
-  m_Layer: 0
+  - component: {fileID: 8681196075499397078}
+  m_Layer: 6
   m_Name: Props_Traffic Control Barrier Fence (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20779,6 +20824,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8681196075499397078
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6080317494994040410}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.6, y: 0.41497552, z: 0.20000002}
+  m_Center: {x: 0, y: 1.8393476, z: -0.00000026077032}
 --- !u!1 &6114601741394991041
 GameObject:
   m_ObjectHideFlags: 0
@@ -23010,7 +23076,8 @@ GameObject:
   - component: {fileID: 2207516715305823649}
   - component: {fileID: 4744653615228870141}
   - component: {fileID: 3328785917706354213}
-  m_Layer: 0
+  - component: {fileID: 9073803150137504605}
+  m_Layer: 6
   m_Name: Props_Traffic Control Barrier Fence (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23082,6 +23149,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &9073803150137504605
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6671474533323129204}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.6, y: 0.44412386, z: 0.20000002}
+  m_Center: {x: 0, y: 1.8247736, z: -0.00000026077032}
 --- !u!1 &6685451158432772288
 GameObject:
   m_ObjectHideFlags: 0
@@ -24693,7 +24781,7 @@ GameObject:
   - component: {fileID: 1728658421546057530}
   - component: {fileID: 1289407037674412302}
   - component: {fileID: 9193065926844031143}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_BillBoard_medium
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24921,8 +25009,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.993843, y: 3.2496006, z: 8.6112385}
-  m_Center: {x: -0.007683754, y: 1.1248016, z: -4.5268946}
+  m_Size: {x: 2.993843, y: 3.2496006, z: 9.067757}
+  m_Center: {x: -0.007683754, y: 1.1248016, z: -4.298635}
 --- !u!1 &7166573593175474530
 GameObject:
   m_ObjectHideFlags: 0
@@ -28079,7 +28167,7 @@ GameObject:
   - component: {fileID: 2553636496423547464}
   - component: {fileID: 4334329467017574295}
   - component: {fileID: 4391111164375017394}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vehicle_Police Car (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30325,7 +30413,8 @@ GameObject:
   - component: {fileID: 2791562719081693596}
   - component: {fileID: 8470625615099618808}
   - component: {fileID: 6331419295441803595}
-  m_Layer: 0
+  - component: {fileID: 8914378618974041046}
+  m_Layer: 6
   m_Name: Props_Traffic Control Barrier Fence (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30397,6 +30486,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8914378618974041046
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8486435913702747562}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.6, y: 0.3993485, z: 0.20000002}
+  m_Center: {x: 0, y: 1.8471612, z: -0.00000026077032}
 --- !u!1 &8495534846230745985
 GameObject:
   m_ObjectHideFlags: 0
@@ -32104,8 +32214,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.993843, y: 3.2496006, z: 8.6112385}
-  m_Center: {x: -0.007683754, y: 1.1248016, z: -4.5268946}
+  m_Size: {x: 2.993843, y: 3.2496006, z: 9.067757}
+  m_Center: {x: -0.007683754, y: 1.1248016, z: -4.298635}
 --- !u!1 &8866582343037501781
 GameObject:
   m_ObjectHideFlags: 0
