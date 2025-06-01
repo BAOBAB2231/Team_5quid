@@ -104,8 +104,6 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f; // 게임 시간 재게
         gameState = GameState.GameOver;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        SoundManager.Instance.PlayBGM();
-
     }
     public void GameOver()
     {
