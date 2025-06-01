@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cbbdc0ed6f2d124c856e0201693ee92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
   bgmVolume: 0
   effectVolume: 0
 --- !u!114 &5822880397350864375
@@ -63,7 +64,6 @@ MonoBehaviour:
   bgmClips:
   - {fileID: 8300000, guid: 1a54d1962b2e52848ae8ad57278cbe50, type: 3}
   - {fileID: 8300000, guid: 6f47c0fa99b944e48bbcb2504944bdc1, type: 3}
-  - {fileID: 8300000, guid: aa2062430a686294882697e3c5d36b16, type: 3}
   - {fileID: 8300000, guid: 0ef952372e8574f46aefae51119a31e9, type: 3}
   - {fileID: 8300000, guid: ddd0b2e0cb01b75498e67be65663a2eb, type: 3}
   - {fileID: 8300000, guid: ea0c8d6c1c970114e9b121cf9af402be, type: 3}
