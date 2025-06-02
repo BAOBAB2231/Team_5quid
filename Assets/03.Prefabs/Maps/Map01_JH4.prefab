@@ -1140,8 +1140,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.6946046, y: 0.5760932, z: 8.862808}
-  m_Center: {x: -0.0013978481, y: 3.2854671, z: -0.15474091}
+  m_Size: {x: 3.6946046, y: 0.5760932, z: 9.139017}
+  m_Center: {x: -0.0013978481, y: 3.2854671, z: -0.01291656}
 --- !u!114 &4109421785144087053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2688,8 +2688,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.1007788, y: 2.178125, z: 7.8687916}
-  m_Center: {x: -0.0009114742, y: 1.1807042, z: 0.76705503}
+  m_Size: {x: 3.1007788, y: 2.1781247, z: 8.033798}
+  m_Center: {x: -0.0009114742, y: 1.1807042, z: 0.68455184}
 --- !u!1 &486941544458241037
 GameObject:
   m_ObjectHideFlags: 0
@@ -4758,7 +4758,7 @@ GameObject:
   - component: {fileID: 1381523774438495442}
   - component: {fileID: 584004883779892398}
   - component: {fileID: 1067638960562428342}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vehicle_Truck_color02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7484,8 +7484,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.993843, y: 4.3950686, z: 0.32388735}
-  m_Center: {x: -0.007683754, y: 1.6975355, z: -0.49917433}
+  m_Size: {x: 2.993843, y: 4.3950686, z: 0.046}
+  m_Center: {x: -0.007683754, y: 1.6975355, z: -0.36}
 --- !u!1 &1175489149654990809
 GameObject:
   m_ObjectHideFlags: 0
@@ -8734,8 +8734,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.6946046, y: 0.5760932, z: 8.862808}
-  m_Center: {x: -0.0013978481, y: 3.2854671, z: -0.15474091}
+  m_Size: {x: 3.6946046, y: 0.5760932, z: 9.139017}
+  m_Center: {x: -0.0013978481, y: 3.2854671, z: -0.01291656}
 --- !u!114 &91891563095324819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12302,8 +12302,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.993843, y: 3.2496006, z: 8.6112385}
-  m_Center: {x: -0.007683754, y: 1.1248016, z: -4.5268946}
+  m_Size: {x: 2.993843, y: 3.2496006, z: 9.067757}
+  m_Center: {x: -0.007683754, y: 1.1248016, z: -4.298635}
 --- !u!1 &2155679324706985619
 GameObject:
   m_ObjectHideFlags: 0
@@ -13234,7 +13234,8 @@ GameObject:
   - component: {fileID: 1213779402211495307}
   - component: {fileID: 8234964808493203299}
   - component: {fileID: 374466464580794043}
-  m_Layer: 0
+  - component: {fileID: 8067721625056946708}
+  m_Layer: 6
   m_Name: Props_Traffic Control Barrier Fence (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13306,6 +13307,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8067721625056946708
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2325336246838545301}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.6, y: 0.40767133, z: 0.20000002}
+  m_Center: {x: 0, y: 1.8429997, z: -0.00000026077032}
 --- !u!1 &2329356658876145992
 GameObject:
   m_ObjectHideFlags: 0
@@ -15438,8 +15460,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.993843, y: 3.2496006, z: 8.6112385}
-  m_Center: {x: -0.007683754, y: 1.1248016, z: -4.5268946}
+  m_Size: {x: 2.993843, y: 3.2496006, z: 9.067757}
+  m_Center: {x: -0.007683754, y: 1.1248016, z: -4.298635}
 --- !u!1 &2880547042027997454
 GameObject:
   m_ObjectHideFlags: 0
@@ -17096,8 +17118,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.993843, y: 4.3950686, z: 0.32388735}
-  m_Center: {x: -0.007683754, y: 1.6975355, z: -0.49917433}
+  m_Size: {x: 2.993843, y: 4.3950686, z: 0.046}
+  m_Center: {x: -0.007683754, y: 1.6975355, z: -0.36}
 --- !u!1 &3156122656710661516
 GameObject:
   m_ObjectHideFlags: 0
@@ -19097,8 +19119,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.993843, y: 4.3950686, z: 0.32388735}
-  m_Center: {x: -0.007683754, y: 1.6975355, z: -0.49917433}
+  m_Size: {x: 2.993843, y: 4.3950686, z: 0.046}
+  m_Center: {x: -0.007683754, y: 1.6975355, z: -0.36}
 --- !u!1 &3784952970486244295
 GameObject:
   m_ObjectHideFlags: 0
@@ -21847,8 +21869,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.6946046, y: 0.5760932, z: 8.862808}
-  m_Center: {x: -0.0013978481, y: 3.2854671, z: -0.15474091}
+  m_Size: {x: 3.6946046, y: 0.5760932, z: 9.139017}
+  m_Center: {x: -0.0013978481, y: 3.2854671, z: -0.01291656}
 --- !u!114 &3150535776149087528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22249,8 +22271,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.993843, y: 4.3950686, z: 0.32388735}
-  m_Center: {x: -0.007683754, y: 1.6975355, z: -0.49917433}
+  m_Size: {x: 2.993843, y: 4.3950686, z: 0.046}
+  m_Center: {x: -0.007683754, y: 1.6975355, z: -0.36}
 --- !u!1 &4354655579560452431
 GameObject:
   m_ObjectHideFlags: 0
@@ -23686,7 +23708,7 @@ GameObject:
   - component: {fileID: 3464493478478139997}
   - component: {fileID: 8568363044563196768}
   - component: {fileID: 3103861697821590721}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vehicle_Truck_color03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25898,8 +25920,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.6946046, y: 0.5760932, z: 8.862808}
-  m_Center: {x: -0.0013978481, y: 3.2854671, z: -0.15474091}
+  m_Size: {x: 3.6946046, y: 0.5760932, z: 9.139017}
+  m_Center: {x: -0.0013978481, y: 3.2854671, z: -0.01291656}
 --- !u!114 &3437429739936478847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26621,7 +26643,7 @@ GameObject:
   - component: {fileID: 4805374125254093557}
   - component: {fileID: 3971597457008262207}
   - component: {fileID: 9030376846389379768}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_BillBoard_medium
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26765,8 +26787,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.993843, y: 3.2496006, z: 8.6112385}
-  m_Center: {x: -0.007683754, y: 1.1248016, z: -4.5268946}
+  m_Size: {x: 2.993843, y: 3.2496006, z: 9.067757}
+  m_Center: {x: -0.007683754, y: 1.1248016, z: -4.298635}
 --- !u!1 &5094731936942958379
 GameObject:
   m_ObjectHideFlags: 0
@@ -27279,7 +27301,7 @@ GameObject:
   - component: {fileID: 7054772948544288608}
   - component: {fileID: 762415443584399824}
   - component: {fileID: 3103124091133841310}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic Sign_stop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27296,7 +27318,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -4, y: 0, z: 30}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3005552784033749576}
@@ -29293,7 +29315,7 @@ GameObject:
   - component: {fileID: 5399845763887664430}
   - component: {fileID: 3566156514619529756}
   - component: {fileID: 7004606574753102052}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic cone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29310,7 +29332,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 188}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3005552784033749576}
@@ -31556,7 +31578,7 @@ GameObject:
   - component: {fileID: 7017015701186210993}
   - component: {fileID: 4957492905433099049}
   - component: {fileID: 9134635446632983175}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vehicle_Bus_color01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34054,7 +34076,7 @@ GameObject:
   - component: {fileID: 4506842155710396533}
   - component: {fileID: 6338367385007068387}
   - component: {fileID: 1514851016079694396}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Traffic Sign_stop (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34071,7 +34093,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 4, y: 0, z: 30}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3005552784033749576}
@@ -36175,7 +36197,8 @@ GameObject:
   - component: {fileID: 6988492009743741542}
   - component: {fileID: 3455743901535246227}
   - component: {fileID: 7324164627102043004}
-  m_Layer: 0
+  - component: {fileID: 3037555558789428881}
+  m_Layer: 6
   m_Name: Props_Traffic Control Barrier Fence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36247,6 +36270,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3037555558789428881
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6577252138254277355}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.6, y: 0.4160807, z: 0.20000002}
+  m_Center: {x: 0, y: 1.8387951, z: -0.00000026077032}
 --- !u!1 &6627394287405077972
 GameObject:
   m_ObjectHideFlags: 0
@@ -37727,7 +37771,8 @@ GameObject:
   - component: {fileID: 2461519698571710925}
   - component: {fileID: 1344451916711738414}
   - component: {fileID: 5433983263916110437}
-  m_Layer: 0
+  - component: {fileID: 5429874153887433826}
+  m_Layer: 6
   m_Name: Props_Traffic Control Barrier Fence (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37799,6 +37844,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5429874153887433826
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6859183994513798266}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.6, y: 0.40031445, z: 0.20000002}
+  m_Center: {x: 0, y: 1.8466783, z: -0.00000026077032}
 --- !u!1 &6860252676844829759
 GameObject:
   m_ObjectHideFlags: 0
@@ -42516,7 +42582,7 @@ GameObject:
   - component: {fileID: 2967565436398129310}
   - component: {fileID: 3455701415605679299}
   - component: {fileID: 19545671434496025}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_BillBoard_large
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43123,8 +43189,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.993843, y: 3.2496006, z: 8.6112385}
-  m_Center: {x: -0.007683754, y: 1.1248016, z: -4.5268946}
+  m_Size: {x: 2.993843, y: 3.2496006, z: 9.067757}
+  m_Center: {x: -0.007683754, y: 1.1248016, z: -4.298635}
 --- !u!1 &7735862461158364501
 GameObject:
   m_ObjectHideFlags: 0
@@ -43511,8 +43577,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.993843, y: 4.3950686, z: 0.32388735}
-  m_Center: {x: -0.007683754, y: 1.6975355, z: -0.49917433}
+  m_Size: {x: 2.993843, y: 4.3950686, z: 0.046}
+  m_Center: {x: -0.007683754, y: 1.6975355, z: -0.36}
 --- !u!1 &7828485036473337824
 GameObject:
   m_ObjectHideFlags: 0
@@ -47476,7 +47542,7 @@ GameObject:
   - component: {fileID: 223803928912309639}
   - component: {fileID: 8478529208572277530}
   - component: {fileID: 367725399343276796}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vehicle_Bus_color02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47704,8 +47770,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.993843, y: 4.3950686, z: 0.32388735}
-  m_Center: {x: -0.007683754, y: 1.6975355, z: -0.49917433}
+  m_Size: {x: 2.993843, y: 4.3950686, z: 0.046}
+  m_Center: {x: -0.007683754, y: 1.6975355, z: -0.36}
 --- !u!1 &8781689824664140057
 GameObject:
   m_ObjectHideFlags: 0
@@ -48786,8 +48852,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.993843, y: 3.2496006, z: 8.6112385}
-  m_Center: {x: -0.007683754, y: 1.1248016, z: -4.5268946}
+  m_Size: {x: 2.993843, y: 3.2496006, z: 9.067757}
+  m_Center: {x: -0.007683754, y: 1.1248016, z: -4.298635}
 --- !u!1 &8963576650471464672
 GameObject:
   m_ObjectHideFlags: 0
@@ -48922,8 +48988,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.993843, y: 3.2496006, z: 8.6112385}
-  m_Center: {x: -0.007683754, y: 1.1248016, z: -4.5268946}
+  m_Size: {x: 2.993843, y: 3.2496006, z: 9.067757}
+  m_Center: {x: -0.007683754, y: 1.1248016, z: -4.298635}
 --- !u!1 &8973412643559164919
 GameObject:
   m_ObjectHideFlags: 0
@@ -49121,8 +49187,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.6946046, y: 0.5760932, z: 8.862808}
-  m_Center: {x: -0.0013978481, y: 3.2854671, z: -0.15474091}
+  m_Size: {x: 3.6946046, y: 0.5760932, z: 9.139017}
+  m_Center: {x: -0.0013978481, y: 3.2854671, z: -0.01291656}
 --- !u!114 &2200184134915230129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49420,8 +49486,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.6946046, y: 0.5760932, z: 8.862808}
-  m_Center: {x: -0.0013978481, y: 3.2854671, z: -0.15474091}
+  m_Size: {x: 3.6946046, y: 0.5760932, z: 9.139017}
+  m_Center: {x: -0.0013978481, y: 3.2854671, z: -0.01291656}
 --- !u!114 &4491516930075368372
 MonoBehaviour:
   m_ObjectHideFlags: 0

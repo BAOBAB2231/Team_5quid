@@ -693,22 +693,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1665260139}
   trackPrefabs:
+  - {fileID: 3330624089272392894, guid: 8d136805d99a45e46ac794614359094e, type: 3}
+  - {fileID: 7772155837331772193, guid: 75b8ab4aae7127543ae2cbdb6337cb58, type: 3}
   - {fileID: 8439740437936441049, guid: 9a998af7f7df78141be66cb8efda38c9, type: 3}
   - {fileID: 1325306977866971609, guid: 868256795cbab804f9f279b5a939fe14, type: 3}
-  - {fileID: 7772155837331772193, guid: 75b8ab4aae7127543ae2cbdb6337cb58, type: 3}
   - {fileID: 1696192547720830466, guid: 85bff3c917414b648b9d408fc5e70a21, type: 3}
   - {fileID: 4593271608978533328, guid: 47a8817389c762541904f6622c23b625, type: 3}
   - {fileID: 6990708300593794850, guid: bdee709b07687c643a4946eb94628b03, type: 3}
   - {fileID: 8850056207808200880, guid: cf868a3d30df8a84499df0f18f3f9f18, type: 3}
   - {fileID: 629133512444660243, guid: c89d65cda8dfafb45b1d8477467f5ffb, type: 3}
   - {fileID: 6516859383225319443, guid: b3eb114ae09c4164d824c16abb00f52e, type: 3}
-  - {fileID: 269533200255492976, guid: 6a92188a335953e41b01909878cabe10, type: 3}
   - {fileID: 3715652744609137022, guid: 263e9a41e7dbe7046916ba2b36fd6de1, type: 3}
   - {fileID: 1355897824877648264, guid: 3f4067377e195a04b9718ddefdb7869c, type: 3}
   - {fileID: 3672341901324181009, guid: e8d9c2eadd087ea448081eed79a198a8, type: 3}
   - {fileID: 7925124916068010107, guid: ea7495938710f2348bb128dc7583e27b, type: 3}
   - {fileID: 4492920075403626232, guid: 843d58daa9aef564987b15d2b5ec4b4c, type: 3}
-  spawnAheadDistance: 1500
+  spawnAheadDistance: 800
 --- !u!4 &2116670964
 Transform:
   m_ObjectHideFlags: 0
