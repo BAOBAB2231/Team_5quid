@@ -29,8 +29,6 @@ public class Point : MonoBehaviour
         float total = amount * coinMultiplier;
         currentCoin += total;
 
-        Debug.Log($"[PlayerResource] 코인 {total}개 획득! 현재 코인: {currentCoin}");
-
         if (UIManager.TryGet<InGameUI>(out InGameUI ui))
         {
             ui.UpdateCoinText(currentCoin);
@@ -52,11 +50,9 @@ public class Point : MonoBehaviour
     public IEnumerator DoubleCoinRoutine(float duration)
     {
         coinMultiplier = 2f;
-        Debug.Log($"[Point] 코인 2배 버프 시작 ({duration}초)");
 
         yield return new WaitForSeconds(duration);
 
         coinMultiplier = 1f;
-        Debug.Log("[Point] 코인 2배 버프 종료");
     }
 }

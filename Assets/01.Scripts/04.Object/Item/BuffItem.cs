@@ -12,13 +12,11 @@ public class BuffItem : MonoBehaviour
     {
         if (itemData.Buffs == null || itemData.Buffs.Length == 0)
         {
-            Debug.LogWarning("[BuffItem] 버프 정보가 없습니다.");
             return;
         }
 
         foreach (ItemDataBuff buff in itemData.Buffs)
         {
-            Debug.Log($"[BuffItem] {buff.type} 버프 적용! 지속 시간: {buff.duration}초");
 
             switch (buff.type)
             {

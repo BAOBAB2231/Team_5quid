@@ -23,7 +23,6 @@ public class ItemObject : MonoBehaviour
         //Debug.Log($"[OnTriggerEnter] 충돌 발생: {other.gameObject.name}");
         if (itemData == null)    // 아이템 데이터가 없을 경우 처리 중단
         {
-            Debug.LogWarning("[ItemObject] itemData가 설정되지 않았습니다.");
             return;
         }
 
@@ -35,7 +34,7 @@ public class ItemObject : MonoBehaviour
             }
             catch (System.Exception ex)
             {
-                Debug.LogError($"[ItemObject] 아이템 효과 적용 중 예외 발생: {ex.Message}");
+                
             }
 
             Destroy(gameObject, 0.05f);    // 아이템 제거 (0.05초 후 제거로 처리 안정성 확보)
@@ -103,16 +102,10 @@ public class ItemObject : MonoBehaviour
     {
         int amount = 1; // 항상 1씩 증가
 
-        Debug.Log($"[Resource] 코인 {amount}개 획득!");
-
         Point point = player.GetComponent<Point>();
         if (point != null)
         {
             point.AddCoin(amount); // 항상 1코인만 추가
-        }
-        else
-        {
-            Debug.LogWarning("Point 컴포넌트를 찾을 수 없습니다.");
         }
     }
 }

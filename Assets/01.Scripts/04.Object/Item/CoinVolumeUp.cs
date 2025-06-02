@@ -23,11 +23,6 @@ public class CoinVolumeUpBuff : BuffItem
                 if (point != null)
                 {
                     point.StartCoroutine(point.DoubleCoinRoutine(buff.duration));
-                    Debug.Log($"[CoinVolumeUpBuff] 코인 {buff.multiplier}배 효과 적용 ({buff.duration}초간)");
-                }
-                else
-                {
-                    Debug.LogWarning("[CoinVolumeUpBuff] Point 컴포넌트를 찾을 수 없습니다.");
                 }
                 break;
             }
