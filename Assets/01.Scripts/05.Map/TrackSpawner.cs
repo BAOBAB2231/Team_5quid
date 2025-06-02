@@ -1,23 +1,26 @@
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class TrackSpawner : MonoBehaviour
 {
-    [Header("플레이어(또는 카메라) Transform")] 
-    public Transform player;
+    [Header("플레이어 Transform")] public Transform player;
 
-    [Header("스폰할 트랙 프리팹들")] 
-    public GameObject[] trackPrefabs;
+    [Header("스폰할 트랙 프리팹들")] public GameObject[] trackPrefabs;
 
-    [Header("플레이어 앞 맵 유지 거리")] 
-    public float spawnAheadDistance = 100f;
+    [Header("플레이어 앞 맵 유지 거리")] public float spawnAheadDistance = 800f;
 
     private float nextSpawnZ; // 다음 트랙 시작 Z 위치
+    private bool firstTrackSpawned = false;  // 첫 트랙 스폰 여부
     private int lastPrefabIndex = -1; // 마지막에 뽑은 Prefab 인덱스
 
     void Start()
     {
         // 초기화: 플레이어 바로 앞부터 맵 채우기
         nextSpawnZ = Mathf.Floor(player.position.z);
+        
+        // 처음에는 인덱스 0의 트랙을 스폰
+        SpawnTrack();
+
         while (nextSpawnZ < player.position.z + spawnAheadDistance)
         {
             SpawnTrack();
@@ -39,32 +42,47 @@ public class TrackSpawner : MonoBehaviour
         int prefabCount = trackPrefabs.Length;
         int newIndex;
 
-        if (prefabCount <= 1)
+        if (!firstTrackSpawned)
         {
+            // 첫 스폰은 index 0
             newIndex = 0;
+            firstTrackSpawned = true;
         }
         else
         {
-            // 0부터 prefabCount-1 중 lastPrefabIndex만 제외해야 하므로
-            // 랜덤으로 하나 뽑고, 같으면 (idx+1)%count 방식으로 밀기
-            newIndex = Random.Range(0, prefabCount - 1);
-            if (newIndex >= lastPrefabIndex)
-                newIndex += 1;
+            // 첫 번째 이후부터는 index=0을 제외한 [1..prefabCount-1] 중에서
+            // 직전에 뽑은 lastPrefabIndex를 제외하고 랜덤 선택
+
+            // 후보 인덱스 리스트 만들기
+            List<int> candidates = new List<int>();
+            for (int i = 1; i < prefabCount; i++)
+            {
+                if (i == lastPrefabIndex) continue;
+                candidates.Add(i);
+            }
+
+            // 만약 후보가 하나밖에 없다면 그걸 고르고, 그렇지 않으면 List.Count 범위 내에서 랜덤
+            if (candidates.Count == 1)
+            {
+                newIndex = candidates[0];
+            }
+            else
+            {
+                int pick = Random.Range(0, candidates.Count);
+                newIndex = candidates[pick];
+            }
         }
-
-        // 2) 선택된 Prefab 으로 인스턴스화
-        GameObject prefab = trackPrefabs[newIndex];
-        GameObject go = Instantiate(prefab, transform);
-
-        // 3) 배치
+        
+        // 트랙 생성 및 배치
+        GameObject go = Instantiate(trackPrefabs[newIndex], transform);
         go.transform.position = new Vector3(0f, 0f, nextSpawnZ);
         go.transform.rotation = Quaternion.identity;
 
-        // 4) nextSpawnZ 갱신
+        // nextSpawnZ 갱신
         float length = go.GetComponent<Track>().length;
         nextSpawnZ += length;
 
-        // 5) 이번에 뽑은 인덱스를 저장
+        // 방금 뽑은 인덱스를 저장
         lastPrefabIndex = newIndex;
     }
 }

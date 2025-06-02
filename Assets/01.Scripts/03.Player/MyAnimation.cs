@@ -1,7 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MyAnimation : MonoBehaviour
 {
@@ -20,6 +17,11 @@ public class MyAnimation : MonoBehaviour
     public void Anim_TriggerLeftsideStep()
     {
         animator.SetTrigger("L_Side");
+    } 
+    
+    public void Anim_TriggerSquidCrash()
+    {
+        animator.SetTrigger("IsCrash");
     }
 
     public void Anim_SetJump(bool isJump)

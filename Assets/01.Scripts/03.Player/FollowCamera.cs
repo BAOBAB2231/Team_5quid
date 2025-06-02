@@ -1,7 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class FollowCamera : MonoBehaviour
 {
@@ -9,7 +6,7 @@ public class FollowCamera : MonoBehaviour
 
     private Transform tf; //카메라 컨테이너의 트랜스폼 
     private Transform cameraTf; //카메라의 트랜스폼
-
+    
     private void Start()
     {
         playerTransform = GameObject.Find("Player").transform; //인스턴스 생성시 플레이어 캐싱 
@@ -19,6 +16,8 @@ public class FollowCamera : MonoBehaviour
 
     void Update()
     {
+        
+
         FollowPlayer();
     }
 
@@ -39,7 +38,7 @@ public class FollowCamera : MonoBehaviour
 
         float smoothY = Mathf.Lerp(currentPos.y, targetY, 0.1f);
 
-        cameraTf.localPosition = new Vector3(0, smoothY, -5f);
+        cameraTf.localPosition = new Vector3(0, smoothY, -7);
 
 
         Vector3 playerPosition = new Vector3(0, 0, playerTransform.position.z); //z축만 추적 

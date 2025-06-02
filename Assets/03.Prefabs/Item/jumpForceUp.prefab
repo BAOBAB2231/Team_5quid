@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1333850084471604392}
   - component: {fileID: 8833580378389156451}
   - component: {fileID: 4680846399403344626}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: jumpForceUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60,8 +60,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 314d147ffdfa33a49a224a29c9450789, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultDuration: 10
-  powerMultiplier: 1.5
 --- !u!65 &4680846399403344626
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -94,7 +92,7 @@ GameObject:
   - component: {fileID: 1592654570427867911}
   - component: {fileID: 5824925712978070341}
   - component: {fileID: 4193457208301724166}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Battery Black
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -1,7 +1,5 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 // 플레이어가 보유한 자원을 관리하는 클래스
 public class Point : MonoBehaviour
@@ -15,7 +13,11 @@ public class Point : MonoBehaviour
     private void Start()
     {
         currentCoin = startCoin;
-        UIManager.Instance.Get<InGameUI>()?.UpdataCoinText(currentCoin); // UI 초기 동기화
+
+        if (UIManager.TryGet<InGameUI>(out InGameUI ui))
+        {
+            ui.UpdateCoinText(currentCoin);
+        }
     }
 
     /// <summary>
@@ -29,9 +31,10 @@ public class Point : MonoBehaviour
 
         Debug.Log($"[PlayerResource] 코인 {total}개 획득! 현재 코인: {currentCoin}");
 
-
-        // UI 업데이트 기능 추가 예정(추가 완료)
-        UIManager.Instance.Get<InGameUI>()?.UpdataCoinText(currentCoin);
+        if (UIManager.TryGet<InGameUI>(out InGameUI ui))
+        {
+            ui.UpdateCoinText(currentCoin);
+        }
     }
 
     /// <summary>

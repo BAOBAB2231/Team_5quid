@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 // 게임 내에서 등장하는 아이템 오브젝트. 플레이어와 충돌 시 아이템 타입에 따라 효과를 적용함.
 public class ItemObject : MonoBehaviour
@@ -22,7 +20,7 @@ public class ItemObject : MonoBehaviour
     /// <param name="other">충돌한 콜라이더</param>
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log($"[OnTriggerEnter] 충돌 발생: {other.gameObject.name}");
+        //Debug.Log($"[OnTriggerEnter] 충돌 발생: {other.gameObject.name}");
         if (itemData == null)    // 아이템 데이터가 없을 경우 처리 중단
         {
             Debug.LogWarning("[ItemObject] itemData가 설정되지 않았습니다.");
@@ -86,14 +84,14 @@ public class ItemObject : MonoBehaviour
     /// <param name="player">효과를 적용할 플레이어</param>
     private void ApplyEffectItem(GameObject player)
     {
-        if (effectItem == null) return;
+        if (effectItem == null || itemData == null || itemData.Effects == null) return;
 
         PlayerController playerController = player.GetComponent<PlayerController>();
         if (playerController == null) return;
 
-        foreach (EffectType effect in itemData.Effect)
+        foreach (ItemDataEffect effect in itemData.Effects)
         {
-            effectItem.ApplyEffect(playerController, effect); // 인수 2개짜리 ApplyEffect 사용
+            effectItem.ApplyEffect(playerController, effect); // 인수 2개 → effect가 객체이므로
         }
     }
 

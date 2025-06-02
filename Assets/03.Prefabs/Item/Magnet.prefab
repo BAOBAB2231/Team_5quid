@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2945655654659606591}
   - component: {fileID: 7531959348815875514}
   - component: {fileID: 615473855213138347}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Magnet BlueRed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 4155926302812287189}
   - component: {fileID: 7230037011146221873}
   - component: {fileID: 3258474160053334806}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Magnet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -161,7 +161,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  speed: 10
+  size: 0
 --- !u!114 &3258474160053334806
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -9,10 +9,7 @@ using UnityEngine;
 /// </summary>
 public class PowerUp : EffectItem
 {
-    [Header("파워업 지속 시간 설정")]
-    [Tooltip("PowerUp 태그가 유지될 시간 (초)")]
-    public float powerUpDuration = 10f;
-
+    public ItemData itemData;
     public string powerUpTag = "PowerUp";
 
     // 플레이어에 적용 중인 파워업 코루틴을 추적하기 위한 Dictionary
@@ -29,14 +26,25 @@ public class PowerUp : EffectItem
         PlayerController playerController = target.GetComponent<PlayerController>();
         if (playerController != null)
         {
-            ApplyEffect(playerController, EffectType.PowerUp); // 직접 호출
+            // ScriptableObject에서 PowerUp 효과를 찾음
+            ItemDataEffect effect = null;
+            foreach (var e in itemData.Effects)
+            {
+                if (e.type == EffectType.PowerUp)
+                {
+                    effect = e;
+                    break;
+                }
+            }
+
+            ApplyEffect(playerController, effect);
         }
     }
 
     /// <summary>
     /// EffectItem의 추상 메서드 구현
     /// </summary>
-    public override void ApplyEffect(PlayerController player, EffectType effect)
+    public override void ApplyEffect(PlayerController player, ItemDataEffect effect)
     {
         GameObject target = player.gameObject;
 
@@ -49,7 +57,7 @@ public class PowerUp : EffectItem
         }
 
         // 새 파워업 효과 적용
-        Coroutine newPowerUp = StartCoroutine(ApplyPowerUpTag(target));
+        Coroutine newPowerUp = StartCoroutine(ApplyPowerUpTag(target, effect.duration));
         activePowerUps[target] = newPowerUp;
 
         Debug.Log($"[PowerUp] {player.name}에게 {effect} 효과 적용됨");
@@ -58,13 +66,13 @@ public class PowerUp : EffectItem
     /// <summary>
     /// 일정 시간 동안 PowerUp 태그를 적용하고 원래 태그로 복원
     /// </summary>
-    private IEnumerator ApplyPowerUpTag(GameObject player)
+    private IEnumerator ApplyPowerUpTag(GameObject player, float duration)
     {
         string originalTag = player.tag;
 
         player.tag = powerUpTag;
 
-        yield return new WaitForSeconds(powerUpDuration);
+        yield return new WaitForSeconds(duration);
 
         player.tag = originalTag;
 

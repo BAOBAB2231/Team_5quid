@@ -19,4 +19,5 @@ MonoBehaviour:
   canStack: 1
   maxStackAmount: 9999
   Buffs: []
-  Effect: 
+  Effects: []
+  Sounds: {fileID: 8300000, guid: 7bd6b897eb5ca4b7d88a205c4a51640c, type: 3}
