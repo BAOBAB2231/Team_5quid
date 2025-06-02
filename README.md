@@ -39,7 +39,7 @@
 
 ## 🖼️ 게임 예시 이미지
 
-![게임 화면 예시](./Assets/Screenshots/GameScreen.png)
+![게임 화면 예시](./Assets/GameScreen.png)
 
 ---
 
