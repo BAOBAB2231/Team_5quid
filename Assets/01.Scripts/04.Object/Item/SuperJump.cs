@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 // 슈퍼 점프 효과 아이템 (플레이어를 위로 튕겨냄)
 public class SuperJump : EffectItem

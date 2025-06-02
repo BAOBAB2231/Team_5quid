@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-/// <summary>
+﻿/// <summary>
 /// 점프력 증가 버프 아이템
 /// </summary>
 public class jumpForceUp : BuffItem

@@ -1,7 +1,5 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 // 플레이어가 보유한 자원을 관리하는 클래스
 public class Point : MonoBehaviour
