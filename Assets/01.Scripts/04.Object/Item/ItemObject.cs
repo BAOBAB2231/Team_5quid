@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 // 게임 내에서 등장하는 아이템 오브젝트. 플레이어와 충돌 시 아이템 타입에 따라 효과를 적용함.
 public class ItemObject : MonoBehaviour

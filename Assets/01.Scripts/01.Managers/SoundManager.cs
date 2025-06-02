@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SoundManager : MonoBehaviour
@@ -53,6 +51,8 @@ public class SoundManager : MonoBehaviour
         set
         {
             effectVolume = value;
+            //Effect 볼륨 변화를 감지시 작동
+            OnEffectVolumeChanged?.Invoke(effectVolume);
         }
 
     }
