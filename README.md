@@ -69,9 +69,11 @@
 > 아래 에셋은 상업적 사용이 가능한 외부 무료 에셋입니다.  
 > Git 저장소에는 포함하지 않으며, 팀원은 각자 다운로드하여 사용합니다.
 
-- 아이템: 
-- BGM:  
-
+- 아이템 :
+  - 코인 https://magic-games.itch.io/low-poly-pirate-coin
+  - 아이템 https://assetstore.unity.com/packages/3d/props/mobile-power-ups-free-vol-1-36106
+- BGM : https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116
+- 맵, 장애물 : https://assetstore.unity.com/packages/3d/environments/simplepoly-city-low-poly-assets-58899
 ---
 
 즐겁게 플레이해 주세요! 🏃‍♂️
