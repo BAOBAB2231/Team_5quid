@@ -73,6 +73,7 @@
   - 코인 https://magic-games.itch.io/low-poly-pirate-coin
   - 아이템 https://assetstore.unity.com/packages/3d/props/mobile-power-ups-free-vol-1-36106
 - BGM : https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116
+- 효과음 : https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116
 - 맵, 장애물 : https://assetstore.unity.com/packages/3d/environments/simplepoly-city-low-poly-assets-58899
 ---
 
