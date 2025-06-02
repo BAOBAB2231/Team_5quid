@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7088563817695980910}
   - component: {fileID: 2109268186169691944}
   - component: {fileID: 8355382109762718479}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (65)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -201,7 +201,7 @@ GameObject:
   - component: {fileID: 1479013723562731860}
   - component: {fileID: 2511003092877316007}
   - component: {fileID: 8422630372401106611}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -290,7 +290,7 @@ GameObject:
   - component: {fileID: 1407947046317888764}
   - component: {fileID: 201844620083374948}
   - component: {fileID: 931818485488418796}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (36)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -475,7 +475,7 @@ GameObject:
   - component: {fileID: 4576668813754552727}
   - component: {fileID: 8081532783690437164}
   - component: {fileID: 2263716751205253751}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -559,7 +559,7 @@ GameObject:
   - component: {fileID: 9162791359451747730}
   - component: {fileID: 1397169742646865302}
   - component: {fileID: 4666773497634187018}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -648,7 +648,7 @@ GameObject:
   - component: {fileID: 1908562376507480227}
   - component: {fileID: 4562383639966587476}
   - component: {fileID: 277974963482292825}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (24)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -943,7 +943,7 @@ GameObject:
   - component: {fileID: 673168394690557969}
   - component: {fileID: 178308833769579860}
   - component: {fileID: 4385547560419898303}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (13)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -1128,7 +1128,7 @@ GameObject:
   - component: {fileID: 7590049640574094882}
   - component: {fileID: 2583388810088268088}
   - component: {fileID: 3836653646995644849}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1212,7 +1212,7 @@ GameObject:
   - component: {fileID: 6610755021601219283}
   - component: {fileID: 7884475159740110578}
   - component: {fileID: 8886544346552516995}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1384,7 +1384,7 @@ GameObject:
   - component: {fileID: 388222318464054300}
   - component: {fileID: 2628290777426489993}
   - component: {fileID: 8574418205837587578}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (30)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -1569,7 +1569,7 @@ GameObject:
   - component: {fileID: 6342514220443695105}
   - component: {fileID: 5435230243204277349}
   - component: {fileID: 2254657607831747646}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1653,7 +1653,7 @@ GameObject:
   - component: {fileID: 6835305969110224453}
   - component: {fileID: 5416717343394457406}
   - component: {fileID: 898427975095186070}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1742,7 +1742,7 @@ GameObject:
   - component: {fileID: 4216672874230589170}
   - component: {fileID: 5391312094313550678}
   - component: {fileID: 1244579637750377466}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (26)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -1927,7 +1927,7 @@ GameObject:
   - component: {fileID: 7682321496070977977}
   - component: {fileID: 7083537991277963349}
   - component: {fileID: 8836165604845238634}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2011,7 +2011,7 @@ GameObject:
   - component: {fileID: 2620281218620652964}
   - component: {fileID: 2866297994869518814}
   - component: {fileID: 4634830347224581079}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2388,7 +2388,7 @@ GameObject:
   - component: {fileID: 1866873498635861312}
   - component: {fileID: 3601867213917872123}
   - component: {fileID: 2250978222653163422}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2472,7 +2472,7 @@ GameObject:
   - component: {fileID: 6222666435882059339}
   - component: {fileID: 1489670414693360738}
   - component: {fileID: 6026805237152359924}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2556,7 +2556,7 @@ GameObject:
   - component: {fileID: 1347842083927919294}
   - component: {fileID: 5288296181650348356}
   - component: {fileID: 9200337346805289507}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2640,7 +2640,7 @@ GameObject:
   - component: {fileID: 7859987896234263713}
   - component: {fileID: 8857950413456540792}
   - component: {fileID: 8614212540042627638}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2807,7 +2807,7 @@ GameObject:
   - component: {fileID: 5722180911446581964}
   - component: {fileID: 6413085821391424036}
   - component: {fileID: 2262105387791929599}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2891,7 +2891,7 @@ GameObject:
   - component: {fileID: 2767709743724510715}
   - component: {fileID: 2010712839345534575}
   - component: {fileID: 3456682515123528948}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2975,7 +2975,7 @@ GameObject:
   - component: {fileID: 6769485874347999566}
   - component: {fileID: 941197722087761517}
   - component: {fileID: 4436403700709863588}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3059,7 +3059,7 @@ GameObject:
   - component: {fileID: 5787602689031886842}
   - component: {fileID: 1343960025136936403}
   - component: {fileID: 6172579879146910789}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3143,7 +3143,7 @@ GameObject:
   - component: {fileID: 6442421265568090378}
   - component: {fileID: 4813517166038301437}
   - component: {fileID: 4786177106435301104}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3227,7 +3227,7 @@ GameObject:
   - component: {fileID: 6946985949721193297}
   - component: {fileID: 6653367325117866482}
   - component: {fileID: 6930424462257039203}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3316,7 +3316,7 @@ GameObject:
   - component: {fileID: 8516487499257518619}
   - component: {fileID: 6426975959887146314}
   - component: {fileID: 1039702719797533577}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (57)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -3501,7 +3501,7 @@ GameObject:
   - component: {fileID: 4041583238479451267}
   - component: {fileID: 729247292691861043}
   - component: {fileID: 503905309845143269}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3585,7 +3585,7 @@ GameObject:
   - component: {fileID: 4424414579286820260}
   - component: {fileID: 2633251674402613882}
   - component: {fileID: 5222545705439532904}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3752,7 +3752,7 @@ GameObject:
   - component: {fileID: 5362654296814661252}
   - component: {fileID: 1107439301736528315}
   - component: {fileID: 8934283457587796621}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3836,7 +3836,7 @@ GameObject:
   - component: {fileID: 5660352682823429467}
   - component: {fileID: 6722458544510013497}
   - component: {fileID: 8648824482010808868}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3920,7 +3920,7 @@ GameObject:
   - component: {fileID: 7780059243706734820}
   - component: {fileID: 8564403446225721862}
   - component: {fileID: 5525407773031474449}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4087,7 +4087,7 @@ GameObject:
   - component: {fileID: 7825001528095156232}
   - component: {fileID: 7225783267540285924}
   - component: {fileID: 8983192595102132443}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4276,7 +4276,7 @@ GameObject:
   - component: {fileID: 8310031174873156770}
   - component: {fileID: 4083354883338664341}
   - component: {fileID: 3148659765978401047}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4443,7 +4443,7 @@ GameObject:
   - component: {fileID: 3514229043896969324}
   - component: {fileID: 6165024461728416850}
   - component: {fileID: 635757833212442271}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4532,7 +4532,7 @@ GameObject:
   - component: {fileID: 6230687742253990270}
   - component: {fileID: 7868714300530265702}
   - component: {fileID: 4210876022411397807}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (14)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -4717,7 +4717,7 @@ GameObject:
   - component: {fileID: 5678410061959817978}
   - component: {fileID: 4675703225927327092}
   - component: {fileID: 69860303196308172}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4801,7 +4801,7 @@ GameObject:
   - component: {fileID: 8616220313685663984}
   - component: {fileID: 2173235443682884805}
   - component: {fileID: 5352141141324772122}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4885,7 +4885,7 @@ GameObject:
   - component: {fileID: 6540621541768528930}
   - component: {fileID: 8376049261977951849}
   - component: {fileID: 919522731668084771}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4974,7 +4974,7 @@ GameObject:
   - component: {fileID: 3936594451055470577}
   - component: {fileID: 5885119059949521056}
   - component: {fileID: 1083623689644531966}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (10)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -5159,7 +5159,7 @@ GameObject:
   - component: {fileID: 9051654818375024993}
   - component: {fileID: 4918599295509640509}
   - component: {fileID: 5465552689646301797}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5243,7 +5243,7 @@ GameObject:
   - component: {fileID: 3052251905112161271}
   - component: {fileID: 1717097525895229539}
   - component: {fileID: 2579363948521579256}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5327,7 +5327,7 @@ GameObject:
   - component: {fileID: 5753873152823430186}
   - component: {fileID: 3539809114452683241}
   - component: {fileID: 474492927607743465}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5411,7 +5411,7 @@ GameObject:
   - component: {fileID: 2290793340022584376}
   - component: {fileID: 5928400476873327536}
   - component: {fileID: 1515639046588552835}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5495,7 +5495,7 @@ GameObject:
   - component: {fileID: 240889362702357239}
   - component: {fileID: 5330812712381344512}
   - component: {fileID: 4086531958609163809}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5579,7 +5579,7 @@ GameObject:
   - component: {fileID: 6169454144917600719}
   - component: {fileID: 7410774480753684312}
   - component: {fileID: 8398369350531059378}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5663,7 +5663,7 @@ GameObject:
   - component: {fileID: 2538626563354205580}
   - component: {fileID: 1675916275935484321}
   - component: {fileID: 5131144820310867216}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5747,7 +5747,7 @@ GameObject:
   - component: {fileID: 4255863638445719225}
   - component: {fileID: 4293538880918857672}
   - component: {fileID: 8637455777657563952}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5836,7 +5836,7 @@ GameObject:
   - component: {fileID: 1496903877316104956}
   - component: {fileID: 4402830903443095078}
   - component: {fileID: 82498020012127849}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (39)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -6021,7 +6021,7 @@ GameObject:
   - component: {fileID: 4564622022278800286}
   - component: {fileID: 8018393985834218750}
   - component: {fileID: 3691679278628678100}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6105,7 +6105,7 @@ GameObject:
   - component: {fileID: 4271445371348727973}
   - component: {fileID: 8562307518817142220}
   - component: {fileID: 5062712264604789382}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6189,7 +6189,7 @@ GameObject:
   - component: {fileID: 232786799219610046}
   - component: {fileID: 8577643981426376640}
   - component: {fileID: 7024866856335656415}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6273,7 +6273,7 @@ GameObject:
   - component: {fileID: 1770107386959222834}
   - component: {fileID: 5158759687378999951}
   - component: {fileID: 2143030194946431634}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6440,7 +6440,7 @@ GameObject:
   - component: {fileID: 3156325886163601648}
   - component: {fileID: 6167240960963453550}
   - component: {fileID: 4994508852481175108}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6524,7 +6524,7 @@ GameObject:
   - component: {fileID: 8034315129552845841}
   - component: {fileID: 2022108363813293481}
   - component: {fileID: 8206782424717760699}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6608,7 +6608,7 @@ GameObject:
   - component: {fileID: 934617346688917080}
   - component: {fileID: 7163627073434948509}
   - component: {fileID: 2895206155507343531}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6692,7 +6692,7 @@ GameObject:
   - component: {fileID: 8649685275638783311}
   - component: {fileID: 5335194838169992130}
   - component: {fileID: 501810053060195873}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6776,7 +6776,7 @@ GameObject:
   - component: {fileID: 6869016266178291054}
   - component: {fileID: 5676799789315604957}
   - component: {fileID: 1555345285539684610}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6860,7 +6860,7 @@ GameObject:
   - component: {fileID: 8505348406945987667}
   - component: {fileID: 5872357757688207079}
   - component: {fileID: 4881562825926931974}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6944,7 +6944,7 @@ GameObject:
   - component: {fileID: 8472156813673094721}
   - component: {fileID: 5822293733274387499}
   - component: {fileID: 1810431567240148319}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7028,7 +7028,7 @@ GameObject:
   - component: {fileID: 8569433889351411934}
   - component: {fileID: 6503877184724207714}
   - component: {fileID: 4128511049221803971}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7195,7 +7195,7 @@ GameObject:
   - component: {fileID: 8902216454149244855}
   - component: {fileID: 2527157952303402153}
   - component: {fileID: 415510146364118774}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7279,7 +7279,7 @@ GameObject:
   - component: {fileID: 8492706330472462981}
   - component: {fileID: 1403237298701914848}
   - component: {fileID: 6973635390250060671}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7363,7 +7363,7 @@ GameObject:
   - component: {fileID: 7118666741896353195}
   - component: {fileID: 448113820572906094}
   - component: {fileID: 8133906554444255376}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7535,7 +7535,7 @@ GameObject:
   - component: {fileID: 1880085986485352701}
   - component: {fileID: 312404757884535440}
   - component: {fileID: 8804070310050916645}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (60)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -7720,7 +7720,7 @@ GameObject:
   - component: {fileID: 5994326419000519010}
   - component: {fileID: 5334896384373972489}
   - component: {fileID: 5927509804925666576}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7809,7 +7809,7 @@ GameObject:
   - component: {fileID: 7083965632160183122}
   - component: {fileID: 5590052490671542046}
   - component: {fileID: 7961521942966586808}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (32)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -7994,7 +7994,7 @@ GameObject:
   - component: {fileID: 1943098263987011405}
   - component: {fileID: 3933518322224355169}
   - component: {fileID: 7626643774377293754}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8161,7 +8161,7 @@ GameObject:
   - component: {fileID: 7571560836647568392}
   - component: {fileID: 3886469746671716059}
   - component: {fileID: 6736854630340788532}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8245,7 +8245,7 @@ GameObject:
   - component: {fileID: 5434710330217807781}
   - component: {fileID: 4916301503965116529}
   - component: {fileID: 338469091745486588}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8334,7 +8334,7 @@ GameObject:
   - component: {fileID: 1303639345989342496}
   - component: {fileID: 1281783509158575437}
   - component: {fileID: 6903975652980835403}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (19)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -8519,7 +8519,7 @@ GameObject:
   - component: {fileID: 102775404877660361}
   - component: {fileID: 7529445607915292096}
   - component: {fileID: 6296801782427606774}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8603,7 +8603,7 @@ GameObject:
   - component: {fileID: 1177008093337938280}
   - component: {fileID: 8824908964138462995}
   - component: {fileID: 8277489887362177960}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8687,7 +8687,7 @@ GameObject:
   - component: {fileID: 2579994995095393963}
   - component: {fileID: 5662416499847412805}
   - component: {fileID: 533928581335202943}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8771,7 +8771,7 @@ GameObject:
   - component: {fileID: 8581820535594336045}
   - component: {fileID: 1423585894726876236}
   - component: {fileID: 1970355576473024100}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8855,7 +8855,7 @@ GameObject:
   - component: {fileID: 525052150040440353}
   - component: {fileID: 8413513283728009333}
   - component: {fileID: 8126371192244426132}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8944,7 +8944,7 @@ GameObject:
   - component: {fileID: 2107968344322751600}
   - component: {fileID: 1939689314289201312}
   - component: {fileID: 2094212182760447628}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (51)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -9129,7 +9129,7 @@ GameObject:
   - component: {fileID: 4303972008828569623}
   - component: {fileID: 200908215262393717}
   - component: {fileID: 9135164279014331261}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9213,7 +9213,7 @@ GameObject:
   - component: {fileID: 3022557028827114055}
   - component: {fileID: 3893133154829323731}
   - component: {fileID: 9155989850574735989}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9297,7 +9297,7 @@ GameObject:
   - component: {fileID: 3509366212763522194}
   - component: {fileID: 953734045228916486}
   - component: {fileID: 4117344275542101405}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9464,7 +9464,7 @@ GameObject:
   - component: {fileID: 5614017174466088549}
   - component: {fileID: 2075383178536397101}
   - component: {fileID: 4858892638761755250}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9553,7 +9553,7 @@ GameObject:
   - component: {fileID: 5934206731611781749}
   - component: {fileID: 8519848377001893629}
   - component: {fileID: 8499118421427504117}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (50)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -9738,7 +9738,7 @@ GameObject:
   - component: {fileID: 8808484811694489873}
   - component: {fileID: 7809138522699577583}
   - component: {fileID: 1573305926587005701}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9827,7 +9827,7 @@ GameObject:
   - component: {fileID: 2237621254399604798}
   - component: {fileID: 6711480762672221634}
   - component: {fileID: 2668628314421757959}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (40)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -10012,7 +10012,7 @@ GameObject:
   - component: {fileID: 8300995365078200307}
   - component: {fileID: 3365109754754106922}
   - component: {fileID: 4751347403327216496}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10101,7 +10101,7 @@ GameObject:
   - component: {fileID: 3482249846939028482}
   - component: {fileID: 4288989088333987066}
   - component: {fileID: 2642055942638303978}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (52)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -10286,7 +10286,7 @@ GameObject:
   - component: {fileID: 5386650075086796395}
   - component: {fileID: 5864849903323170204}
   - component: {fileID: 5891490124295053713}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10536,7 +10536,7 @@ GameObject:
   - component: {fileID: 6412685121265642994}
   - component: {fileID: 5298041968456938562}
   - component: {fileID: 3841693585134539667}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10620,7 +10620,7 @@ GameObject:
   - component: {fileID: 2086971576675344628}
   - component: {fileID: 1651797408313966386}
   - component: {fileID: 7810240224262034658}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10704,7 +10704,7 @@ GameObject:
   - component: {fileID: 8727381188842334233}
   - component: {fileID: 2447720441014964285}
   - component: {fileID: 5923561933499981070}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10788,7 +10788,7 @@ GameObject:
   - component: {fileID: 3513675145817446482}
   - component: {fileID: 7689338796511166682}
   - component: {fileID: 7773653028517840600}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10872,7 +10872,7 @@ GameObject:
   - component: {fileID: 3660861291380291912}
   - component: {fileID: 9119973892570159893}
   - component: {fileID: 6810644287024811780}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10956,7 +10956,7 @@ GameObject:
   - component: {fileID: 7882697731637993877}
   - component: {fileID: 4093948760078005865}
   - component: {fileID: 3389266032071268546}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11040,7 +11040,7 @@ GameObject:
   - component: {fileID: 697045217127362770}
   - component: {fileID: 8751995417954731850}
   - component: {fileID: 105913563228730190}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11124,7 +11124,7 @@ GameObject:
   - component: {fileID: 3019335836821600127}
   - component: {fileID: 2984735453965871380}
   - component: {fileID: 9038858486972598649}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11208,7 +11208,7 @@ GameObject:
   - component: {fileID: 1502705354426649548}
   - component: {fileID: 9138970201418483921}
   - component: {fileID: 1549996989028608155}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11292,7 +11292,7 @@ GameObject:
   - component: {fileID: 9164587391200558068}
   - component: {fileID: 6499087628772147}
   - component: {fileID: 5183193462692373036}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11381,7 +11381,7 @@ GameObject:
   - component: {fileID: 1458543456639309112}
   - component: {fileID: 3585992249153767821}
   - component: {fileID: 8689336851512917739}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (45)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -11649,7 +11649,7 @@ GameObject:
   - component: {fileID: 1388595100937208975}
   - component: {fileID: 1713671704052835483}
   - component: {fileID: 7275031459921505084}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11738,7 +11738,7 @@ GameObject:
   - component: {fileID: 6644947435028406989}
   - component: {fileID: 7750330975593130320}
   - component: {fileID: 5794575701303315543}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (8)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -11923,7 +11923,7 @@ GameObject:
   - component: {fileID: 2903652861213728824}
   - component: {fileID: 6949826201885735787}
   - component: {fileID: 2910333285845041312}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12007,7 +12007,7 @@ GameObject:
   - component: {fileID: 2974803288907369321}
   - component: {fileID: 1066843376808554974}
   - component: {fileID: 8394000528694268260}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12091,7 +12091,7 @@ GameObject:
   - component: {fileID: 7863048653991012370}
   - component: {fileID: 5150519274691899018}
   - component: {fileID: 8364297311490669950}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12175,7 +12175,7 @@ GameObject:
   - component: {fileID: 1203231743109217209}
   - component: {fileID: 192122223781669462}
   - component: {fileID: 46772785683364423}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12259,7 +12259,7 @@ GameObject:
   - component: {fileID: 7081234866906057511}
   - component: {fileID: 6831559192043646296}
   - component: {fileID: 4217304233476474532}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12343,7 +12343,7 @@ GameObject:
   - component: {fileID: 8374995289470376447}
   - component: {fileID: 7796939888723145845}
   - component: {fileID: 7621907661411234820}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12427,7 +12427,7 @@ GameObject:
   - component: {fileID: 5084600767153215767}
   - component: {fileID: 6716337266017856224}
   - component: {fileID: 6742979138403798765}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12511,7 +12511,7 @@ GameObject:
   - component: {fileID: 4060988372745880340}
   - component: {fileID: 2625968440539454329}
   - component: {fileID: 6717466158817450353}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12678,7 +12678,7 @@ GameObject:
   - component: {fileID: 4078150544335752743}
   - component: {fileID: 6237325006784794270}
   - component: {fileID: 9112774963861208723}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12872,7 +12872,7 @@ GameObject:
   - component: {fileID: 3747256355558702052}
   - component: {fileID: 6041867835898387462}
   - component: {fileID: 3010995121533883226}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (35)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -13057,7 +13057,7 @@ GameObject:
   - component: {fileID: 1151454439817773543}
   - component: {fileID: 5836100406556083034}
   - component: {fileID: 781361786965885767}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13141,7 +13141,7 @@ GameObject:
   - component: {fileID: 3599337513320411953}
   - component: {fileID: 6178819558051102286}
   - component: {fileID: 1321185760443926770}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13225,7 +13225,7 @@ GameObject:
   - component: {fileID: 2306988338570191082}
   - component: {fileID: 5147782795311848610}
   - component: {fileID: 2263005681145285147}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13309,7 +13309,7 @@ GameObject:
   - component: {fileID: 1524199380554311917}
   - component: {fileID: 7816984082817725574}
   - component: {fileID: 4786164464603651992}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13393,7 +13393,7 @@ GameObject:
   - component: {fileID: 7228121593998973590}
   - component: {fileID: 6396370682690190569}
   - component: {fileID: 4362919347521689365}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13477,7 +13477,7 @@ GameObject:
   - component: {fileID: 1681542368227900689}
   - component: {fileID: 8111803927719785740}
   - component: {fileID: 604830117607209825}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13561,7 +13561,7 @@ GameObject:
   - component: {fileID: 7552648861864623953}
   - component: {fileID: 1607988166212700145}
   - component: {fileID: 5884144453848632103}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13833,7 +13833,7 @@ GameObject:
   - component: {fileID: 3983796825853378227}
   - component: {fileID: 5433973585974903038}
   - component: {fileID: 7171798424290379342}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14000,7 +14000,7 @@ GameObject:
   - component: {fileID: 2815616593707136939}
   - component: {fileID: 5065411463766610541}
   - component: {fileID: 4939957027414524203}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14089,7 +14089,7 @@ GameObject:
   - component: {fileID: 1164390345286057899}
   - component: {fileID: 5539207922767152573}
   - component: {fileID: 2890029619515758127}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (56)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -14279,7 +14279,7 @@ GameObject:
   - component: {fileID: 3061185399503990441}
   - component: {fileID: 4941385062072868575}
   - component: {fileID: 9031011251188504711}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (68)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -14464,7 +14464,7 @@ GameObject:
   - component: {fileID: 6423533436510853880}
   - component: {fileID: 7955946032900000284}
   - component: {fileID: 5276473427381983845}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14631,7 +14631,7 @@ GameObject:
   - component: {fileID: 3651835493357561637}
   - component: {fileID: 8006420576816936922}
   - component: {fileID: 2167734515908435814}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14715,7 +14715,7 @@ GameObject:
   - component: {fileID: 2398083090693820254}
   - component: {fileID: 1122161195985280985}
   - component: {fileID: 1705611032239453798}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14882,7 +14882,7 @@ GameObject:
   - component: {fileID: 1452897430420817082}
   - component: {fileID: 21510464215581674}
   - component: {fileID: 7143372684483062033}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14966,7 +14966,7 @@ GameObject:
   - component: {fileID: 4376419730487660350}
   - component: {fileID: 1070936660578553718}
   - component: {fileID: 2562515706446977669}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15050,7 +15050,7 @@ GameObject:
   - component: {fileID: 5541343447391371754}
   - component: {fileID: 3140370858645715977}
   - component: {fileID: 3348605389301631528}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15134,7 +15134,7 @@ GameObject:
   - component: {fileID: 6082881577772764596}
   - component: {fileID: 239983147455343798}
   - component: {fileID: 3542151576517324779}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15223,7 +15223,7 @@ GameObject:
   - component: {fileID: 6502480570552595324}
   - component: {fileID: 7891537078323198177}
   - component: {fileID: 6224146462023032294}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (7)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -15413,7 +15413,7 @@ GameObject:
   - component: {fileID: 8476546224707670725}
   - component: {fileID: 6302641555090093885}
   - component: {fileID: 2121002809710419587}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (49)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -15598,7 +15598,7 @@ GameObject:
   - component: {fileID: 7221947015874343163}
   - component: {fileID: 1536218081539133009}
   - component: {fileID: 2245563152666434300}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15682,7 +15682,7 @@ GameObject:
   - component: {fileID: 1781840297170342726}
   - component: {fileID: 5179043951138683424}
   - component: {fileID: 7909377237819503852}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15766,7 +15766,7 @@ GameObject:
   - component: {fileID: 6968462670981361828}
   - component: {fileID: 5699940675581410342}
   - component: {fileID: 1096816927552929980}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15955,7 +15955,7 @@ GameObject:
   - component: {fileID: 4575147132288665900}
   - component: {fileID: 1102621396660551167}
   - component: {fileID: 3711569667271599175}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16039,7 +16039,7 @@ GameObject:
   - component: {fileID: 4129902950672439561}
   - component: {fileID: 7060850563073227973}
   - component: {fileID: 7175797230909371322}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16123,7 +16123,7 @@ GameObject:
   - component: {fileID: 6877668367324028428}
   - component: {fileID: 7373242987048347130}
   - component: {fileID: 3567322997694295839}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16207,7 +16207,7 @@ GameObject:
   - component: {fileID: 6025752971662225429}
   - component: {fileID: 8781281894598827156}
   - component: {fileID: 981945247910720889}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16291,7 +16291,7 @@ GameObject:
   - component: {fileID: 4856421722811505374}
   - component: {fileID: 5958498055700321587}
   - component: {fileID: 7790329716374685101}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16375,7 +16375,7 @@ GameObject:
   - component: {fileID: 7803060696148515521}
   - component: {fileID: 9000439382557645555}
   - component: {fileID: 2876739391020782994}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16464,7 +16464,7 @@ GameObject:
   - component: {fileID: 7326759177039535148}
   - component: {fileID: 5914576712303892401}
   - component: {fileID: 7633618124974060214}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (5)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -16649,7 +16649,7 @@ GameObject:
   - component: {fileID: 6542856061616177542}
   - component: {fileID: 257901052236064956}
   - component: {fileID: 4642252870359144729}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16733,7 +16733,7 @@ GameObject:
   - component: {fileID: 5701695508863357962}
   - component: {fileID: 6889203558590106508}
   - component: {fileID: 260286362502230188}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16817,7 +16817,7 @@ GameObject:
   - component: {fileID: 2265820081243685116}
   - component: {fileID: 5308219674758019115}
   - component: {fileID: 1633386721400617816}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16906,7 +16906,7 @@ GameObject:
   - component: {fileID: 327579308313118247}
   - component: {fileID: 6293890760233853242}
   - component: {fileID: 1177142816170399156}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (66)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -17091,7 +17091,7 @@ GameObject:
   - component: {fileID: 3866363573637127103}
   - component: {fileID: 7687401568513939714}
   - component: {fileID: 3496245760975870239}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17180,7 +17180,7 @@ GameObject:
   - component: {fileID: 4593715230127879730}
   - component: {fileID: 2624697093784577946}
   - component: {fileID: 19178353382385600}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (17)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -17365,7 +17365,7 @@ GameObject:
   - component: {fileID: 1518475830702647499}
   - component: {fileID: 7806049251104772221}
   - component: {fileID: 536493850098677765}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17449,7 +17449,7 @@ GameObject:
   - component: {fileID: 4485869889833697409}
   - component: {fileID: 8160049134789011801}
   - component: {fileID: 8842074654082463571}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17533,7 +17533,7 @@ GameObject:
   - component: {fileID: 7096950057416626275}
   - component: {fileID: 8489742928376545434}
   - component: {fileID: 8197509327768286110}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17617,7 +17617,7 @@ GameObject:
   - component: {fileID: 8933873709541054304}
   - component: {fileID: 7187385257741194416}
   - component: {fileID: 2280510818184305218}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17784,7 +17784,7 @@ GameObject:
   - component: {fileID: 3422610679074204343}
   - component: {fileID: 7313979770190537494}
   - component: {fileID: 4847855568195709113}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17868,7 +17868,7 @@ GameObject:
   - component: {fileID: 1152320586744329094}
   - component: {fileID: 7807950423093165353}
   - component: {fileID: 4729723203231632960}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17952,7 +17952,7 @@ GameObject:
   - component: {fileID: 6059849038255563407}
   - component: {fileID: 5715906880109499183}
   - component: {fileID: 7308279359821044771}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18036,7 +18036,7 @@ GameObject:
   - component: {fileID: 6620257696531576262}
   - component: {fileID: 7445833612765975481}
   - component: {fileID: 224237701587105861}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18120,7 +18120,7 @@ GameObject:
   - component: {fileID: 9154227796856023030}
   - component: {fileID: 7255090040591799297}
   - component: {fileID: 7208476398999646220}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18204,7 +18204,7 @@ GameObject:
   - component: {fileID: 532406116997494906}
   - component: {fileID: 4246016485982909422}
   - component: {fileID: 1077213244550717813}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18476,7 +18476,7 @@ GameObject:
   - component: {fileID: 1482573935167706698}
   - component: {fileID: 2523168341748199813}
   - component: {fileID: 233724674680476593}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18560,7 +18560,7 @@ GameObject:
   - component: {fileID: 6152612386463626693}
   - component: {fileID: 5650027928791824616}
   - component: {fileID: 1462010078760500794}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18644,7 +18644,7 @@ GameObject:
   - component: {fileID: 6938605339198630935}
   - component: {fileID: 6025967358563268193}
   - component: {fileID: 916717246865649774}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18728,7 +18728,7 @@ GameObject:
   - component: {fileID: 6600629680345791249}
   - component: {fileID: 2529508315104483678}
   - component: {fileID: 2922360368649521398}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18817,7 +18817,7 @@ GameObject:
   - component: {fileID: 6157003503517715747}
   - component: {fileID: 1788347602209136112}
   - component: {fileID: 666432559100631984}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (25)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -19002,7 +19002,7 @@ GameObject:
   - component: {fileID: 8086520480572958903}
   - component: {fileID: 3660884397406751390}
   - component: {fileID: 8485290502909446920}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19086,7 +19086,7 @@ GameObject:
   - component: {fileID: 8719165084879058503}
   - component: {fileID: 7108274706324293040}
   - component: {fileID: 7062573077296669117}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19170,7 +19170,7 @@ GameObject:
   - component: {fileID: 6403832675607539949}
   - component: {fileID: 7452762609537063810}
   - component: {fileID: 5722937795341308802}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19359,7 +19359,7 @@ GameObject:
   - component: {fileID: 4403204411946701686}
   - component: {fileID: 1085587155032259042}
   - component: {fileID: 7748654819525030181}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19443,7 +19443,7 @@ GameObject:
   - component: {fileID: 986194504406039106}
   - component: {fileID: 4750173848116519460}
   - component: {fileID: 8565787673009388658}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19527,7 +19527,7 @@ GameObject:
   - component: {fileID: 1141250545866237993}
   - component: {fileID: 7080729468832136952}
   - component: {fileID: 9171205943002748503}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19716,7 +19716,7 @@ GameObject:
   - component: {fileID: 8767341103579278219}
   - component: {fileID: 949866211578364694}
   - component: {fileID: 5375236837792292295}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19800,7 +19800,7 @@ GameObject:
   - component: {fileID: 2675352810814337975}
   - component: {fileID: 6545264314259875864}
   - component: {fileID: 1124342859024780880}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19884,7 +19884,7 @@ GameObject:
   - component: {fileID: 6283279140628802988}
   - component: {fileID: 2067764729397080307}
   - component: {fileID: 2032196818970553946}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19968,7 +19968,7 @@ GameObject:
   - component: {fileID: 8120786121334356249}
   - component: {fileID: 6963392604171031851}
   - component: {fileID: 7924421047281473762}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20052,7 +20052,7 @@ GameObject:
   - component: {fileID: 400886197781733665}
   - component: {fileID: 4335967509126996195}
   - component: {fileID: 571092506648378990}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20136,7 +20136,7 @@ GameObject:
   - component: {fileID: 5548253447208277829}
   - component: {fileID: 4913292959360517801}
   - component: {fileID: 6683922813794178966}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20325,7 +20325,7 @@ GameObject:
   - component: {fileID: 7479136117605083214}
   - component: {fileID: 6526239801621389359}
   - component: {fileID: 1767926790446799883}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20414,7 +20414,7 @@ GameObject:
   - component: {fileID: 1757528621081506643}
   - component: {fileID: 3061093658463264590}
   - component: {fileID: 5761489945599734162}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (62)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -20599,7 +20599,7 @@ GameObject:
   - component: {fileID: 3575408697998118035}
   - component: {fileID: 5039483720487472154}
   - component: {fileID: 1289126227332895298}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20721,7 +20721,7 @@ GameObject:
   - component: {fileID: 255015334765524274}
   - component: {fileID: 6072947212718330469}
   - component: {fileID: 2736800415901032594}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20805,7 +20805,7 @@ GameObject:
   - component: {fileID: 6919133500477043815}
   - component: {fileID: 3770318572431745878}
   - component: {fileID: 3605131829204060454}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20889,7 +20889,7 @@ GameObject:
   - component: {fileID: 4382819382007790633}
   - component: {fileID: 2187719118807246001}
   - component: {fileID: 4293957144046445610}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21078,7 +21078,7 @@ GameObject:
   - component: {fileID: 2331324468751123000}
   - component: {fileID: 3994958620308621271}
   - component: {fileID: 1978696432766434104}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21162,7 +21162,7 @@ GameObject:
   - component: {fileID: 5885685842222820392}
   - component: {fileID: 2959765389836575013}
   - component: {fileID: 7456289029454013046}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21246,7 +21246,7 @@ GameObject:
   - component: {fileID: 5840349382267456408}
   - component: {fileID: 4411334673022837646}
   - component: {fileID: 8314154662183317474}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21330,7 +21330,7 @@ GameObject:
   - component: {fileID: 3284374002525518837}
   - component: {fileID: 8084814537657056419}
   - component: {fileID: 1254821924845241391}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21414,7 +21414,7 @@ GameObject:
   - component: {fileID: 2015880793699227386}
   - component: {fileID: 7873986119927696248}
   - component: {fileID: 4129326843368394615}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21498,7 +21498,7 @@ GameObject:
   - component: {fileID: 730132634798389851}
   - component: {fileID: 6621943065948293615}
   - component: {fileID: 5552890861865483785}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21582,7 +21582,7 @@ GameObject:
   - component: {fileID: 5419959670113519835}
   - component: {fileID: 2099013844221289234}
   - component: {fileID: 1489315600999827323}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21749,7 +21749,7 @@ GameObject:
   - component: {fileID: 4450995438146810386}
   - component: {fileID: 1289225535943880858}
   - component: {fileID: 5510757000466219188}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21833,7 +21833,7 @@ GameObject:
   - component: {fileID: 2094577580796723956}
   - component: {fileID: 53387933236456206}
   - component: {fileID: 5595519799688284606}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21917,7 +21917,7 @@ GameObject:
   - component: {fileID: 3572562456876915107}
   - component: {fileID: 7368241823931792911}
   - component: {fileID: 7346491609023619245}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22006,7 +22006,7 @@ GameObject:
   - component: {fileID: 7637252186669314896}
   - component: {fileID: 6793069738429937869}
   - component: {fileID: 7323160841156976074}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (1)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -22274,7 +22274,7 @@ GameObject:
   - component: {fileID: 4576830538142532740}
   - component: {fileID: 7324546909809004381}
   - component: {fileID: 7285194915605536622}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22358,7 +22358,7 @@ GameObject:
   - component: {fileID: 7471077637699001609}
   - component: {fileID: 79891260085639898}
   - component: {fileID: 1288532788215209758}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22442,7 +22442,7 @@ GameObject:
   - component: {fileID: 4150967117720100275}
   - component: {fileID: 7393790501543206670}
   - component: {fileID: 4374700891480039187}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22526,7 +22526,7 @@ GameObject:
   - component: {fileID: 1548783307654777550}
   - component: {fileID: 4589870080916334443}
   - component: {fileID: 6647205064594435002}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22610,7 +22610,7 @@ GameObject:
   - component: {fileID: 624800950194928939}
   - component: {fileID: 2959354499227623694}
   - component: {fileID: 1116186760519975312}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22694,7 +22694,7 @@ GameObject:
   - component: {fileID: 6309254515928783546}
   - component: {fileID: 7711837091720461509}
   - component: {fileID: 1102748320169776953}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22778,7 +22778,7 @@ GameObject:
   - component: {fileID: 1711942941498084050}
   - component: {fileID: 9159542617587837790}
   - component: {fileID: 4414158026810875318}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22945,7 +22945,7 @@ GameObject:
   - component: {fileID: 7975669333294791779}
   - component: {fileID: 4213689101016222388}
   - component: {fileID: 1734476781502258740}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23029,7 +23029,7 @@ GameObject:
   - component: {fileID: 8198811828586845233}
   - component: {fileID: 4244499612183017201}
   - component: {fileID: 14927432559592768}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23113,7 +23113,7 @@ GameObject:
   - component: {fileID: 8608299938421417817}
   - component: {fileID: 4481511823721722608}
   - component: {fileID: 3786182312652004327}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23197,7 +23197,7 @@ GameObject:
   - component: {fileID: 1102756485746358292}
   - component: {fileID: 5028423982205996866}
   - component: {fileID: 3919334770022740789}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23281,7 +23281,7 @@ GameObject:
   - component: {fileID: 9020096524336071345}
   - component: {fileID: 949646550226254237}
   - component: {fileID: 2006533156175111814}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23365,7 +23365,7 @@ GameObject:
   - component: {fileID: 1695375981919135599}
   - component: {fileID: 1330828333062114654}
   - component: {fileID: 5756544694542726122}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23449,7 +23449,7 @@ GameObject:
   - component: {fileID: 7919669797484216967}
   - component: {fileID: 5545403429299884486}
   - component: {fileID: 7849208571690574203}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23533,7 +23533,7 @@ GameObject:
   - component: {fileID: 9022155484496590164}
   - component: {fileID: 847771408776390983}
   - component: {fileID: 1345611751072906646}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23617,7 +23617,7 @@ GameObject:
   - component: {fileID: 1155483875761988015}
   - component: {fileID: 3280458375379020347}
   - component: {fileID: 1844612456154396832}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23701,7 +23701,7 @@ GameObject:
   - component: {fileID: 7703933675307089523}
   - component: {fileID: 2312743190630812575}
   - component: {fileID: 791507314708410943}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23785,7 +23785,7 @@ GameObject:
   - component: {fileID: 3940019689490123055}
   - component: {fileID: 3974993275989368741}
   - component: {fileID: 3388034937290686701}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23869,7 +23869,7 @@ GameObject:
   - component: {fileID: 609728635867860933}
   - component: {fileID: 8204463933925977661}
   - component: {fileID: 3125793973803980800}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23953,7 +23953,7 @@ GameObject:
   - component: {fileID: 9017852886127473227}
   - component: {fileID: 1448672830888809167}
   - component: {fileID: 8889657312769348787}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24037,7 +24037,7 @@ GameObject:
   - component: {fileID: 6869808748376188964}
   - component: {fileID: 6306913457868798408}
   - component: {fileID: 5722735745990273271}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24126,7 +24126,7 @@ GameObject:
   - component: {fileID: 854236360882560286}
   - component: {fileID: 4261115695117743408}
   - component: {fileID: 2849081298804922842}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (63)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -24311,7 +24311,7 @@ GameObject:
   - component: {fileID: 7512995424545847065}
   - component: {fileID: 6208966229167949326}
   - component: {fileID: 8892495717245027766}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24400,7 +24400,7 @@ GameObject:
   - component: {fileID: 2785281152066507805}
   - component: {fileID: 5585150125131328402}
   - component: {fileID: 1542051876420154767}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (23)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -24585,7 +24585,7 @@ GameObject:
   - component: {fileID: 8416943458852272264}
   - component: {fileID: 5522482569652101648}
   - component: {fileID: 4737903367518118154}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24669,7 +24669,7 @@ GameObject:
   - component: {fileID: 1642188186926061760}
   - component: {fileID: 486402072576516700}
   - component: {fileID: 7397565414374227585}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24753,7 +24753,7 @@ GameObject:
   - component: {fileID: 7174298242283345878}
   - component: {fileID: 2406962084899845631}
   - component: {fileID: 7379398079160726633}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24837,7 +24837,7 @@ GameObject:
   - component: {fileID: 268441787525878695}
   - component: {fileID: 5618838303440712311}
   - component: {fileID: 618579097478732855}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25004,7 +25004,7 @@ GameObject:
   - component: {fileID: 3602778383369132127}
   - component: {fileID: 5284722640434973750}
   - component: {fileID: 3151071092740166142}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25171,7 +25171,7 @@ GameObject:
   - component: {fileID: 9184851266774646096}
   - component: {fileID: 2519390813656534115}
   - component: {fileID: 359349101001644904}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25360,7 +25360,7 @@ GameObject:
   - component: {fileID: 7471504308673828227}
   - component: {fileID: 8649522418410160047}
   - component: {fileID: 2100517788499686950}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25444,7 +25444,7 @@ GameObject:
   - component: {fileID: 7709295764516034223}
   - component: {fileID: 7746654891899057069}
   - component: {fileID: 2883180578656380276}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25528,7 +25528,7 @@ GameObject:
   - component: {fileID: 5982872031026005848}
   - component: {fileID: 6617952372601640628}
   - component: {fileID: 4844225127675037579}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25617,7 +25617,7 @@ GameObject:
   - component: {fileID: 862081181355375675}
   - component: {fileID: 3872889281179392557}
   - component: {fileID: 2127705152489999039}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (21)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -25802,7 +25802,7 @@ GameObject:
   - component: {fileID: 3702646700054756278}
   - component: {fileID: 8792653790754562207}
   - component: {fileID: 2784385435132806180}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25886,7 +25886,7 @@ GameObject:
   - component: {fileID: 7654955507207799549}
   - component: {fileID: 3910562594116355382}
   - component: {fileID: 7122612811212222801}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25970,7 +25970,7 @@ GameObject:
   - component: {fileID: 8052756077868726442}
   - component: {fileID: 3257834820594588291}
   - component: {fileID: 7654425799800036117}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26054,7 +26054,7 @@ GameObject:
   - component: {fileID: 4008170693613060741}
   - component: {fileID: 9055090460238004333}
   - component: {fileID: 8882430994017647146}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26138,7 +26138,7 @@ GameObject:
   - component: {fileID: 8027451500082009403}
   - component: {fileID: 2662352831777725323}
   - component: {fileID: 2452406187126112856}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26222,7 +26222,7 @@ GameObject:
   - component: {fileID: 5940232574314117278}
   - component: {fileID: 1424040190301961762}
   - component: {fileID: 3855530636032864265}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26306,7 +26306,7 @@ GameObject:
   - component: {fileID: 4512746052181481870}
   - component: {fileID: 8571608299722365410}
   - component: {fileID: 3410379045427587937}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26390,7 +26390,7 @@ GameObject:
   - component: {fileID: 4155023759863809008}
   - component: {fileID: 6180301564742111168}
   - component: {fileID: 4468296386515531216}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26474,7 +26474,7 @@ GameObject:
   - component: {fileID: 3404745760826832090}
   - component: {fileID: 8090472547498522215}
   - component: {fileID: 3057148012214204026}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26558,7 +26558,7 @@ GameObject:
   - component: {fileID: 2598270634024583173}
   - component: {fileID: 7210587646475747847}
   - component: {fileID: 655121800454951297}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26642,7 +26642,7 @@ GameObject:
   - component: {fileID: 105654449655617287}
   - component: {fileID: 9097884269382926345}
   - component: {fileID: 7999106182622686201}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26726,7 +26726,7 @@ GameObject:
   - component: {fileID: 241979078359327453}
   - component: {fileID: 6576031248570656678}
   - component: {fileID: 1485112992710025185}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26810,7 +26810,7 @@ GameObject:
   - component: {fileID: 4911127255755531739}
   - component: {fileID: 8695570499076817828}
   - component: {fileID: 2081949957905590360}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26894,7 +26894,7 @@ GameObject:
   - component: {fileID: 3815951308951200133}
   - component: {fileID: 8820830851031924761}
   - component: {fileID: 589055759664972446}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27061,7 +27061,7 @@ GameObject:
   - component: {fileID: 1531552018991410139}
   - component: {fileID: 3595683485340565976}
   - component: {fileID: 6374882235440776313}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27145,7 +27145,7 @@ GameObject:
   - component: {fileID: 1443737203912230782}
   - component: {fileID: 8812909230957919759}
   - component: {fileID: 7507223941039432106}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27229,7 +27229,7 @@ GameObject:
   - component: {fileID: 2026127642939963567}
   - component: {fileID: 7730891544800287371}
   - component: {fileID: 727000202013593465}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27313,7 +27313,7 @@ GameObject:
   - component: {fileID: 5303252704253475152}
   - component: {fileID: 1584542441231400901}
   - component: {fileID: 8302308181246323842}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27563,7 +27563,7 @@ GameObject:
   - component: {fileID: 4729945319635104731}
   - component: {fileID: 1448307877993153846}
   - component: {fileID: 1246233390160820915}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27647,7 +27647,7 @@ GameObject:
   - component: {fileID: 4810989538993257869}
   - component: {fileID: 7630109184618901049}
   - component: {fileID: 8649747964426614059}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27731,7 +27731,7 @@ GameObject:
   - component: {fileID: 2577678592372079943}
   - component: {fileID: 3443297317867657393}
   - component: {fileID: 4813967210699781623}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27815,7 +27815,7 @@ GameObject:
   - component: {fileID: 4186134008866567796}
   - component: {fileID: 1937662090026960060}
   - component: {fileID: 7042188272477549945}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27899,7 +27899,7 @@ GameObject:
   - component: {fileID: 3209349331912508592}
   - component: {fileID: 2253826010879648754}
   - component: {fileID: 3449638645791238301}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28071,7 +28071,7 @@ GameObject:
   - component: {fileID: 1047638910532689454}
   - component: {fileID: 495543601857120295}
   - component: {fileID: 473396370707506543}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (58)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -28256,7 +28256,7 @@ GameObject:
   - component: {fileID: 3172901114420891552}
   - component: {fileID: 9091671395257379695}
   - component: {fileID: 3982403471029755164}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28340,7 +28340,7 @@ GameObject:
   - component: {fileID: 4857168301095648242}
   - component: {fileID: 1771533577650355804}
   - component: {fileID: 2443867390341872597}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28424,7 +28424,7 @@ GameObject:
   - component: {fileID: 8567318806629462532}
   - component: {fileID: 1549442791860350892}
   - component: {fileID: 6287790421846105325}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28508,7 +28508,7 @@ GameObject:
   - component: {fileID: 1018204891928508511}
   - component: {fileID: 2413025846128720562}
   - component: {fileID: 7921086892042822445}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28592,7 +28592,7 @@ GameObject:
   - component: {fileID: 7271524277465898397}
   - component: {fileID: 7640331057050236598}
   - component: {fileID: 1493825136735748659}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28781,7 +28781,7 @@ GameObject:
   - component: {fileID: 9048521196076120364}
   - component: {fileID: 1244500239739584169}
   - component: {fileID: 3682108118251784773}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28870,7 +28870,7 @@ GameObject:
   - component: {fileID: 8815186950865882161}
   - component: {fileID: 5615137002395043756}
   - component: {fileID: 8505111985108329131}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (3)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -29055,7 +29055,7 @@ GameObject:
   - component: {fileID: 5016073593022328481}
   - component: {fileID: 6707393259457872560}
   - component: {fileID: 8505208722160324355}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29139,7 +29139,7 @@ GameObject:
   - component: {fileID: 3348776967878464477}
   - component: {fileID: 3582319703781145697}
   - component: {fileID: 11259067184825068}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29223,7 +29223,7 @@ GameObject:
   - component: {fileID: 565700546736979554}
   - component: {fileID: 1005296348756430208}
   - component: {fileID: 4081056073253636344}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29307,7 +29307,7 @@ GameObject:
   - component: {fileID: 4120802526528305212}
   - component: {fileID: 4971220011823701011}
   - component: {fileID: 2331008260846680582}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29396,7 +29396,7 @@ GameObject:
   - component: {fileID: 8593515050894593945}
   - component: {fileID: 5636534187617324045}
   - component: {fileID: 289001414387375391}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (46)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -29581,7 +29581,7 @@ GameObject:
   - component: {fileID: 4639196521910863348}
   - component: {fileID: 6087583806277538231}
   - component: {fileID: 2620730844314014603}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29853,7 +29853,7 @@ GameObject:
   - component: {fileID: 8875848444530845019}
   - component: {fileID: 327972273443420017}
   - component: {fileID: 1706876091140630866}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29937,7 +29937,7 @@ GameObject:
   - component: {fileID: 7302085705690286268}
   - component: {fileID: 469170349253779566}
   - component: {fileID: 3650819276066282312}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30021,7 +30021,7 @@ GameObject:
   - component: {fileID: 7932592915680348665}
   - component: {fileID: 7772432083309373250}
   - component: {fileID: 7570855829542415897}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30315,7 +30315,7 @@ GameObject:
   - component: {fileID: 4595832745820965813}
   - component: {fileID: 5913617881468992060}
   - component: {fileID: 2914437067752363594}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30399,7 +30399,7 @@ GameObject:
   - component: {fileID: 6585193538721571175}
   - component: {fileID: 4366766717533069659}
   - component: {fileID: 5105385802004103603}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30488,7 +30488,7 @@ GameObject:
   - component: {fileID: 5281735924927652519}
   - component: {fileID: 5262973376657821118}
   - component: {fileID: 8689532680844378112}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (41)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -30673,7 +30673,7 @@ GameObject:
   - component: {fileID: 7041200288688815791}
   - component: {fileID: 6645276405720118587}
   - component: {fileID: 7505008452985907104}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30945,7 +30945,7 @@ GameObject:
   - component: {fileID: 7098741205176103715}
   - component: {fileID: 967387666273291343}
   - component: {fileID: 9003610539182395011}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31029,7 +31029,7 @@ GameObject:
   - component: {fileID: 2215117870867274566}
   - component: {fileID: 611343265707827686}
   - component: {fileID: 9220671149177827549}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31113,7 +31113,7 @@ GameObject:
   - component: {fileID: 2210845829372967277}
   - component: {fileID: 2892856475278613253}
   - component: {fileID: 5290390330663408424}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31197,7 +31197,7 @@ GameObject:
   - component: {fileID: 3562730755011063165}
   - component: {fileID: 8356716413802967634}
   - component: {fileID: 5641256527448422557}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31286,7 +31286,7 @@ GameObject:
   - component: {fileID: 5240493036614854191}
   - component: {fileID: 8299850959589343701}
   - component: {fileID: 2376125286420356149}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (55)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -31471,7 +31471,7 @@ GameObject:
   - component: {fileID: 1570837619549028645}
   - component: {fileID: 5030981661067824704}
   - component: {fileID: 3111044083682167093}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31555,7 +31555,7 @@ GameObject:
   - component: {fileID: 6925537552521998357}
   - component: {fileID: 3040590578764033083}
   - component: {fileID: 694538519674967331}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31639,7 +31639,7 @@ GameObject:
   - component: {fileID: 3380007068764600100}
   - component: {fileID: 2754211146855016136}
   - component: {fileID: 4527659119250683895}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31723,7 +31723,7 @@ GameObject:
   - component: {fileID: 2833194318690322156}
   - component: {fileID: 3845928316328528694}
   - component: {fileID: 9017313134536065451}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31807,7 +31807,7 @@ GameObject:
   - component: {fileID: 4870844136706385913}
   - component: {fileID: 252085738516177912}
   - component: {fileID: 5123718687183404938}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31891,7 +31891,7 @@ GameObject:
   - component: {fileID: 1337603023839365146}
   - component: {fileID: 5999304094073304719}
   - component: {fileID: 2359245138562407201}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31975,7 +31975,7 @@ GameObject:
   - component: {fileID: 3313958294348631068}
   - component: {fileID: 6445816771569489845}
   - component: {fileID: 956931602115212640}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32059,7 +32059,7 @@ GameObject:
   - component: {fileID: 3394958927425822581}
   - component: {fileID: 7464878043461144782}
   - component: {fileID: 7911910802326032463}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32148,7 +32148,7 @@ GameObject:
   - component: {fileID: 1680456639541064693}
   - component: {fileID: 4392778395316813616}
   - component: {fileID: 3745093303444305429}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (69)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -32333,7 +32333,7 @@ GameObject:
   - component: {fileID: 7886876557703971378}
   - component: {fileID: 5115480540911088722}
   - component: {fileID: 247137736220462267}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32417,7 +32417,7 @@ GameObject:
   - component: {fileID: 3872582230624751075}
   - component: {fileID: 7706582240033757658}
   - component: {fileID: 1556276158910908526}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32501,7 +32501,7 @@ GameObject:
   - component: {fileID: 2001183822456724566}
   - component: {fileID: 27226418339671969}
   - component: {fileID: 55833942774746028}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32690,7 +32690,7 @@ GameObject:
   - component: {fileID: 3210641841571806398}
   - component: {fileID: 7880038424516118039}
   - component: {fileID: 4218364950578327089}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32774,7 +32774,7 @@ GameObject:
   - component: {fileID: 3292081622480451398}
   - component: {fileID: 6352266083370968214}
   - component: {fileID: 683435081185880379}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32858,7 +32858,7 @@ GameObject:
   - component: {fileID: 1310123150101612758}
   - component: {fileID: 5825823308370242303}
   - component: {fileID: 1717744309744413545}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32942,7 +32942,7 @@ GameObject:
   - component: {fileID: 3648409904206064566}
   - component: {fileID: 6101758141892072313}
   - component: {fileID: 2649729601666695613}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33026,7 +33026,7 @@ GameObject:
   - component: {fileID: 2280327217888050539}
   - component: {fileID: 8807079831316046139}
   - component: {fileID: 7153302859300859498}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33110,7 +33110,7 @@ GameObject:
   - component: {fileID: 6321654122501625077}
   - component: {fileID: 2300324046891158225}
   - component: {fileID: 8953013320520903968}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33194,7 +33194,7 @@ GameObject:
   - component: {fileID: 6618665619775796430}
   - component: {fileID: 7932349065907078379}
   - component: {fileID: 4166317268413193547}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33278,7 +33278,7 @@ GameObject:
   - component: {fileID: 4650907625366427783}
   - component: {fileID: 3801403766303531667}
   - component: {fileID: 2915358245057691721}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33362,7 +33362,7 @@ GameObject:
   - component: {fileID: 2069965993707788377}
   - component: {fileID: 7613484802047445064}
   - component: {fileID: 4273348037646662086}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33446,7 +33446,7 @@ GameObject:
   - component: {fileID: 7568291803326832116}
   - component: {fileID: 7144005191098602431}
   - component: {fileID: 4495122710782192655}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33530,7 +33530,7 @@ GameObject:
   - component: {fileID: 3556396045073849455}
   - component: {fileID: 995805864887597584}
   - component: {fileID: 7609285739681747436}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33702,7 +33702,7 @@ GameObject:
   - component: {fileID: 2560455012757316267}
   - component: {fileID: 1424985996280919575}
   - component: {fileID: 5897281351463828303}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (34)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -33887,7 +33887,7 @@ GameObject:
   - component: {fileID: 332165036285831798}
   - component: {fileID: 3857596160722785082}
   - component: {fileID: 7674224039371934118}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33971,7 +33971,7 @@ GameObject:
   - component: {fileID: 5689793055918357777}
   - component: {fileID: 7598915860635566614}
   - component: {fileID: 1796832285546561672}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34055,7 +34055,7 @@ GameObject:
   - component: {fileID: 7535743364254194033}
   - component: {fileID: 1243378210112235802}
   - component: {fileID: 4420362522626696640}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34139,7 +34139,7 @@ GameObject:
   - component: {fileID: 3225826166694648784}
   - component: {fileID: 1826832353448828598}
   - component: {fileID: 4339127084524208474}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34228,7 +34228,7 @@ GameObject:
   - component: {fileID: 6058242002774809651}
   - component: {fileID: 8820937654224386899}
   - component: {fileID: 7219224426853191983}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (64)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -34496,7 +34496,7 @@ GameObject:
   - component: {fileID: 3223155158162262736}
   - component: {fileID: 1641629604731968811}
   - component: {fileID: 8720588844651374819}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34580,7 +34580,7 @@ GameObject:
   - component: {fileID: 5141703000132466066}
   - component: {fileID: 3228197355432389916}
   - component: {fileID: 815263948253334240}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34664,7 +34664,7 @@ GameObject:
   - component: {fileID: 5899943370846443223}
   - component: {fileID: 5735086964065167125}
   - component: {fileID: 1611542256321587862}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34753,7 +34753,7 @@ GameObject:
   - component: {fileID: 1092363393281701253}
   - component: {fileID: 4076309884933488152}
   - component: {fileID: 249163824236305183}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (4)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -34938,7 +34938,7 @@ GameObject:
   - component: {fileID: 9014948397114471659}
   - component: {fileID: 2856282049457780968}
   - component: {fileID: 3010009574023434621}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35022,7 +35022,7 @@ GameObject:
   - component: {fileID: 6424908053090419373}
   - component: {fileID: 4128768281419033476}
   - component: {fileID: 7061962653374943833}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35106,7 +35106,7 @@ GameObject:
   - component: {fileID: 6220456334783758464}
   - component: {fileID: 1957923134304865798}
   - component: {fileID: 6871278666040966561}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35190,7 +35190,7 @@ GameObject:
   - component: {fileID: 3962369743586147987}
   - component: {fileID: 5479765361256841068}
   - component: {fileID: 9026610039995469468}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35274,7 +35274,7 @@ GameObject:
   - component: {fileID: 7919094622143713747}
   - component: {fileID: 5794403667608263239}
   - component: {fileID: 7239041268389431516}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35446,7 +35446,7 @@ GameObject:
   - component: {fileID: 1215080991095266753}
   - component: {fileID: 1046031580630625475}
   - component: {fileID: 5031442232399508835}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (29)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -35714,7 +35714,7 @@ GameObject:
   - component: {fileID: 1251245217263343153}
   - component: {fileID: 1827819603813751198}
   - component: {fileID: 3310675525281015944}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35803,7 +35803,7 @@ GameObject:
   - component: {fileID: 4360000060221563339}
   - component: {fileID: 837392619736742176}
   - component: {fileID: 1649864744057711184}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (54)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -35988,7 +35988,7 @@ GameObject:
   - component: {fileID: 1998778502563139387}
   - component: {fileID: 3172515503445595264}
   - component: {fileID: 6356533053103813192}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36072,7 +36072,7 @@ GameObject:
   - component: {fileID: 1246495282557595071}
   - component: {fileID: 8233373032408735270}
   - component: {fileID: 7401849452621760993}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36156,7 +36156,7 @@ GameObject:
   - component: {fileID: 4894931046201713700}
   - component: {fileID: 2123153682367695500}
   - component: {fileID: 4613935541706515085}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36240,7 +36240,7 @@ GameObject:
   - component: {fileID: 379455671240741123}
   - component: {fileID: 5166505713950012202}
   - component: {fileID: 53130210653958844}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36324,7 +36324,7 @@ GameObject:
   - component: {fileID: 8223137438396465614}
   - component: {fileID: 5733625600892045914}
   - component: {fileID: 8903063242834548929}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36491,7 +36491,7 @@ GameObject:
   - component: {fileID: 5432710070069613535}
   - component: {fileID: 6381626327769420139}
   - component: {fileID: 2169467279303174088}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36575,7 +36575,7 @@ GameObject:
   - component: {fileID: 8245408382943530907}
   - component: {fileID: 8649246609723453151}
   - component: {fileID: 6718211733629874577}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36659,7 +36659,7 @@ GameObject:
   - component: {fileID: 945341089200190783}
   - component: {fileID: 1638077624707532488}
   - component: {fileID: 1593561852802933445}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36748,7 +36748,7 @@ GameObject:
   - component: {fileID: 5784976594609461851}
   - component: {fileID: 8417848483618560254}
   - component: {fileID: 942222465781040684}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (61)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -36933,7 +36933,7 @@ GameObject:
   - component: {fileID: 8252807794932594627}
   - component: {fileID: 5652329178631239847}
   - component: {fileID: 130584052932600916}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37022,7 +37022,7 @@ GameObject:
   - component: {fileID: 5871065685891803895}
   - component: {fileID: 1076132212031175452}
   - component: {fileID: 1565790004287785636}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (16)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -37207,7 +37207,7 @@ GameObject:
   - component: {fileID: 8819777932410201430}
   - component: {fileID: 7295058497584292541}
   - component: {fileID: 4013802597545995911}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37291,7 +37291,7 @@ GameObject:
   - component: {fileID: 2207245420400154762}
   - component: {fileID: 3840531652338748905}
   - component: {fileID: 380871433755407334}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37375,7 +37375,7 @@ GameObject:
   - component: {fileID: 618352208035964957}
   - component: {fileID: 4830799643848167144}
   - component: {fileID: 6790812881930126476}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37459,7 +37459,7 @@ GameObject:
   - component: {fileID: 5232853290258873619}
   - component: {fileID: 8604004944850966478}
   - component: {fileID: 8145197551845523603}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37543,7 +37543,7 @@ GameObject:
   - component: {fileID: 4143967485828837105}
   - component: {fileID: 3554055400404533021}
   - component: {fileID: 3008157189344063010}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37627,7 +37627,7 @@ GameObject:
   - component: {fileID: 7202629871487884885}
   - component: {fileID: 1155822694759716955}
   - component: {fileID: 4341891849503808458}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37716,7 +37716,7 @@ GameObject:
   - component: {fileID: 3814613925383658409}
   - component: {fileID: 9013543587836801986}
   - component: {fileID: 2098427794643550703}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (18)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -37901,7 +37901,7 @@ GameObject:
   - component: {fileID: 4707865463342131179}
   - component: {fileID: 3780226930238016279}
   - component: {fileID: 4584422397592335046}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37985,7 +37985,7 @@ GameObject:
   - component: {fileID: 3196525598566750869}
   - component: {fileID: 1677721655808313551}
   - component: {fileID: 3478226478412121890}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38069,7 +38069,7 @@ GameObject:
   - component: {fileID: 3009856189101765267}
   - component: {fileID: 6651535062760796773}
   - component: {fileID: 8281569245915943165}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38236,7 +38236,7 @@ GameObject:
   - component: {fileID: 753321536854983552}
   - component: {fileID: 8508513456744665229}
   - component: {fileID: 222536510242025639}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38320,7 +38320,7 @@ GameObject:
   - component: {fileID: 1448151909784421278}
   - component: {fileID: 6910157219040520372}
   - component: {fileID: 6718020579433988565}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38409,7 +38409,7 @@ GameObject:
   - component: {fileID: 6766298026652855701}
   - component: {fileID: 251456595595500421}
   - component: {fileID: 7541599412240781680}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (22)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -38594,7 +38594,7 @@ GameObject:
   - component: {fileID: 9081861242381284792}
   - component: {fileID: 8319298099267893474}
   - component: {fileID: 525164216646114486}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38783,7 +38783,7 @@ GameObject:
   - component: {fileID: 1956627945488761237}
   - component: {fileID: 8808454639820610928}
   - component: {fileID: 4833819481198441899}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38867,7 +38867,7 @@ GameObject:
   - component: {fileID: 7549988660441310661}
   - component: {fileID: 877554648218211635}
   - component: {fileID: 5298167029025005807}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38951,7 +38951,7 @@ GameObject:
   - component: {fileID: 300366338567738022}
   - component: {fileID: 529998170581536297}
   - component: {fileID: 7855942653827092636}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39040,7 +39040,7 @@ GameObject:
   - component: {fileID: 372584856678789960}
   - component: {fileID: 6200788159777730033}
   - component: {fileID: 4536113195431635791}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (42)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -39225,7 +39225,7 @@ GameObject:
   - component: {fileID: 8388465663749761344}
   - component: {fileID: 3601097038962607954}
   - component: {fileID: 5460721382896752314}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39309,7 +39309,7 @@ GameObject:
   - component: {fileID: 8209975145363786274}
   - component: {fileID: 5852272406878703137}
   - component: {fileID: 6356748162302154040}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39393,7 +39393,7 @@ GameObject:
   - component: {fileID: 7781109432946507207}
   - component: {fileID: 3057527421548498749}
   - component: {fileID: 537029070539109812}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39477,7 +39477,7 @@ GameObject:
   - component: {fileID: 2350784607978592645}
   - component: {fileID: 5860922989210892559}
   - component: {fileID: 2758079644236859054}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39561,7 +39561,7 @@ GameObject:
   - component: {fileID: 7030658460466945835}
   - component: {fileID: 7765006044242106801}
   - component: {fileID: 3414869863613501324}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39750,7 +39750,7 @@ GameObject:
   - component: {fileID: 7333612641920990048}
   - component: {fileID: 4411827313284427217}
   - component: {fileID: 6805965785279552967}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39834,7 +39834,7 @@ GameObject:
   - component: {fileID: 8066092619073011776}
   - component: {fileID: 3701503159277996352}
   - component: {fileID: 7241533925258783027}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39923,7 +39923,7 @@ GameObject:
   - component: {fileID: 4336346599916223774}
   - component: {fileID: 1863945847065695588}
   - component: {fileID: 2051344811197635553}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (11)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -40108,7 +40108,7 @@ GameObject:
   - component: {fileID: 5585877910891749067}
   - component: {fileID: 1333682921706101878}
   - component: {fileID: 5235500042658208875}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40192,7 +40192,7 @@ GameObject:
   - component: {fileID: 8230863679186354401}
   - component: {fileID: 4747724767439296868}
   - component: {fileID: 4879860183815448613}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40276,7 +40276,7 @@ GameObject:
   - component: {fileID: 8832422050248840144}
   - component: {fileID: 1421900424250181783}
   - component: {fileID: 2274789870114835236}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40360,7 +40360,7 @@ GameObject:
   - component: {fileID: 4305617531366389725}
   - component: {fileID: 7925396261314385061}
   - component: {fileID: 371135219052032421}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40449,7 +40449,7 @@ GameObject:
   - component: {fileID: 3669404087351725348}
   - component: {fileID: 573154556390695020}
   - component: {fileID: 1698129542290282089}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (31)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -40634,7 +40634,7 @@ GameObject:
   - component: {fileID: 5366233249855559614}
   - component: {fileID: 865493726272452893}
   - component: {fileID: 5962369023260070087}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40723,7 +40723,7 @@ GameObject:
   - component: {fileID: 5720732847129744406}
   - component: {fileID: 1333966165975678851}
   - component: {fileID: 7445940082453811350}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (48)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -40908,7 +40908,7 @@ GameObject:
   - component: {fileID: 7507810784714329146}
   - component: {fileID: 6233794426659171875}
   - component: {fileID: 2545805281113150310}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40992,7 +40992,7 @@ GameObject:
   - component: {fileID: 6532083992797015132}
   - component: {fileID: 4337391717236712033}
   - component: {fileID: 2534168442662385776}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41076,7 +41076,7 @@ GameObject:
   - component: {fileID: 8701585293241776663}
   - component: {fileID: 4515046966020966952}
   - component: {fileID: 5774845427746940800}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41165,7 +41165,7 @@ GameObject:
   - component: {fileID: 1748166638226598992}
   - component: {fileID: 3457516303382931405}
   - component: {fileID: 1449969766241845962}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (6)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -41455,7 +41455,7 @@ GameObject:
   - component: {fileID: 3641471936057318852}
   - component: {fileID: 7830704103352776870}
   - component: {fileID: 6854783278767377679}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41539,7 +41539,7 @@ GameObject:
   - component: {fileID: 2430034543653571745}
   - component: {fileID: 4911285632604979914}
   - component: {fileID: 7605207699258370767}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41623,7 +41623,7 @@ GameObject:
   - component: {fileID: 1869390699888137003}
   - component: {fileID: 7445526892317410246}
   - component: {fileID: 4365730762094867789}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41707,7 +41707,7 @@ GameObject:
   - component: {fileID: 8298142431616425457}
   - component: {fileID: 8862462244091723031}
   - component: {fileID: 1341458323155156683}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41791,7 +41791,7 @@ GameObject:
   - component: {fileID: 6195416651920525869}
   - component: {fileID: 3895346163904883466}
   - component: {fileID: 1807329905862102996}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41875,7 +41875,7 @@ GameObject:
   - component: {fileID: 84900993530442547}
   - component: {fileID: 1911981851071430852}
   - component: {fileID: 1886550543678088393}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41959,7 +41959,7 @@ GameObject:
   - component: {fileID: 8261128864931542186}
   - component: {fileID: 6195157484254312385}
   - component: {fileID: 4724128818166238110}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42043,7 +42043,7 @@ GameObject:
   - component: {fileID: 2751907867797112250}
   - component: {fileID: 1926334287691211717}
   - component: {fileID: 9147932263003998265}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42127,7 +42127,7 @@ GameObject:
   - component: {fileID: 5389492650223455431}
   - component: {fileID: 416281128253301313}
   - component: {fileID: 1801355218855270187}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42211,7 +42211,7 @@ GameObject:
   - component: {fileID: 4051890382020417725}
   - component: {fileID: 8371216163901390085}
   - component: {fileID: 8801633632618787630}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42295,7 +42295,7 @@ GameObject:
   - component: {fileID: 2606004182251152004}
   - component: {fileID: 4983456226823668797}
   - component: {fileID: 2180373790713866279}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42379,7 +42379,7 @@ GameObject:
   - component: {fileID: 1332811771180456745}
   - component: {fileID: 5353541622733913946}
   - component: {fileID: 3679154644089396284}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42463,7 +42463,7 @@ GameObject:
   - component: {fileID: 808037766778471649}
   - component: {fileID: 3800144719505944935}
   - component: {fileID: 4279164992957986594}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42547,7 +42547,7 @@ GameObject:
   - component: {fileID: 5444831615300603770}
   - component: {fileID: 1479672522674032071}
   - component: {fileID: 5666320323310980570}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42736,7 +42736,7 @@ GameObject:
   - component: {fileID: 1371594134192315599}
   - component: {fileID: 2800093834815613195}
   - component: {fileID: 982382328091297370}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42825,7 +42825,7 @@ GameObject:
   - component: {fileID: 8836817877086756429}
   - component: {fileID: 5521008574110380563}
   - component: {fileID: 182688605852589563}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (59)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -43176,7 +43176,7 @@ GameObject:
   - component: {fileID: 6062044558403042591}
   - component: {fileID: 4283885407119137957}
   - component: {fileID: 8974186978738857481}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43260,7 +43260,7 @@ GameObject:
   - component: {fileID: 8261738818761429077}
   - component: {fileID: 8501694793411105384}
   - component: {fileID: 2943792713750255766}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43344,7 +43344,7 @@ GameObject:
   - component: {fileID: 3074792897266182315}
   - component: {fileID: 526333261074431619}
   - component: {fileID: 527209451111154370}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43428,7 +43428,7 @@ GameObject:
   - component: {fileID: 4479336773843227466}
   - component: {fileID: 3453824371276897570}
   - component: {fileID: 2214324806763889520}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43595,7 +43595,7 @@ GameObject:
   - component: {fileID: 3074106644921985492}
   - component: {fileID: 1154780143562957614}
   - component: {fileID: 8911391139138271534}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43679,7 +43679,7 @@ GameObject:
   - component: {fileID: 4534948949712796999}
   - component: {fileID: 4613279262716126737}
   - component: {fileID: 5977468372107569036}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43763,7 +43763,7 @@ GameObject:
   - component: {fileID: 3003882692199903617}
   - component: {fileID: 3667882280959807655}
   - component: {fileID: 327919847013736628}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43847,7 +43847,7 @@ GameObject:
   - component: {fileID: 6915081159884638862}
   - component: {fileID: 4810785395400022667}
   - component: {fileID: 8253734642846756040}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43931,7 +43931,7 @@ GameObject:
   - component: {fileID: 7529534517541542135}
   - component: {fileID: 6569222443218584740}
   - component: {fileID: 6362279442205453359}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44015,7 +44015,7 @@ GameObject:
   - component: {fileID: 5253777313252953591}
   - component: {fileID: 6502913372962735400}
   - component: {fileID: 4731404938139607822}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44099,7 +44099,7 @@ GameObject:
   - component: {fileID: 2045304078453596130}
   - component: {fileID: 2371543558658816413}
   - component: {fileID: 4945277252699181665}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44351,7 +44351,7 @@ GameObject:
   - component: {fileID: 1032147890836783641}
   - component: {fileID: 468994480172553205}
   - component: {fileID: 2193154570866492106}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44435,7 +44435,7 @@ GameObject:
   - component: {fileID: 2528802835432768628}
   - component: {fileID: 2818554979533195517}
   - component: {fileID: 7917842449822003501}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44519,7 +44519,7 @@ GameObject:
   - component: {fileID: 8220640912331223451}
   - component: {fileID: 3247836997420643110}
   - component: {fileID: 8590801605383926587}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44603,7 +44603,7 @@ GameObject:
   - component: {fileID: 6845224692206314660}
   - component: {fileID: 4248817491108875269}
   - component: {fileID: 2244885077672426961}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44687,7 +44687,7 @@ GameObject:
   - component: {fileID: 8963412038991440753}
   - component: {fileID: 3214612290142222494}
   - component: {fileID: 4849618901360276809}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44771,7 +44771,7 @@ GameObject:
   - component: {fileID: 5198994832559533252}
   - component: {fileID: 6102830766589886530}
   - component: {fileID: 207932339179052680}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44943,7 +44943,7 @@ GameObject:
   - component: {fileID: 2454568255078757896}
   - component: {fileID: 1560862701516160405}
   - component: {fileID: 3336480442053482642}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -45128,7 +45128,7 @@ GameObject:
   - component: {fileID: 4597334825664854895}
   - component: {fileID: 7898036574883913611}
   - component: {fileID: 286003784703727550}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45217,7 +45217,7 @@ GameObject:
   - component: {fileID: 8829926139083388132}
   - component: {fileID: 2406720523158825547}
   - component: {fileID: 3152320945683344885}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (37)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -45402,7 +45402,7 @@ GameObject:
   - component: {fileID: 871959868275284847}
   - component: {fileID: 6337405774334372485}
   - component: {fileID: 5402612735425081147}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45486,7 +45486,7 @@ GameObject:
   - component: {fileID: 3644715693748370923}
   - component: {fileID: 8098497845904170946}
   - component: {fileID: 3993699829581127252}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45570,7 +45570,7 @@ GameObject:
   - component: {fileID: 4287283469973825899}
   - component: {fileID: 2367316447251618460}
   - component: {fileID: 2340890081692532369}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45654,7 +45654,7 @@ GameObject:
   - component: {fileID: 314369298546080826}
   - component: {fileID: 7531562968219782465}
   - component: {fileID: 9110156000388277254}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45738,7 +45738,7 @@ GameObject:
   - component: {fileID: 4428960864685134583}
   - component: {fileID: 2624967529710824159}
   - component: {fileID: 614666101564718557}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45822,7 +45822,7 @@ GameObject:
   - component: {fileID: 647234620637402852}
   - component: {fileID: 1045340639578904089}
   - component: {fileID: 2326928174512558147}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45906,7 +45906,7 @@ GameObject:
   - component: {fileID: 1175798560680860142}
   - component: {fileID: 3231981425340678033}
   - component: {fileID: 5229242956859987053}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45990,7 +45990,7 @@ GameObject:
   - component: {fileID: 7017654971510006263}
   - component: {fileID: 5043736421986513555}
   - component: {fileID: 8172802516398351189}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46074,7 +46074,7 @@ GameObject:
   - component: {fileID: 4151990023202081133}
   - component: {fileID: 8931445308753798974}
   - component: {fileID: 3526315814542785693}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46158,7 +46158,7 @@ GameObject:
   - component: {fileID: 4096580824168842225}
   - component: {fileID: 9124663746997178299}
   - component: {fileID: 2439898126086394090}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46242,7 +46242,7 @@ GameObject:
   - component: {fileID: 7981904446351315377}
   - component: {fileID: 6376421568954353959}
   - component: {fileID: 6843028988802383082}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46331,7 +46331,7 @@ GameObject:
   - component: {fileID: 1812675901971427178}
   - component: {fileID: 5108705177132127336}
   - component: {fileID: 536022390430985149}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (28)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -46516,7 +46516,7 @@ GameObject:
   - component: {fileID: 9098552846566170343}
   - component: {fileID: 2396964261727919194}
   - component: {fileID: 8892832771110214727}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46600,7 +46600,7 @@ GameObject:
   - component: {fileID: 8638710476942815585}
   - component: {fileID: 8841477221202526113}
   - component: {fileID: 2491444128027597361}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46689,7 +46689,7 @@ GameObject:
   - component: {fileID: 3411381943545056721}
   - component: {fileID: 2562542442106249187}
   - component: {fileID: 4436329431195222458}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (67)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -46874,7 +46874,7 @@ GameObject:
   - component: {fileID: 6407157005556607030}
   - component: {fileID: 4802417911842010597}
   - component: {fileID: 931777786664158598}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46963,7 +46963,7 @@ GameObject:
   - component: {fileID: 442765757873826804}
   - component: {fileID: 3064091578272202486}
   - component: {fileID: 5480276333441663284}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (15)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -47153,7 +47153,7 @@ GameObject:
   - component: {fileID: 3324579444848685060}
   - component: {fileID: 1844905666471852953}
   - component: {fileID: 2485609854866874014}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (9)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -47338,7 +47338,7 @@ GameObject:
   - component: {fileID: 4447501545264692915}
   - component: {fileID: 5275079471395439001}
   - component: {fileID: 6783333954322462235}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47422,7 +47422,7 @@ GameObject:
   - component: {fileID: 4434851730614916055}
   - component: {fileID: 4972434031890263618}
   - component: {fileID: 5195047211653688213}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47506,7 +47506,7 @@ GameObject:
   - component: {fileID: 6120125683920037032}
   - component: {fileID: 2754069099721013871}
   - component: {fileID: 859241299522125721}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47590,7 +47590,7 @@ GameObject:
   - component: {fileID: 8019962362954382064}
   - component: {fileID: 6501208829949053405}
   - component: {fileID: 7886888117341622224}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47729,7 +47729,7 @@ GameObject:
   - component: {fileID: 6306444770084402183}
   - component: {fileID: 1458699111207139207}
   - component: {fileID: 408054081625821112}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (44)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -47914,7 +47914,7 @@ GameObject:
   - component: {fileID: 6126229257198866650}
   - component: {fileID: 570266137898701889}
   - component: {fileID: 35733599950656528}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48103,7 +48103,7 @@ GameObject:
   - component: {fileID: 4975760310558942257}
   - component: {fileID: 9024126877749976960}
   - component: {fileID: 8244243475768796754}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48270,7 +48270,7 @@ GameObject:
   - component: {fileID: 5825048084657611535}
   - component: {fileID: 3636489277335210185}
   - component: {fileID: 8139205741435588405}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48354,7 +48354,7 @@ GameObject:
   - component: {fileID: 7160392976194657690}
   - component: {fileID: 2005947407191773175}
   - component: {fileID: 7356858607428467384}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48438,7 +48438,7 @@ GameObject:
   - component: {fileID: 814392186341853992}
   - component: {fileID: 4568306240733014652}
   - component: {fileID: 1283542744764075402}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48522,7 +48522,7 @@ GameObject:
   - component: {fileID: 4902006526303460473}
   - component: {fileID: 1577873771042882754}
   - component: {fileID: 5257229109001479798}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48606,7 +48606,7 @@ GameObject:
   - component: {fileID: 1393835959389699764}
   - component: {fileID: 8693601773559543546}
   - component: {fileID: 4030791316114002956}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48856,7 +48856,7 @@ GameObject:
   - component: {fileID: 5694886928741560194}
   - component: {fileID: 9017364980132383667}
   - component: {fileID: 8050256014638540987}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48940,7 +48940,7 @@ GameObject:
   - component: {fileID: 8638160023612542489}
   - component: {fileID: 6081730922624512159}
   - component: {fileID: 5682567809624539540}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49024,7 +49024,7 @@ GameObject:
   - component: {fileID: 6900049880294377174}
   - component: {fileID: 7761886649175371300}
   - component: {fileID: 3338997609492719944}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49213,7 +49213,7 @@ GameObject:
   - component: {fileID: 8261854395691440953}
   - component: {fileID: 6018064281463999779}
   - component: {fileID: 449239610852912934}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49297,7 +49297,7 @@ GameObject:
   - component: {fileID: 6294882263431798673}
   - component: {fileID: 1143320837597959757}
   - component: {fileID: 997388523963516776}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49491,7 +49491,7 @@ GameObject:
   - component: {fileID: 298946251873692174}
   - component: {fileID: 5543011590238505222}
   - component: {fileID: 7100179477045820440}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (27)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -49676,7 +49676,7 @@ GameObject:
   - component: {fileID: 3176475235850186942}
   - component: {fileID: 4012710808193729353}
   - component: {fileID: 3969612854899369796}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49760,7 +49760,7 @@ GameObject:
   - component: {fileID: 5942171630921449091}
   - component: {fileID: 8068559819024250135}
   - component: {fileID: 6622172349214107532}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49844,7 +49844,7 @@ GameObject:
   - component: {fileID: 6215432903113794702}
   - component: {fileID: 4597010871308572113}
   - component: {fileID: 6292743619514148235}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49928,7 +49928,7 @@ GameObject:
   - component: {fileID: 4960898278235204116}
   - component: {fileID: 8433319795226971544}
   - component: {fileID: 1056903274872855270}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50117,7 +50117,7 @@ GameObject:
   - component: {fileID: 2979510118292978624}
   - component: {fileID: 1285684193744704245}
   - component: {fileID: 4468500984516048643}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50201,7 +50201,7 @@ GameObject:
   - component: {fileID: 1942010436306611794}
   - component: {fileID: 1469202927148636811}
   - component: {fileID: 3358521751781649538}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50285,7 +50285,7 @@ GameObject:
   - component: {fileID: 6393132036541632824}
   - component: {fileID: 3948817448118684945}
   - component: {fileID: 207381460070721315}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50369,7 +50369,7 @@ GameObject:
   - component: {fileID: 7934078212879207956}
   - component: {fileID: 8721637177181156522}
   - component: {fileID: 2269920100915657156}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50453,7 +50453,7 @@ GameObject:
   - component: {fileID: 5357860932596082748}
   - component: {fileID: 7574786320536066285}
   - component: {fileID: 1214978592420312696}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50537,7 +50537,7 @@ GameObject:
   - component: {fileID: 2616456417908397186}
   - component: {fileID: 7401807004814243499}
   - component: {fileID: 2429512189475403581}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50621,7 +50621,7 @@ GameObject:
   - component: {fileID: 1880034886299229727}
   - component: {fileID: 6681893645739352718}
   - component: {fileID: 9133627649330447829}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50710,7 +50710,7 @@ GameObject:
   - component: {fileID: 5060620645513164350}
   - component: {fileID: 1112681970506982876}
   - component: {fileID: 8203889223243885003}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (38)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -50895,7 +50895,7 @@ GameObject:
   - component: {fileID: 5714942719992848220}
   - component: {fileID: 4454467372562792228}
   - component: {fileID: 5629633574652892495}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51062,7 +51062,7 @@ GameObject:
   - component: {fileID: 7096963136331112221}
   - component: {fileID: 4141566420737304511}
   - component: {fileID: 8078759906751564412}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51146,7 +51146,7 @@ GameObject:
   - component: {fileID: 3048602551308262789}
   - component: {fileID: 5203643477120446777}
   - component: {fileID: 4856847601363462389}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51230,7 +51230,7 @@ GameObject:
   - component: {fileID: 6313658983442846679}
   - component: {fileID: 7078987247730076790}
   - component: {fileID: 7907898056813168425}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51314,7 +51314,7 @@ GameObject:
   - component: {fileID: 4676974980885364481}
   - component: {fileID: 8272185860578562989}
   - component: {fileID: 2903813408486932311}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51398,7 +51398,7 @@ GameObject:
   - component: {fileID: 2846173783812572450}
   - component: {fileID: 5616611709430976346}
   - component: {fileID: 3410582191107036723}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51482,7 +51482,7 @@ GameObject:
   - component: {fileID: 4668570312176250324}
   - component: {fileID: 3647379454175346114}
   - component: {fileID: 7442252770397584838}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51571,7 +51571,7 @@ GameObject:
   - component: {fileID: 8425379782775856105}
   - component: {fileID: 9103183932921820814}
   - component: {fileID: 8436573399285494806}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (12)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -51756,7 +51756,7 @@ GameObject:
   - component: {fileID: 1768166064768674672}
   - component: {fileID: 1177998467996121756}
   - component: {fileID: 627270101205560227}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51845,7 +51845,7 @@ GameObject:
   - component: {fileID: 5559176226489329735}
   - component: {fileID: 7222109806126401503}
   - component: {fileID: 5699098984175435425}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (47)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -52030,7 +52030,7 @@ GameObject:
   - component: {fileID: 8993241405397309041}
   - component: {fileID: 7895680730725479737}
   - component: {fileID: 1243919978262626278}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52202,7 +52202,7 @@ GameObject:
   - component: {fileID: 7214030296034994278}
   - component: {fileID: 7320327451883176265}
   - component: {fileID: 7928948848278457352}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (33)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -52470,7 +52470,7 @@ GameObject:
   - component: {fileID: 2112498989921451175}
   - component: {fileID: 2984865814219464154}
   - component: {fileID: 3158022398578674682}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52554,7 +52554,7 @@ GameObject:
   - component: {fileID: 8172918541965143255}
   - component: {fileID: 8710377522424892637}
   - component: {fileID: 1297910110580765533}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52638,7 +52638,7 @@ GameObject:
   - component: {fileID: 8803143730878990806}
   - component: {fileID: 4711552057424961688}
   - component: {fileID: 143710413026494283}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52805,7 +52805,7 @@ GameObject:
   - component: {fileID: 3772427960476017528}
   - component: {fileID: 5363878943322228307}
   - component: {fileID: 4363554399515108881}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52889,7 +52889,7 @@ GameObject:
   - component: {fileID: 3483562749842037377}
   - component: {fileID: 5881496979897168562}
   - component: {fileID: 732919982325764865}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53056,7 +53056,7 @@ GameObject:
   - component: {fileID: 8149378804766682526}
   - component: {fileID: 6216820583770644784}
   - component: {fileID: 5589117491655481166}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53140,7 +53140,7 @@ GameObject:
   - component: {fileID: 6087809246430342962}
   - component: {fileID: 7634625790222951590}
   - component: {fileID: 6767860716276446781}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53224,7 +53224,7 @@ GameObject:
   - component: {fileID: 2100740247263584680}
   - component: {fileID: 5971668264864881965}
   - component: {fileID: 7790857821169540515}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53313,7 +53313,7 @@ GameObject:
   - component: {fileID: 6429869047151449254}
   - component: {fileID: 1519094692198385626}
   - component: {fileID: 8560682361159701979}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (53)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -53498,7 +53498,7 @@ GameObject:
   - component: {fileID: 2334015474253071814}
   - component: {fileID: 6569372915194375991}
   - component: {fileID: 4569684516951905605}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53582,7 +53582,7 @@ GameObject:
   - component: {fileID: 195315825129382555}
   - component: {fileID: 4224846653435440247}
   - component: {fileID: 408059124210253832}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53666,7 +53666,7 @@ GameObject:
   - component: {fileID: 404575840342079782}
   - component: {fileID: 7921355812170150702}
   - component: {fileID: 3760055132820585426}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53750,7 +53750,7 @@ GameObject:
   - component: {fileID: 2292014911730081566}
   - component: {fileID: 7197048350004379935}
   - component: {fileID: 6056818515472578793}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53834,7 +53834,7 @@ GameObject:
   - component: {fileID: 8480457061758493133}
   - component: {fileID: 1245925790108526003}
   - component: {fileID: 6322091842657814843}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53918,7 +53918,7 @@ GameObject:
   - component: {fileID: 927807976153640108}
   - component: {fileID: 8941694233682570412}
   - component: {fileID: 4990070271890244209}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54007,7 +54007,7 @@ GameObject:
   - component: {fileID: 1673016688015066484}
   - component: {fileID: 6091541816218262709}
   - component: {fileID: 4666704609925583255}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (43)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -54240,7 +54240,7 @@ GameObject:
   - component: {fileID: 7692951104986686495}
   - component: {fileID: 3386632053348031194}
   - component: {fileID: 3471749699404231987}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54324,7 +54324,7 @@ GameObject:
   - component: {fileID: 2922224689625957277}
   - component: {fileID: 5973621280066266611}
   - component: {fileID: 6000289652663298747}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54408,7 +54408,7 @@ GameObject:
   - component: {fileID: 4463464868722531513}
   - component: {fileID: 6488097916217453910}
   - component: {fileID: 6493369513091910469}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54492,7 +54492,7 @@ GameObject:
   - component: {fileID: 7921163441069941126}
   - component: {fileID: 3668911964477956923}
   - component: {fileID: 7548206697999819558}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54576,7 +54576,7 @@ GameObject:
   - component: {fileID: 8351849315804767363}
   - component: {fileID: 1676794303024609593}
   - component: {fileID: 1680461194260830488}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54660,7 +54660,7 @@ GameObject:
   - component: {fileID: 7059510856849325288}
   - component: {fileID: 5048396735160878163}
   - component: {fileID: 7387736070414713300}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54744,7 +54744,7 @@ GameObject:
   - component: {fileID: 2405678251631340324}
   - component: {fileID: 679953755124813999}
   - component: {fileID: 4738375984946238349}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54828,7 +54828,7 @@ GameObject:
   - component: {fileID: 5603513059160763066}
   - component: {fileID: 2670004754341630145}
   - component: {fileID: 6006541829495630547}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54912,7 +54912,7 @@ GameObject:
   - component: {fileID: 2476435571068851816}
   - component: {fileID: 6567460619733870921}
   - component: {fileID: 1269555589017393753}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55001,7 +55001,7 @@ GameObject:
   - component: {fileID: 4105140767559014765}
   - component: {fileID: 1099246984654082800}
   - component: {fileID: 3793592593650939895}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (2)
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -55186,7 +55186,7 @@ GameObject:
   - component: {fileID: 991739752250935338}
   - component: {fileID: 1211843484997070956}
   - component: {fileID: 701205351114320840}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldSkull.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55270,7 +55270,7 @@ GameObject:
   - component: {fileID: 3542230789170263772}
   - component: {fileID: 257975762895566710}
   - component: {fileID: 1842002265301600693}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55354,7 +55354,7 @@ GameObject:
   - component: {fileID: 2917385369577493134}
   - component: {fileID: 7677414671713661095}
   - component: {fileID: 3279882494975390001}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55438,7 +55438,7 @@ GameObject:
   - component: {fileID: 471297054385991815}
   - component: {fileID: 4179737759017490168}
   - component: {fileID: 6794001508696030468}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55623,7 +55623,7 @@ GameObject:
   - component: {fileID: 3483562062838621756}
   - component: {fileID: 5450495482669749333}
   - component: {fileID: 470549562018236607}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55707,7 +55707,7 @@ GameObject:
   - component: {fileID: 1493768031782956412}
   - component: {fileID: 2047502767474539664}
   - component: {fileID: 326411346213776815}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: GoldBone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55796,7 +55796,7 @@ GameObject:
   - component: {fileID: 2338214298439391865}
   - component: {fileID: 6944813179288773384}
   - component: {fileID: 3328775249658516254}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Coin (20)
   m_TagString: Coin
   m_Icon: {fileID: 0}

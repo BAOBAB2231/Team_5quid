@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 // Coin 클래스는 코인을 플레이어 방향으로 이동시키며, 비활성화 시 이동을 멈춥니다.

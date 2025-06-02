@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using UnityEngine;
 
 public enum SFX
@@ -37,5 +35,21 @@ public class SFXPlayer : MonoBehaviour
         {
             audioSource.PlayOneShot(clip);
         }
+    }
+
+    private void OnEnable()
+    {
+        SoundManager.OnEffectVolumeChanged += ApplyVolume;
+    }
+
+    //BGM 볼륨 감소 감지시 반영
+    private void OnDisable()
+    {
+        SoundManager.OnEffectVolumeChanged -= ApplyVolume;
+    }
+
+    private void ApplyVolume(float volume)
+    {
+        audioSource.volume = volume;
     }
 }
